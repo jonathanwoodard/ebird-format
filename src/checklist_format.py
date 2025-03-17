@@ -28,4 +28,7 @@ taxonomy = pd.read_csv('/Users/jonathanwoodard/bcs_nbp/ebird-taxonomy.csv')
 band_taxonomy = band_codes.merge(taxonomy, left_on = 'sciname', right_on='scientific_name')
 
 data_head = pd.read_csv('/Users/jonathanwoodard/bcs_nbp/spw_20230812.csv', nrows=1)
-data = pd.read_csv('/Users/jonathanwoodard/bcs_nbp/spw_20230812.csv', header=3)
+data_cols = ['station', 'start time', 'code', 'seen', 'heard', 'flyover', 'notes']
+data = pd.read_csv('/Users/jonathanwoodard/bcs_nbp/spw_20230812.csv', header=3, usecols=data_cols)
+data[data_cols[:2]] = data[data_cols[:2]].fillna(method='ffill')
+data[data_cols[3:6]] = data[data_cols[3:6]].fillna(0).astype(int)
