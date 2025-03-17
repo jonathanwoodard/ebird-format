@@ -1,1 +1,31 @@
+import pandas as pd
 
+# report header info
+location = 'Seward'
+routes = ['East', 'West']
+stations = [1, 2, 3, 4, 5, 6, 7, 8]
+type = 'Stationary'
+date = None
+start_time = None
+duration = 5
+party_size = 1
+complete = True
+temp = None
+wind = None
+precip = None
+peds = None
+dogs = None
+offleash = None
+
+# species codes / names
+band_codes = pd.read_csv('/Users/jonathanwoodard/bcs_nbp/IBP-AOS-LIST24.csv')
+cols = [c.lower() for c in band_codes.columns]
+band_codes.columns = cols
+cols = ['spec', 'commonname', 'sciname', 'spec6']
+band_codes = band_codes[cols]
+
+taxonomy = pd.read_csv('/Users/jonathanwoodard/bcs_nbp/ebird-taxonomy.csv')
+band_taxonomy = band_codes.merge(taxonomy, left_on = 'sciname', right_on='scientific_name')
+
+data_head = pd.read_csv('/Users/jonathanwoodard/bcs_nbp/spw_20230812.csv', nrows=1)
+data = pd.read_csv('/Users/jonathanwoodard/bcs_nbp/spw_20230812.csv', header=3)
