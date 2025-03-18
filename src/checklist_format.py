@@ -32,3 +32,9 @@ data_cols = ['station', 'start time', 'code', 'seen', 'heard', 'flyover', 'notes
 data = pd.read_csv('/Users/jonathanwoodard/bcs_nbp/spw_20230812.csv', header=3, usecols=data_cols)
 data[data_cols[:2]] = data[data_cols[:2]].fillna(method='ffill')
 data[data_cols[3:6]] = data[data_cols[3:6]].fillna(0).astype(int)
+data['code'] = data.code.apply(lambda x: x.upper())
+
+# merge data file with taxonomy on 4 letter band code
+data_taxonomy = data.merge(band_taxonomy, left_on='code', right_on='spec', how='left')
+# identify rows which didn't match
+data_taxonomy[data_taxonomy.spec.isna()]
