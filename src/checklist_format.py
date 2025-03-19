@@ -34,7 +34,16 @@ data[data_cols[:2]] = data[data_cols[:2]].fillna(method='ffill')
 data['station'] = data['station'].astype(int)
 data[data_cols[3:6]] = data[data_cols[3:6]].fillna(0).astype(int)
 data['code'] = data.code.apply(lambda x: x.upper())
-data['location_name'] = f"{data_head.loc[0, 'location']} {data_head.loc[0, 'loop']} St" + data['station'].astype(str)
+report_header = {}
+report_header['location_name'] = f"{data_head.loc[0, 'location']} {data_head.loc[0, 'loop']} St" + data['station'].astype(str)
+report_header['State'] = 'WA'
+report_header['Country'] = 'US'
+report_header['Protocol'] = 'Stationary'
+report_header['Num Observers'] = 1
+report_header['Duration (min)'] = 5
+report_header['All Obs Reported (Y/N)'] = 'Y'
+report_header['Notes'] = None # concatenate all of the other columns from data_head
+
 
 # merge data file with taxonomy on 4 letter band code
 data_taxonomy = data.merge(band_taxonomy, left_on='code', right_on='spec', how='left')
