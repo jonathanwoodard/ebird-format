@@ -5,6 +5,7 @@ This module provides functions to rotate, crop, and segment images
 before performing OCR operations.
 """
 
+import argparse
 import os
 import numpy as np
 from PIL import Image, ImageFilter
@@ -133,9 +134,15 @@ def pipeline(image_path):
 
 # --- Execution ---
 if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description="Image preprocessing utilities using PIL for OCR optimization.")
+    parser.add_argument("--path", "-p", type=str, required=True, help="Input image file path")
+    parser.add_argument("--filename", "-f", type=str, required=True, help="Image file name")
+    parser.add_argument("--out", "-o", type=str, default=None, help="Output folder (default: input folder)")
+    args = parser.parse_args()
+
     # Replace with your actual file path
-    input_path = "/Users/jon/Projects/ebird-format/field-notes"
-    input_filename = f"{input_path}/input_test2.jpg" 
+    input_path = args.path
+    input_filename = f"{input_path}/{args.filename}" 
 
     if os.path.exists(input_filename):
          pipeline(input_filename)
