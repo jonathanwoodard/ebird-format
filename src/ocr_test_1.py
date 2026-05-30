@@ -3,29 +3,16 @@ import os
 import re
 import json
 import pandas as pd
+import numpy as np
 from PIL import Image
-# import mlx.core as mx
 from mlx_vlm import load, generate
 from mlx_vlm.utils import load_config
 from mlx_vlm.prompt_utils import apply_chat_template
-# from mlx_vlm.generate import stream_generate
-from ocr_preprocess import *
-
-
-cwd = os.getcwd()
-parent_dir = cwd.rsplit('/src', 1)[0]
-# MODEL_PATH = "alexgusevski/olmOCR-7B-0225-preview-q4-mlx"
-MODEL_PATH = "mlx-community/olmOCR-2-7B-1025-bf16"
-# MODEL_PATH = "mlx-community/PaddleOCR-VL-1.5-bf16"
-# MODEL_PATH = "mlx-community/GLM-OCR-bf16"
-# MODEL_PATH = "mlx-community/MinerU2.5-2509-1.2B-bf16"
-IMAGE_FILE1 = f"{cwd}/output_segments/left_page_final.jpg"
-IMAGE_FILE2 = f"{cwd}/output_segments/right_page_final.jpg"
 
 def setup_data():
     """Load reference species codes from CSVs."""
-    most_likely = pd.read_csv(f'{parent_dir}/data-raw/most_likely.csv')['Code'].tolist()
-    aos_full = set(pd.read_csv(f'{parent_dir}/data-raw/aos_full.csv')['Code'].tolist())
+    most_likely = pd.read_csv(f'{os.getcwd()}/data-raw/most_likely.csv')['Code'].tolist()
+    aos_full = set(pd.read_csv(f'{os.getcwd()}/data-raw/aos_full.csv')['Code'].tolist())
     return most_likely, aos_full
 
 def levenshtein_distance(s1, s2):
@@ -47,26 +34,41 @@ def levenshtein_distance(s1, s2):
 def search_pool(candidates, target_pool):
     """
     Helper function to find the closest match inside a specific pool of codes.
+    Currently, the OCR model is only returning a single guess (no alternates)
     Returns (best_match_string, minimum_distance_found)
     """
-    best_match = None
-    min_distance = float('inf')
     
+    matches = {}
     for guess in candidates:
         guess_clean = str(guess).upper().strip()
         if not guess_clean:
             continue
             
         if guess_clean in target_pool:
-            return guess_clean, 0  # Perfect match found, immediate success
+            matches[0] = [guess_clean]
+            return matches  # Perfect match found, immediate success
             
+        matches[1] = []
+        matches[2] = []
         for valid_code in target_pool:
             dist = levenshtein_distance(guess_clean, valid_code)
-            if dist < min_distance:
-                min_distance = dist
-                best_match = valid_code
-                
-    return best_match, min_distance
+            # return ALL matches at a distance of 1 or 2 (limit 10)
+            if dist == 1: 
+                matches[1].append(valid_code)
+                if len(matches[1]) > 10:
+                    break
+            elif dist == 2:
+                matches[2].append(valid_code)
+                if len(matches[2]) > 10:
+                    break
+            else:
+                continue
+    if len(matches[1]) > 0:
+        return matches
+    elif len(matches[2]) > 0:
+        return matches
+    else:
+        return None
 
 def match_code_to_tiered_lexicon(guesses, likely_codes, unlikely_codes):
     """
@@ -77,27 +79,30 @@ def match_code_to_tiered_lexicon(guesses, likely_codes, unlikely_codes):
     unlikely_upper = {code.upper() for code in unlikely_codes}
     
     # Tier 1: Look inside the likely codes pool
-    best_likely_match, likely_dist = search_pool(guesses, likely_upper)
+    likely_matches = search_pool(guesses, likely_upper)
     
     # If we found a confident match in the likely pool, use it
-    if likely_dist <= 2:
-        return best_likely_match
+    if likely_matches is not None:
+        likely_dist = np.min(list(likely_matches.keys()))
+        best_likely_matches = ', '.join(likely_matches[likely_dist])
+        print(f"-> No exact matches found. Best matches: {best_likely_matches} (distance: {likely_dist})")
+        return likely_matches
         
     # Tier 2 Fallback: If no good likely match was found, search the unlikely pool
-    best_unlikely_match, unlikely_dist = search_pool(guesses, unlikely_upper)
+    unlikely_matches = search_pool(guesses, unlikely_upper)
     
-    if unlikely_dist <= 2:
-        print(f"-> Falling back to unlikely pool match: {best_unlikely_match} (distance: {unlikely_dist})")
-        return best_unlikely_match
+    if unlikely_matches is not None:
+        unlikely_dist = np.min(list(unlikely_matches.keys()))
+        best_unlikely_matches = ', '.join(unlikely_matches[unlikely_dist])
+        print(f"-> Falling back to unlikely pool match: {best_unlikely_matches} (distance: {unlikely_dist})")
+        return unlikely_matches
         
-    # Final Tie-Breaker/Safety: If both are poor matches (>2 distance), 
+    # If both are poor matches (>2 distance), return original guesses
     # take whichever one was structurally closer overall
-    if likely_dist <= unlikely_dist and best_likely_match:
-        return best_likely_match
-    elif best_unlikely_match:
-        return best_unlikely_match
-        
-    return None
+    else:
+        print("-> No matches found with distance <= 2; manual result validation required")
+        return None
+
 
 def extract_json_from_string(raw_response):
     """
@@ -182,27 +187,52 @@ def process_page_with_mlx_vlm(model, processor, config, image_obj):
     )
     return raw_response
 
-def main(model_path, img_path, output_path):
+def img_resize(image_obj):
     """
-    perform image preprocessing and ocr
+    Helper function to resize images - max image dimension should be 1288
     """
-    parser = argparse.ArgumentParser(description="Extract handwritten records from notebook page images")
-    parser.add_argument("--model", "-m", required=True, help="OCR model name (hugingface format)")
-    parser.add_argument("--path", "-p", type=str, required=True, help="Input image file path")
-    parser.add_argument("--filename", "-f", type=str, required=True, help="Image file name")
-    parser.add_argument("--out", "-o", type=str, default=None, help="Output folder (default: input folder)")
-    args = parser.parse_args()
+    img_size = image_obj.size
+    img_ratio = 1288.0/np.max(img_size)
+    new_size = tuple([int(np.round(s*img_ratio, 0)) for s in img_size])
+    img_obj2 = image_obj.resize(new_size, resample=Image.LANCZOS)
+    return img_obj2
 
+def main(image='right'):
+    """
+    Perform image preprocessing and ocr
+    Select model from a dict of possible values
+    """
+    model_dict = {0: "mlx-community/olmOCR-2-7B-1025-bf16", 
+                  1: "mlx-community/GLM-OCR-bf16", 
+                  2: "alexgusevski/olmOCR-7B-0225-preview-q4-mlx", 
+                  3: "mlx-community/MinerU2.5-2509-1.2B-bf16", 
+                  4: "mlx-community/PaddleOCR-VL-1.5-bf16"}
+                  
+    img_dict = {'left': 'left_page_final.jpg', 
+                'right': 'right_page_final.jpg'}
+
+    parser = argparse.ArgumentParser(description="Extract handwritten records from notebook page images")
+    parser.add_argument("--image", "-i", type=str, required=True, choices=["left", "right"], 
+        help="Select left or right page as image")
+    parser.add_argument("--model", "-m", default=0, help=f"Select model from dictionary: \n{model_dict}")
+    parser.add_argument("--path", "-p", type=str, default="~/Projects/ebird-format/output_segments",
+        help="Input image file path")
+    args = parser.parse_args()
+    
+    model_path = model_dict[args['model']]
+    img = f'{args['path']}/{img_dict[args['image']]}'
+    output_file = f'{img.split('.')[0]}.json'
     most_likely, aos_full = setup_data() 
     model, processor = load(model_path)
     config = load_config(model_path)
-    img_obj = Image.open(img_path)
+    img_obj = Image.open(img)
+    img_obj2 = img_resize(img_obj)
 
     raw_response = process_page_with_mlx_vlm(
                     model=model, 
                     processor=processor, 
                     config=config, 
-                    image_obj=img_obj
+                    image_obj=img_obj2
                 )
     
     try:
@@ -213,25 +243,15 @@ def main(model_path, img_path, output_path):
             for record in raw_ocr['records']:
                 code = record['primary_code_guess']
                 record['validated_code'] = match_code_to_tiered_lexicon([code], most_likely, aos_full)
-        return extracted_data
+        msg = 'OCR Extraction and Validation Complete'
     except Exception as e:
-        return raw_response
+        extracted_data = vars(raw_response) # transform raw model result to dict
+        msg = e
+    with open(output_file, 'w') as f:
+        json.dump(extracted_data, f)
+    print(msg)
 
 
 # Main Execution
 if __name__ == "__main__":
-    # define model and file path options
-    cwd = os.getcwd()
-    parent_dir = cwd.rsplit('/src', 1)[0]
-    # MODEL_PATH = "alexgusevski/olmOCR-7B-0225-preview-q4-mlx"
-    # MODEL_PATH = "mlx-community/olmOCR-2-7B-1025-bf16" very good
-    # MODEL_PATH = "mlx-community/PaddleOCR-VL-1.5-bf16"
-    # MODEL_PATH = "mlx-community/GLM-OCR-bf16"
-    # MODEL_PATH = "mlx-community/MinerU2.5-2509-1.2B-bf16" poor
-    IMAGE_FILE1 = f"{cwd}/output_segments/left_page_final.jpg"
-    IMAGE_FILE2 = f"{cwd}/output_segments/right_page_final.jpg"
-    IMAGE_FILE3 = f"{cwd}/output_segments/right_page_segl.jpg"
-
-    # Pre-process images
-    # set up argparse for ocr_preprocess.py
-    
+    main()
