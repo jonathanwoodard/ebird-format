@@ -197,33 +197,13 @@ def img_resize(image_obj):
     img_obj2 = image_obj.resize(new_size, resample=Image.LANCZOS)
     return img_obj2
 
-def main(image='right'):
+def extract_text(img, model_name):
     """
     Perform image preprocessing and ocr
-    Select model from a dict of possible values
     """
-    model_dict = {0: "mlx-community/olmOCR-2-7B-1025-bf16", 
-                  1: "mlx-community/GLM-OCR-bf16", 
-                  2: "alexgusevski/olmOCR-7B-0225-preview-q4-mlx", 
-                  3: "mlx-community/MinerU2.5-2509-1.2B-bf16", 
-                  4: "mlx-community/PaddleOCR-VL-1.5-bf16"}
-                  
-    img_dict = {'left': 'left_page_final.jpg', 
-                'right': 'right_page_final.jpg'}
 
-    parser = argparse.ArgumentParser(description="Extract handwritten records from notebook page images")
-    parser.add_argument("--image", "-i", type=str, required=True, choices=["left", "right"], 
-        help="Select left or right page as image")
-    parser.add_argument("--model", "-m", default=0, help=f"Select model from dictionary: \n{model_dict}")
-    parser.add_argument("--path", "-p", type=str, default="~/Projects/ebird-format/output_segments",
-        help="Input image file path")
-    args = parser.parse_args()
-    
-    model_path = model_dict[args['model']]
-    img = f'{args['path']}/{img_dict[args['image']]}'
-    output_file = f'{img.split('.')[0]}.json'
     most_likely, aos_full = setup_data() 
-    model, processor = load(model_path)
+    model, processor = load(model_name)
     config = load_config(model_path)
     img_obj = Image.open(img)
     img_obj2 = img_resize(img_obj)
@@ -252,6 +232,6 @@ def main(image='right'):
     print(msg)
 
 
-# Main Execution
-if __name__ == "__main__":
-    main()
+# # Main Execution
+# if __name__ == "__main__":
+#     extract_text()
