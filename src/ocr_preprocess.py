@@ -5,11 +5,11 @@ This module provides functions to rotate, crop, and segment images
 before performing OCR operations.
 """
 
-import argparse
+# import argparse
 import os
 import numpy as np
 from PIL import Image, ImageFilter
-import matplotlib.pyplot as plt
+# import matplotlib.pyplot as plt
 
 def rotate_image(image_path, degrees=270):
     """
@@ -62,7 +62,7 @@ def find_deskew_angle(img):
     print(f"-> Detected alignment skew: {best_angle} degrees.")
     return best_angle
 
-def crop_and_split_pipeline(img, output_dir="output_segments"):
+def crop_and_split_pipeline(img, _date, output_dir="pages"):
     """
     Deskews the image, crops tightly to the notebook edges first, 
     and then splits the isolated notebook exactly in half.
@@ -116,36 +116,38 @@ def crop_and_split_pipeline(img, output_dir="output_segments"):
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)
         
-    left_path = os.path.join(output_dir, "left_page_final.jpg")
-    right_path = os.path.join(output_dir, "right_page_final.jpg")
+    left_path = os.path.join(output_dir, f"{_date}_left.jpg")
+    right_path = os.path.join(output_dir, f"{_date}_right.jpg")
     
     left_page.save(left_path, "JPEG", quality=95)
     right_page.save(right_path, "JPEG", quality=95)
     
     print(f"Saved cleanly isolated pages:\n - {left_path}\n - {right_path}")
 
-def pipeline(image_path):
-    # Base 90 degree flip
-    base_rotated = rotate_image(image_path)
+def img_pipeline(file, _date):
+    if os.path.exists(file):
+        # Base 90 degree flip
+        base_rotated = rotate_image(file)
+        # Clean, isolated crop and split
+        crop_and_split_pipeline(base_rotated, _date)
+    else:
+        print(f"Error: Could not find {file}. Please place it in the same directory.")
     
-    # Clean, isolated crop and split
-    crop_and_split_pipeline(base_rotated)
 
 
 # --- Execution ---
-if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Image preprocessing utilities using PIL for OCR optimization.")
-    parser.add_argument("--path", "-p", type=str, required=True, help="Input image file path")
-    parser.add_argument("--filename", "-f", type=str, required=True, help="Image file name")
-    parser.add_argument("--out", "-o", type=str, default=None, help="Output folder (default: input folder)")
-    args = parser.parse_args()
+# if __name__ == "__main__":
+#     parser = argparse.ArgumentParser(description="Image preprocessing utilities using PIL for OCR optimization.")
+#     parser.add_argument("--pages", "-f", type=str, required=True, help="Image file pages")
+#     parser.add_argument("--path", "-p", type=str, default="~/Projects/field_notes", help="Input folder for raw images")
+#     parser.add_argument("--out", "-o", type=str, default="~/Projects/ebird-format/output_segments", help="Output folder for preprocessed images")
+#     args = parser.parse_args()
 
-    # Replace with your actual file path
-    input_path = args.path
-    input_filename = f"{input_path}/{args.filename}" 
+#     input_path = args.path
+#     for page in args.pages:
+#         img_file = f"{input_path}/{page}" 
 
-    if os.path.exists(input_filename):
-         pipeline(input_filename)
-    else:
-        print(f"Error: Could not find {input_filename}. Please place it in the same directory.")
-
+#         if os.path.exists(img_file):
+#              pipeline(img_file)
+#         else:
+#             print(f"Error: Could not find {img_file}. Please place it in the same directory.")
