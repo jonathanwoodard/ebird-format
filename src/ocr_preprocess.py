@@ -82,8 +82,8 @@ def crop_and_split_pipeline(img, _date, output_dir="pages"):
     row_sums = np.sum(edge_data, axis=1)
     
     # Noise threshold filter (ignore faint background noise/shading changes)
-    threshold_y = np.quantile(row_sums, 0.90)
-    threshold_x = np.quantile(col_sums, 0.90)
+    threshold_y = np.quantile(row_sums, 0.95)
+    threshold_x = np.quantile(col_sums, 0.95)
     
     # Find outer bounds
     significant_rows = np.where(row_sums > threshold_y)[0]
