@@ -197,14 +197,14 @@ def img_resize(image_obj):
     img_obj2 = image_obj.resize(new_size, resample=Image.LANCZOS)
     return img_obj2
 
-def extract_text(img, model_name):
+def extract_text(img, model_name, most_likely, aos_full):
     """
     Perform image preprocessing and ocr
     """
 
-    most_likely, aos_full = setup_data() 
+    # most_likely, aos_full = setup_data() 
     model, processor = load(model_name)
-    config = load_config(model_path)
+    config = load_config(model_name)
     img_obj = Image.open(img)
     img_obj2 = img_resize(img_obj)
 
@@ -227,9 +227,10 @@ def extract_text(img, model_name):
     except Exception as e:
         extracted_data = vars(raw_response) # transform raw model result to dict
         msg = e
-    with open(output_file, 'w') as f:
-        json.dump(extracted_data, f)
+    # with open(output_file, 'w') as f:
+    #     json.dump(extracted_data, f)
     print(msg)
+    return extracted_data
 
 
 # # Main Execution

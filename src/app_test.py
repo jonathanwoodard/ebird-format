@@ -200,6 +200,7 @@ from streamlit_cropperjs import st_cropperjs
 from ocr_preprocess import rotate_image, find_deskew_angle
 import ocr_extract
 
+
 # ---------------------------------------------------------
 # CACHE SCANNER FOR HUGGINGFACE
 # ---------------------------------------------------------
@@ -234,106 +235,122 @@ if not available_models:
 else:
     selected_model = st.sidebar.selectbox("Select Cached MLX Model Path", available_models)
 
+_most_likely = st.sidebar.file_uploader(
+    "Select likely species list", 
+    type=["csv"], 
+    accept_multiple_files=False
+)
+most_likely = pd.read_csv(_most_likely)['Code'].tolist()
+
+_aos_full = st.sidebar.file_uploader(
+    "Select full AOS species list", 
+    type=["csv"], 
+    accept_multiple_files=False
+)
+aos_full = set(pd.read_csv(_aos_full)['Code'].tolist())
+
+
 # --- Layout Columns ---
 col_upload, col_table = st.columns([1, 1])
+try:
 
-with col_upload:
-    st.subheader("1. File Selection")
-    uploaded_files = st.file_uploader(
-        "Select raw image file(s)", 
-        type=["png", "jpg", "jpeg"], 
-        accept_multiple_files=True
-    )
-    
-    # Track paths to pass to your scripts
-    uploaded_paths = []
-    
-    if uploaded_files:
-        # if len(uploaded_files) != 2:
-        #     st.error(f"Validation Error: Please select exactly 2 images. (Currently selected: {len(uploaded_files)})")
-        # else:
-        # Display previews side by side
-        preview_cols = st.columns(len(uploaded_files))
+    with col_upload:
+        st.subheader("1. File Selection")
+        uploaded_files = st.file_uploader(
+            "Select raw image file(s)", 
+            type=["png", "jpg", "jpeg"], 
+            accept_multiple_files=True
+        )
         
-        # Create a persistent directory for this session run to hold the files
-        # Streamlit runs linearly, so we clean/re-create these temporary paths on upload change
-        temp_dir = tempfile.gettempdir()
+        # Track paths to pass to your scripts
+        uploaded_paths = []
         
-        for idx, file in enumerate(uploaded_files):
-            # Save uploaded buffer bytes into an actual local system file path string
-            temp_file_path = os.path.join(temp_dir, f"st_upload_{_date}_{idx}_{file.name}")
-            with open(temp_file_path, "wb") as f:
-                f.write(file.getvalue())
-                
-                uploaded_paths.append(temp_file_path)
-                
-                # Render preview directly from the system path
+        if uploaded_files:
+            preview_cols = st.columns(len(uploaded_files))
+            
+            # Create a persistent directory for this session run to hold the files
+            # Streamlit runs linearly, so we clean/re-create these temporary paths on upload change
+            temp_dir = tempfile.gettempdir()
+            
+            for idx, file in enumerate(uploaded_files):
+                # Save uploaded buffer bytes into an actual local system file path string
+                temp_file_path = os.path.join(temp_dir, f"st_upload_{_date}_p{idx + 1}.jpg")
+                with open(temp_file_path, "wb") as f:
+                    f.write(file.getvalue())
+                    
+                    uploaded_paths.append(temp_file_path)
+                    
+                    # Render preview directly from the system path
+                    st.subheader("2. Crop Image to Text")
 
-                img = rotate_image(temp_file_path)
-                preview_cols[idx].image(img, caption=f"Original: {file.name}", use_column_width=True)
-                image_bytes = io.BytesIO()
-                img.save(image_bytes, format="JPEG")
-                pic = image_bytes.getvalue()
-                cropped = st_cropperjs(pic=pic, btn_text="Crop Image")
-                if cropped is not None:
-                    cropped_img = Image.open(io.BytesIO(cropped)).convert("L")
-                    st.image(cropped_img, caption=f"Cropped Image {temp_file_path}", use_column_width=True)
-                    cropped_img.save(temp_file_path, "JPEG", quality=95)
+                    img = rotate_image(temp_file_path)
+                    preview_cols[idx].image(img, caption=f"Original: {file.name}", width="stretch")
+                    image_bytes = io.BytesIO()
+                    img.save(image_bytes, format="JPEG")
+                    pic = image_bytes.getvalue()
+                    cropped = st_cropperjs(pic=pic, btn_text="Crop Image")
+                    if cropped is not None:
+                        cropped_img = Image.open(io.BytesIO(cropped)).convert("L")
+                        st.image(cropped_img, caption=f"Cropped Image {temp_file_path}", width="stretch")
+                        cropped_img.save(temp_file_path, "JPEG", quality=95)
+except Exception as e:
+    st.error(f"Image Processing Interrupted: {str(e)}")
+st.success("Preprocessing sequence completed!")
 
-    # # Trigger Pipeline Execution
-    # can_execute = len(uploaded_paths) == 2 and selected_model
-    # if st.button("Execute Full Local Pipeline", disabled=not can_execute, type="primary"):
-    #     with st.spinner("Processing pipeline step by step..."):
-    #         try:
-    #             # --- STEP 1: Image Preprocessing ---
-    #             st.info("Step 1: Running image preprocessing pipeline...")
-    #             preprocessed_paths = []
-                
-    #             for path in uploaded_paths:
-    #                 # Execute your custom function from ocr_preprocess.py
-    #                 # Assuming it returns a string path pointing to the clean image
-    #                 proc_path = ocr_preprocess.img_pipeline(path, _date)
-    #                 preprocessed_paths.append(proc_path)
-                
-    #             st.success("Preprocessing sequence completed!")
-                
-    #             # --- STEP 2: MLX-VLM Extraction ---
-    #             st.info(f"Step 2: Feeding paths into {selected_model} extraction engine...")
-                
-    #             # Execute your custom function from ocr_extract.py
-    #             # Passing the list of 2 file paths and the selected model ID string
-    #             structured_output = ocr_extract.extract_text(preprocessed_paths, selected_model)
-                
-    #             # Expecting your extract script to return a python dictionary or list of objects
-    #             if isinstance(structured_output, str):
-    #                 structured_output = json.loads(structured_output)
-                
-    #             # Save the successfully returned tabular records into state
-    #             st.session_state["ocr_records"] = structured_output
-    #             st.success("Extraction pipeline complete!")
-                
-    #         except Exception as e:
-    #             st.error(f"Pipeline Interrupted: {str(e)}")
+# Trigger Pipeline Execution
+can_execute = len(uploaded_paths) == 2 and selected_model
+if st.button("Run Local OCR Extraction", disabled=not can_execute, type="primary"):
+    st.info(f"Step 2: Feeding paths into {selected_model} extraction engine...")
+    with st.spinner("Processing pipeline step by step..."):
+        try:
+            ocr_results = []
+            # Passing the list of 2 file paths and the selected model ID string
+            for idx, path in enumerate(uploaded_paths):
+                structured_output = ocr_extract.extract_text(path, selected_model, most_likely, aos_full)
+            
+                # Expecting your extract script to return a python dictionary or list of objects
+                if isinstance(structured_output, str):
+                    structured_output = json.loads(structured_output)
+                ocr_results.append(structured_output)
+            # Save the successfully returned tabular records into state
+            st.session_state["ocr_records"] = ocr_results
+            st.success("Extraction pipeline complete!")
+            
+        except Exception as e:
+            st.error(f"Pipeline Interrupted: {str(e)}")
 
 with col_table:
+    frames = []
     st.subheader("2. Interactive Table & Export JSON")
-    
     # Fallback default mock layout until pipeline creates real records
     if "ocr_records" not in st.session_state:
         st.session_state["ocr_records"] = [
             {"Field": "Example Invoice Row", "Value": "0.00", "Confidence": "Run Pipeline to update"}
         ]
-        
     # Cast python object layout to DataFrame for editing interface
     df = pd.DataFrame(st.session_state["ocr_records"])
     
     # Provide spreadsheet editing capability
     edited_df = st.data_editor(
         df, 
-        use_container_width=True, 
+        width="stretch", 
         num_rows="dynamic",
         key="main_table_editor"
     )
+    # else:
+    #     for record in st.session_state["ocr_records"]:
+    #         # Fallback default mock layout until pipeline creates real records
+    #         # Cast python object layout to DataFrame for editing interface
+    #         df = pd.DataFrame(record)
+    #         frames.append(df)
+    #     data = pd.concat(frames)
+    # Provide spreadsheet editing capability
+    # edited_df = st.data_editor(
+    #     data, 
+    #     width="stretch", 
+    #     num_rows="dynamic",
+    #     key="main_table_editor"
+    # )
     
     # Instantly output modified grid elements into dynamic tabular json orientation
     final_json = edited_df.to_dict(orient="records")
