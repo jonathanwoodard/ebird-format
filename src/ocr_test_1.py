@@ -9,11 +9,71 @@ from mlx_vlm import load, generate
 from mlx_vlm.utils import load_config
 from mlx_vlm.prompt_utils import apply_chat_template
 from ocr_preprocess import *
+import gradio as gr
+from openai import OpenAI
 
-def setup_data():
+SPECIES = "/Users/jon/Projects/ebird-format/data-raw/IBP-AOS-LIST24.csv.csv"
+
+
+def codes2names():
+    band_codes = pd.read_csv(SPECIES)
+    cols = ["SPEC", "COMMONNAME", "SCINAME"]
+    band_codes = band_codes[cols]
+    band_codes["Genus"] = band_codes.SCINAME.apply(lambda x: x.split(" ")[0])
+    band_codes["Species"] = band_codes.SCINAME.apply(lambda x: x.split(" ")[1])
+    cols = ["SPEC", "COMMONNAME", "Genus", "Species"]
+    band_codes = band_codes[cols]
+    band_codes.columns = ["Code", "Common Name", "Genus", "Species"]
+    return band_codes
+
+def format_results(ocr_results):
+    """
+    Format validated OCR results for ebird .csv upload
+    """
+
+    # Columns for .csv upload in correct order
+    report_cols = ["Common Name", "Genus", "Species", "Number", "Species Comments", 
+        "Location Name", "Latitude", "Longitude", "Date", "Start Time", 
+        "State/Province", "Country Code", "Protocol", "Number of Observers", 
+        "Duration", "All observations reported?", "Effort Distance Miles", 
+        "Effort area acres", "Submission Comments"]
+
+    # Get mapping of band codes to species names
+    band_codes = codes2names()
+    df = pd.read_csv(ocr_results)
+    df['Seen'] = df.Seen.apply(lambda x: int(x) if x!="-" else 0)
+    df['Heard'] = df.Heard.apply(lambda x: int(x) if x!="-" else 0)
+    df["Number"] = df[["Seen", "Heard"]].sum(axis=1)
+    df['Seen'] = df.Seen.apply(lambda x: f"{x} heard" if x!=0 else None)
+    df['Heard'] = df.Heard.apply(lambda x: f"{x} heard" if x!=0 else None)
+
+    # Combine Seen/Heard counts to species record comment
+    _comments = df[["Seen", "Heard"]].values
+    species_comments = []
+    for c in _comments:
+        vals = [x for x in c if type(x)==str]
+        species_comments.append(", ".join(vals))
+    df["Species Comments"] = species_comments
+
+    # Format timestamps
+    times = pd.DataFrame(df["Start Time"].sort_values().drop_duplicates().reset_index(drop=True))
+    times["Location Name"] = ROUTES["Seward West"][:len(times)]
+    times[["Latitude", "Longitude", ]] = [None, None]
+    # times["Date"] = "05/09/2026" # date from datepicker
+    times['start_time'] = pd.to_datetime(times["Start Time"], format="%H:%M").dt.strftime("%H:%M")
+    times[report_cols[10:]] = ["WA", "US", "stationary", "1", "5", "yes", None, None, "weather"]
+
+    # Order records and survey stations by survey start time
+    _df = df.merge(times, on=["Start Time"])
+    _df = _df[_df.columns[6:]]
+    _df["Start Time"] = _df.start_time.copy()
+    result = band_codes.merge(_df, left_on="Code", right_on="Validated Code")
+    return result[report_cols]
+
+def setup_data(_most_likely, _aos_full):
     """Load reference species codes from CSVs."""
-    most_likely = pd.read_csv(f'{os.getcwd()}/data-raw/most_likely.csv')['Code'].tolist()
-    aos_full = set(pd.read_csv(f'{os.getcwd()}/data-raw/aos_full.csv')['Code'].tolist())
+    most_likely = pd.read_csv(_most_likely)['Code'].tolist()
+    aos_full = set(pd.read_csv(_aos_full)['Code'].tolist())
     return most_likely, aos_full
 
 def levenshtein_distance(s1, s2):
@@ -65,8 +125,10 @@ def search_pool(candidates, target_pool):
             else:
                 continue
         if len(matches[1]) > 0:
+            del (matches[2])
             return matches
         elif len(matches[2]) > 0:
+            del (matches[1])
             return matches
         else:
             return None
@@ -81,12 +143,12 @@ def match_code_to_tiered_lexicon(guesses, likely_codes, unlikely_codes):
     
     # Tier 1: Look inside the likely codes pool
     likely_matches = search_pool(guesses, likely_upper)
-    
     # If we found a confident match in the likely pool, use it
     if likely_matches is not None:
         likely_dist = np.min(list(likely_matches.keys()))
-        best_likely_matches = ', '.join(likely_matches[likely_dist])
-        print(f"-> No exact matches found. Best matches: {best_likely_matches} (distance: {likely_dist})")
+        if likely_dist > 0:
+            best_likely_matches = ', '.join(likely_matches[likely_dist])
+            print(f"-> No exact matches found. Best matches: {best_likely_matches} (distance: {likely_dist})")
         return likely_matches
         
     # Tier 2 Fallback: If no good likely match was found, search the unlikely pool
@@ -101,7 +163,7 @@ def match_code_to_tiered_lexicon(guesses, likely_codes, unlikely_codes):
     # If both are poor matches (>2 distance), return original guesses
     # take whichever one was structurally closer overall
     else:
-        print("-> No matches found with distance <= 2; manual result validation required")
+        print(f"-> No matches for {guesses} found with distance <= 2; manual result validation required")
         return None
 
 def extract_json_from_string(raw_response):
@@ -110,7 +172,8 @@ def extract_json_from_string(raw_response):
     instead of double quotes, this automatically sanitizes the string.
     """
     try:
-        text = str(raw_response.text).strip()
+        # text = str(raw_response.text).strip()
+        text = str(raw_response).strip()
         
         # 1. Isolate the JSON chunk using markdown indicators or outer curly braces
         match = re.search(r'```json\s*(.*?)\s*```', text, re.DOTALL)
@@ -187,32 +250,40 @@ def process_page_with_mlx_vlm(model, processor, config, image_obj):
     )
     return raw_response
 
-def img_resize(image_obj):
-    """
-    Helper function to resize images - max image dimension should be 1288
-    """
-    img_size = image_obj.size
-    img_ratio = 1288.0/np.max(img_size)
-    new_size = tuple([int(np.round(s*img_ratio, 0)) for s in img_size])
-    img_obj2 = image_obj.resize(new_size, resample=Image.LANCZOS)
-    return img_obj2
+# def img_resize(image_obj):
+#     """
+#     Helper function to resize images - max image dimension should be 1288
+#     """
+#     img_size = image_obj.size
+#     img_ratio = 1288.0/np.max(img_size)
+#     new_size = tuple([int(np.round(s*img_ratio, 0)) for s in img_size])
+#     img_obj2 = image_obj.resize(new_size, resample=Image.LANCZOS)
+#     return img_obj2
+
+def encode_image_to_base64(image_path):
+    """Encodes an image to base64 for API transmission."""
+    with open(image_path, "rb") as image_file:
+        return base64.b64encode(image_file.read()).decode('utf-8')
+
 
 def extract_text(model_path, img_path):
     """
     perform image preprocessing and ocr
     """
+    if not img_path or not os.path.exists(img_path):
+        return pd.DataFrame(columns=["Block", "Start Time", "Primary Guess", "Seen", "Heard", "Validated Code"]), {"error": "Invalid file path"}
 
     most_likely, aos_full = setup_data() 
     model, processor = load(model_path)
     config = load_config(model_path)
-    img_obj = Image.open(img_path)
-    img_obj2 = img_resize(img_obj)
+    img_obj = encode_image_to_base64(img_path)
+    # img_obj2 = img_resize(img_obj)
 
     raw_response = process_page_with_mlx_vlm(
                     model=model, 
                     processor=processor, 
                     config=config, 
-                    image_obj=img_obj2
+                    image_obj=img_obj
                 )
     
     try:
@@ -234,16 +305,3 @@ def extract_text(model_path, img_path):
     
 
 
-# Main Execution
-if __name__ == "__main__":
-    # define model and file path options
-
-    # MODEL_PATH = "alexgusevski/olmOCR-7B-0225-preview-q4-mlx" # poor
-    MODEL_PATH = "mlx-community/olmOCR-2-7B-1025-bf16" # very good
-    # MODEL_PATH = "mlx-community/PaddleOCR-VL-1.5-bf16" # error
-    # MODEL_PATH = "mlx-community/GLM-OCR-bf16" # poor
-    # MODEL_PATH = "mlx-community/MinerU2.5-2509-1.2B-bf16" # poor
-    IMAGE_FILE1 = f"{os.getcwd()}/output_segments/left_page_final.jpg"
-    IMAGE_FILE2 = f"{os.getcwd()}/output_segments/right_page_final.jpg"
-    extracted_data = extract_text(MODEL_PATH, IMAGE_FILE1)
-    
