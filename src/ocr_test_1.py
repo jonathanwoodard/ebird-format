@@ -14,6 +14,16 @@ from openai import OpenAI
 
 SPECIES = "/Users/jon/Projects/ebird-format/data-raw/IBP-AOS-LIST24.csv.csv"
 
+def rotate_image(editor_dict, degrees=270):
+    """
+    ImageEditor returns a dict. Use 'composite' value
+    Rotates the image clockwise. 
+    The uploaded image is 90 degrees counter-clockwise, 
+    so rotating 270 degrees counter-clockwise (or 90 clockwise) fixes it.
+    """
+    print(f"Rotating image by {degrees} degrees...")
+    with Image.open(editor_dict["composite"]) as img:
+        return img.convert("L").rotate(degrees, expand=True), img
 
 def codes2names():
     band_codes = pd.read_csv(SPECIES)
