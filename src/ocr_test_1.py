@@ -275,20 +275,18 @@ def process_page_with_mlx_vlm(model, processor, config, image_obj):
     )
     return raw_response
 
-# def img_resize(image_obj):
-#     """
-#     Helper function to resize images - max image dimension should be 1288
-#     """
-#     img_size = image_obj.size
-#     img_ratio = 1288.0/np.max(img_size)
-#     new_size = tuple([int(np.round(s*img_ratio, 0)) for s in img_size])
-#     img_obj2 = image_obj.resize(new_size, resample=Image.LANCZOS)
-#     return img_obj2
-
 def encode_image_to_base64(image_path):
     """Encodes an image to base64 for API transmission."""
     with open(image_path, "rb") as image_file:
         return base64.b64encode(image_file.read()).decode('utf-8')
+
+def np_image_to_base64(img_array):
+    """Encodes an image to base64 for API transmission."""
+    img = Image.fromarray(img_array)
+    buff = BytesIO()
+    img.save(buff, format="PNG")
+    img_bytes = buff.getvalue()
+    return base64.b64encode(img_bytes).decode('utf-8')
 
 
 def extract_text(model_path, img_path):
