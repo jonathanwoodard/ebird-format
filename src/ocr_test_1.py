@@ -13,6 +13,8 @@ import gradio as gr
 from openai import OpenAI
 
 SPECIES = "/Users/jon/Projects/ebird-format/data-raw/IBP-AOS-LIST24.csv.csv"
+REFERENCE_PATH = "/Users/jon/Projects/ebird-format/data-raw"
+OUTPUT_PATH = "/Users/jon/Projects/ebird-format/survey"
 
 def rotate_image(editor_dict, degrees=270):
     """
@@ -24,6 +26,19 @@ def rotate_image(editor_dict, degrees=270):
     print(f"Rotating image by {degrees} degrees...")
     with Image.open(editor_dict["composite"]) as img:
         return img.convert("L").rotate(degrees, expand=True), img
+
+def save_rotated_image(survey_date, _page, output_img):
+    output_dir = OUTPUT_PATH
+    if output_img is None:
+        return "Error: No image available to save."
+    try:
+        os.makedirs(output_dir, exist_ok=True)
+        _date = survey_date.replace("-", "") if survey_date else "undated"
+        filename = f"{output_dir}/{_date}_{_page}.jpg"
+        output_img.save(filename, quality=95)
+        return filename
+    except Exception as e:
+        return f"Error: {str(e)}"
 
 def codes2names():
     band_codes = pd.read_csv(SPECIES)
