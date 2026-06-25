@@ -68,6 +68,9 @@ instance/
 # Scrapy stuff:
 .scrapy
 
+# Scratch junk to be cleaned up:
+.scratch/
+
 # Sphinx documentation
 docs/_build/
 
