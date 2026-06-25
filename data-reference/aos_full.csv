@@ -1,0 +1,2342 @@
+,Code,Code6,CommonName,GenusSpecies
+0,HITI,NOTBON,Highland Tinamou,Nothocercus bonapartei
+1,GRTI,TINMAJ,Great Tinamou,Tinamus major
+2,LITI,CRYSOU,Little Tinamou,Crypturellus soui
+3,THTI,CRYCIN,Thicket Tinamou,Crypturellus cinnamomeus
+4,SBTI,CRYBOU,Slaty-breasted Tinamou,Crypturellus boucardi
+5,CHTI,CRYKER,Choco Tinamou,Crypturellus kerriae
+6,WFWD,DENVID,White-faced Whistling-Duck,Dendrocygna viduata
+7,BBWD,DENAUT,Black-bellied Whistling-Duck,Dendrocygna autumnalis
+8,WIWD,DENARB,West Indian Whistling-Duck,Dendrocygna arborea
+9,FUWD,DENBIC,Fulvous Whistling-Duck,Dendrocygna bicolor
+10,EMGO,ANSCAN,Emperor Goose,Anser canagicus
+11,SNGO,ANSCAE,Snow Goose,Anser caerulescens
+12,LSGW,ANSCCA,Lesser Snow Goose White-morph,Anser caerulescens caerulescens
+13,LSGI,ANSCCA,Lesser Snow Goose Intermediate-morph,Anser caerulescens caerulescens
+14,LSGB,ANSCCA,Lesser Snow Goose Blue-morph,Anser caerulescens caerulescens
+15,GSGW,ANSCAT,Greater Snow Goose White-morph,Anser caerulescens atlantica
+16,GSGI,ANSCAT,Greater Snow Goose Intermediate-morph,Anser caerulescens atlantica
+17,GSGB,ANSCAT,Greater Snow Goose Blue-morph,Anser caerulescens atlantica
+18,SRGH,ANSCAR,Snow X Ross's Goose Hybrid,Anser caerulescens x rossii
+19,SRGO,ANSCRO,Snow/Ross's Goose,Anser caerulescens/rossii
+20,ROGO,ANSROS,Ross's Goose,Anser rossii
+21,GRGO,ANSANS,Graylag Goose,Anser anser
+22,GWFG,ANSALB,Greater White-fronted Goose,Anser albifrons
+23,TWFG,ANSALE,Tule Greater White-fronted Goose,Anser albifrons elgasi
+24,LWFG,ANSERY,Lesser White-fronted Goose,Anser erythropus
+25,TABG,ANSFAB,Taiga Bean-Goose,Anser fabalis
+26,TUBG,ANSSER,Tundra Bean-Goose,Anser serrirostris
+27,PFGO,ANSBRA,Pink-footed Goose,Anser brachyrhynchus
+28,BRAN,BRABER,Brant,Branta bernicla
+29,ATBR,BRABBE,Atlantic Brant,Branta bernicula bernicula
+30,BABI,BRABBN,Black X Atlantic Brant Intergrade,Branta bernicula bernicula x nigrican
+31,BLBR,BRABNI,Black Brant,Branta bernicula nigricans
+32,BARG,BRALEU,Barnacle Goose,Branta leucopsis
+33,CACG,BRAHUT,Cackling Goose,Branta hutchinsii
+34,ACGO,BRAHLE,Aleutian Cackling Goose,Branta hutchinsii leucopareia
+35,MCGO,BRAHMI,Minima Cackling Goose,Branta hutchinsii minima
+36,CCGO,BRAHUC,Cackling/Canada Goose,Branta hutchinsii/canadensis
+37,CANG,BRACAN,Canada Goose,Branta canadensis
+38,LCGO,BRACMO,Large Canada Goose,Branta canadensis moffitti
+39,SCGO,BRACPA,Small Canada Goose,Branta canadensis parvipes
+40,HAGO,BRASAN,Hawaiian Goose,Branta sandvicensis
+41,UNGO,ANSGSP,Unidentified Goose,Anserinae (gen. sp.)
+42,MUSW,CYGOLO,Mute Swan,Cygnus olor
+43,TRUS,CYGBUC,Trumpeter Swan,Cygnus buccinator
+44,TUSW,CYGCOL,Tundra Swan,Cygnus columbianus
+45,WHSW,CYGCCO,Whistling Swan,Cygnus columbianus columbianus
+46,BESW,CYGCBE,Bewick's Swan,Cygnus columbianus bewickii
+47,WHOS,CYGCYG,Whooper Swan,Cygnus cygnus
+48,CODU,SARSYL,Comb Duck,Sarkidiornis sylvicola
+49,ORGO,NEOJUB,Orinoco Goose,Neochen jubata
+50,EGGO,ALOAEG,Egyptian Goose,Alopochen aegyptiaca
+51,COMS,TADTAD,Common Shelduck,Tadorna tadorna
+52,RUSH,TADFER,Ruddy Shelduck,Tadorna ferruginea
+53,MUDU,CAIMOS,Muscovy Duck,Cairina moschata
+54,WODU,AIXSPO,Wood Duck,Aix sponsa
+55,BATE,SIBFOR,Baikal Teal,Sibirionetta formosa
+56,GARG,SPAQUE,Garganey,Spatula querquedula
+57,BWTE,SPADIS,Blue-winged Teal,Spatula discors
+58,BCTE,SPADIC,Blue-winged/Cinnamon Teal,Spatula discors/cyanoptera
+59,CITE,SPACYA,Cinnamon Teal,Spatula cyanoptera
+60,NSHO,SPACLY,Northern Shoveler,Spatula clypeata
+61,GADW,MARSTR,Gadwall,Mareca strepera
+62,FADU,MARFAL,Falcated Duck,Mareca falcata
+63,EUWI,MARPEN,Eurasian Wigeon,Mareca penelope
+64,AMWI,MARAME,American Wigeon,Mareca americana
+65,LAYD,ANALAY,Laysan Duck,Anas laysanensis
+66,HAWD,ANAWYV,Hawaiian Duck,Anas wyvilliana
+67,MHDH,ANAPLW,Mallard X Hawaiian Duck Hybrid,Anas platyrhynchos x wyvilliana
+68,ESBD,ANAZON,Eastern Spot-billed Duck,Anas zonorhyncha
+69,MALL,ANAPLA,Mallard,Anas platyrhynchos
+70,MEDU,ANADIA,Mexican Duck,Anas diazi
+71,MBDH,ANAPLR,Mallard X American Black Duck Hybrid,Anas platyrhynchos x rubripes
+72,ABDU,ANARUB,American Black Duck,Anas rubripes
+73,MODU,ANAFUL,Mottled Duck,Anas fulvigula
+74,WCHP,ANABAH,White-cheeked Pintail,Anas bahamensis
+75,NOPI,ANAACU,Northern Pintail,Anas acuta
+76,GWTE,ANACRE,Green-winged Teal,Anas crecca
+77,AGWT,ANACCA,American Green-winged Teal,Anas crecca carolinensis
+78,EGWT,ANACCR,Eurasian Green-winged Teal,Anas crecca crecca
+79,CANV,AYTVAL,Canvasback,Aythya valisineria
+80,REDH,AYTAME,Redhead,Aythya americana
+81,COMP,AYTFER,Common Pochard,Aythya ferina
+82,RNDU,AYTCOL,Ring-necked Duck,Aythya collaris
+83,TUDU,AYTFUL,Tufted Duck,Aythya fuligula
+84,GRSC,AYTMAR,Greater Scaup,Aythya marila
+85,LESC,AYTAFF,Lesser Scaup,Aythya affinis
+86,STEI,POLSTE,Steller's Eider,Polysticta stelleri
+87,LABD,CAMLAB,Labrador Duck,Camptorhynchus labradorius
+88,SPEI,SOMFIS,Spectacled Eider,Somateria fischeri
+89,KIEI,SOMSPE,King Eider,Somateria spectabilis
+90,COEI,SOMMOL,Common Eider,Somateria mollissima
+91,HADU,HISHIS,Harlequin Duck,Histrionicus histrionicus
+92,SUSC,MELPER,Surf Scoter,Melanitta perspicillata
+93,VESC,MENFUS,Velvet Scoter,Melanitta fusca
+94,WWSC,MELDEG,White-winged Scoter,Melanitta deglandi
+95,STSC,MELSTE,Stejneger's Scoter,Melanitta stejnegeri
+96,COSC,MENNIG,Common Scoter,Melanitta nigra
+97,BLSC,MELAME,Black Scoter,Melanitta americana
+98,LTDU,CLAHYE,Long-tailed Duck,Clangula hyemalis
+99,BUFF,BUCALB,Bufflehead,Bucephala albeola
+100,COGO,BUCCLA,Common Goldeneye,Bucephala clangula
+101,BAGO,BUCISL,Barrow's Goldeneye,Bucephala islandica
+102,SMEW,MERALB,Smew,Mergellus albellus
+103,HOME,LOPCUC,Hooded Merganser,Lophodytes cucullatus
+104,COME,MERMER,Common Merganser,Mergus merganser
+105,RBME,MERSER,Red-breasted Merganser,Mergus serrator
+106,MADU,NOMDOM,Masked Duck,Nomonyx dominicus
+107,RUDU,OXYJAM,Ruddy Duck,Oxyura jamaicensis
+108,UNDU,ANAGSP,Unidentified Duck,"Anatinae (gen, sp)"
+109,PLCH,ORTVET,Plain Chachalaca,Ortalis vetula
+110,GHEC,ORTCIN,Gray-headed Chachalaca,Ortalis cinereiceps
+111,RVCH,ORTRUF,Rufous-vented Chachalaca,Ortalis ruficauda
+112,RBEC,ORTWAG,Rufous-bellied Chachalaca,Ortalis wagleri
+113,WMCH,ORTPOL,West Mexican Chachalaca,Ortalis poliocephala
+114,WBCH,ORTLEU,White-bellied Chachalaca,Ortalis leucogastra
+115,CRGU,PENPUR,Crested Guan,Penelope purpurascens
+116,BLAG,CHAUNI,Black Guan,Chamaepetes unicolor
+117,HIGU,PENNIG,Highland Guan,Penelopina nigra
+118,HOGU,OREDER,Horned Guan,Oreophasis derbianus
+119,GRCU,CRARUB,Great Curassow,Crax rubra
+120,HELG,NUMMEL,Helmeted Guineafowl,Numida meleagris
+121,TFQU,RHYCIN,Tawny-faced Quail,Rhynchortyx cinctus
+122,MOUQ,OREPIC,Mountain Quail,Oreortyx pictus
+123,BCWP,DENLEU,Buffy-crowned Wood-Partridge,Dendrortyx leucophrys
+124,LTWP,DENMAC,Long-tailed Wood-Partridge,Dendrortyx macroura
+125,BEWP,DENBAR,Bearded Wood-Partridge,Dendrortyx barbatus
+126,BAQU,PHIFAS,Banded Quail,Philortyx fasciatus
+127,NOBO,COLVIR,Northern Bobwhite,Colinus virginianus
+128,BTBO,COLNIG,Black-throated Bobwhite,Colinus nigrogularis
+129,CRBO,COLCRI,Crested Bobwhite,Colinus cristatus
+130,SPBO,COLLEU,Spot-bellied Bobwhite,Colinus leucopogon
+131,SCQU,CALSQU,Scaled Quail,Callipepla squamata
+132,ELQU,CALDOU,Elegant Quail,Callipepla douglasii
+133,CAQU,CALCAF,California Quail,Callipepla californica
+134,GAQU,CALGAM,Gambel's Quail,Callipepla gambelii
+135,MONQ,CYRMON,Montezuma Quail,Cyrtonyx montezumae
+136,OCQU,CYROCE,Ocellated Quail,Cyrtonyx ocellatus
+137,SIQU,DACTHO,Singing Quail,Dactylortyx thoracicus
+138,MAWQ,ODOGUJ,Marbled Wood-Quail,Odontophorus gujanensis
+139,BEWQ,ODOMEL,Black-eared Wood-Quail,Odontophorus melanotis
+140,TAWQ,ODODIA,Tacarcuna Wood-Quail,Odontophorus dialeucos
+141,BBWQ,ODOLEU,Black-breasted Wood-Quail,Odontophorus leucolaemus
+142,SPWQ,ODOGUT,Spotted Wood-Quail,Odontophorus guttatus
+143,WITU,MELGAL,Wild Turkey,Meleagris gallopavo
+144,OCTU,MELOCE,Ocellated Turkey,Meleagris ocellata
+145,RUGR,BONUMB,Ruffed Grouse,Bonasa umbellus
+146,SPGR,CANCAN,Spruce Grouse,Canachites canadensis
+147,WIPT,LAGLAG,Willow Ptarmigan,Lagopus lagopus
+148,ROPT,LAGMUT,Rock Ptarmigan,Lagopus muta
+149,WTPT,LAGLEU,White-tailed Ptarmigan,Lagopus leucura
+150,GRSG,CENURO,Greater Sage-Grouse,Centrocercus urophasianus
+151,GUSG,CENMIN,Gunnison Sage-Grouse,Centrocercus minimus
+152,DUGR,DENOBS,Dusky Grouse,Dendragapus obscurus
+153,SOGR,DENFUU,Sooty Grouse,Dendragapus fuliginosus
+154,STGR,TYMPHA,Sharp-tailed Grouse,Tympanuchus phasianellus
+155,GRPC,TYMCUP,Greater Prairie-Chicken,Tympanuchus cupido
+156,LEPC,TYMPAL,Lesser Prairie-Chicken,Tympanuchus pallidicinctus
+157,GRAP,PERPER,Gray Partridge,Perdix perdix
+158,RNEP,PHACOL,Ring-necked Pheasant,Phasianus colchicus
+159,KAPH,LOPLEU,Kalij Pheasant,Lophura leucomelanos
+160,INPE,PAVCRI,Indian Peafowl,Pavo cristatus
+161,GRAF,ORTPON,Gray Francolin,Ortygornis pondicerianus
+162,BLFR,FRAFRA,Black Francolin,Francolinus francolinus
+163,REJU,GALGAS,Red Junglefowl,Gallus gallus
+164,HISN,TETHIM,Himalayan Snowcock,Tetraogallus himalayensis
+165,CHUK,ALECHU,Chukar,Alectoris chukar
+166,JAQU,COTJAP,Japanese Quail,Coturnix japonica
+167,ERFR,PTEERC,Erckel's Francolin,Pternistis erckelii
+168,AMFL,PHORUB,American Flamingo,Phoenicopterus ruber
+169,LEGR,TACDOM,Least Grebe,Tachybaptus dominicus
+170,PBGR,PODPOD,Pied-billed Grebe,Podilymbus podiceps
+171,ATGR,PODGIG,Atitlan Grebe,Podilymbus gigas
+172,HOGR,PODAUR,Horned Grebe,Podiceps auritus
+173,RNGR,PODGRI,Red-necked Grebe,Podiceps grisegena
+174,EAGR,PODNIG,Eared Grebe,Podiceps nigricollis
+175,WEGR,AECOCC,Western Grebe,Aechmophorus occidentalis
+176,WCGR,AECOCL,Western/Clark's Grebe,Aechmophorus occidentalis/clarkii
+177,CLGR,AECCLA,Clark's Grebe,Aechmophorus clarkii
+178,CBSA,PTEEXU,Chestnut-bellied Sandgrouse,Pterocles exustus
+179,ROPI,COLLIV,Rock Pigeon,Columba livia
+180,CWPI,COLPAL,Common Wood Pigeon,Columba palumbus
+181,PAPI,ECTMIG,Passenger Pigeon,Ectopistes migratorius
+182,PVPI,PATCAY,Pale-vented Pigeon,Patagioenas cayennensis
+183,SCPI,PATSPE,Scaled Pigeon,Patagioenas speciosa
+184,SNPI,PATSQU,Scaly-naped Pigeon,Patagioenas squamosa
+185,WCPI,PATLEU,White-crowned Pigeon,Patagioenas leucocephala
+186,RBPI,PATFLA,Red-billed Pigeon,Patagioenas flavirostris
+187,PLAP,PATINO,Plain Pigeon,Patagioenas inornata
+188,PRPP,PATINW,Puerto Rican Plain Pigeon,Patagioenas inornata wetmorei
+189,BTPI,PATFAS,Band-tailed Pigeon,Patagioenas fasciata
+190,RTAP,PATCAR,Ring-tailed Pigeon,Patagioenas caribaea
+191,PLUP,PATPLU,Plumbeous Pigeon,Patagioenas plumbea
+192,RUDP,PATSUB,Ruddy Pigeon,Patagioenas subvinacea
+193,SBPI,PATNIG,Short-billed Pigeon,Patagioenas nigrirostris
+194,DUPI,PATGOO,Dusky Pigeon,Patagioenas goodsoni
+195,ORTD,STRORI,Oriental Turtle-Dove,Streptopelia orientalis
+196,AFCD,STRROS,African Collared-Dove,Streptopelia roseogrisea
+197,EUTD,STRTUR,European Turtle-Dove,Streptopelia turtur
+198,EUCD,STRDEC,Eurasian Collared-Dove,Streptopelia decaocto
+199,SPDO,STRCHI,Spotted Dove,Streptopelia chinensis
+200,ZEBD,GEOSTR,Zebra Dove,Geopelia striata
+201,INDO,COLINC,Inca Dove,Columbina inca
+202,CGDO,COLPAS,Common Ground Dove,Columbina passerina
+203,PBGD,COLMIN,Plain-breasted Ground Dove,Columbina minuta
+204,RGDO,COLTAL,Ruddy Ground Dove,Columbina talpacoti
+205,BGDO,CLAPRE,Blue Ground Dove,Claravis pretiosa
+206,MCGD,PARMOD,Maroon-chested Ground Dove,Paraclaravis mondetoura
+207,BHQD,STACYA,Blue-headed Quail-Dove,Starnoenas cyanocephala
+208,CRQD,GEOVER,Crested Quail-Dove,Geotrygon versicolor
+209,RUQD,GEOMON,Ruddy Quail-Dove,Geotrygon montana
+210,VIQD,GEOVIO,Violaceous Quail-Dove,Geotrygon violacea
+211,GFQD,GEOCAN,Gray-fronted Quail-Dove,Geotrygon caniceps
+212,WFRQ,GEOLEU,White-fronted Quail-Dove,Geotrygon leucometopia
+213,KWQD,GEOCHR,Key West Quail-Dove,Geotrygon chrysia
+214,BRQD,GEOMYS,Bridled Quail-Dove,Geotrygon mystacea
+215,OBQD,LEPVEG,Olive-backed Quail-Dove,Leptotrygon veraguensis
+216,WTDO,LEPVEX,White-tipped Dove,Leptotila verreauxi
+217,CADO,LEPJAM,Caribbean Dove,Leptotila jamaicensis
+218,GCDO,LEPCAS,Gray-chested Dove,Leptotila cassinii
+219,GHDO,LEPPLU,Gray-headed Dove,Leptotila plumbeiceps
+220,GRDO,LEPWEL,Grenada Dove,Leptotila wellsi
+221,TUQD,ZENCAR,Tuxtla Quail-Dove,Zentrygon carrikeri
+222,BFQD,ZENCOS,Buff-fronted Quail-Dove,Zentrygon costaricensis
+223,PBQD,ZENLAW,Purplish-backed Quail-Dove,Zentrygon lawrencii
+224,WFAQ,ZENALB,White-faced Quail-Dove,Zentrygon albifacies
+225,CHQD,ZENCHI,Chiriqui Quail-Dove,Zentrygon chiriquensis
+226,RCQD,ZENGOL,Russet-crowned Quail-Dove,Zentrygon goldmani
+227,WWDO,ZENASI,White-winged Dove,Zenaida asiatica
+228,ZEND,ZENAUT,Zenaida Dove,Zenaida aurita
+229,EADO,ZENAUC,Eared Dove,Zenaida auriculata
+230,MODO,ZENMAC,Mourning Dove,Zenaida macroura
+231,SODO,ZENGRA,Socorro Dove,Zenaida graysoni
+232,GRTA,CROMAJ,Greater Ani,Crotophaga major
+233,SBAN,CROANI,Smooth-billed Ani,Crotophaga ani
+234,GBAN,CROSUL,Groove-billed Ani,Crotophaga sulcirostris
+235,STCU,TAPNAE,Striped Cuckoo,Tapera naevia
+236,PHCU,DROPHA,Pheasant Cuckoo,Dromococcyx phasianellus
+237,LEGC,MORERY,Lesser Ground-Cuckoo,Morococcyx erythropygus
+238,LERO,GEOVEL,Lesser Roadrunner,Geococcyx velox
+239,GRRO,GEOCAL,Greater Roadrunner,Geococcyx californianus
+240,RVGC,NEOGEO,Rufous-vented Ground-Cuckoo,Neomorphus geoffroyi
+241,COCU,CUCCAN,Common Cuckoo,Cuculus canorus
+242,ORCU,CUCOPT,Oriental Cuckoo,Cuculus optatus
+243,LITC,COCMIT,Little Cuckoo,Coccycua minuta
+244,DWCU,COCPUM,Dwarf Cuckoo,Coccycua pumila
+245,SQCU,PIACAY,Squirrel Cuckoo,Piaya cayana
+246,DBCU,COCMEL,Dark-billed Cuckoo,Coccyzus melacoryphus
+247,YBCU,COCAME,Yellow-billed Cuckoo,Coccyzus americanus
+248,PBCU,COCEUL,Pearly-breasted Cuckoo,Coccyzus euleri
+249,MACU,COCMIR,Mangrove Cuckoo,Coccyzus minor
+250,COCC,COCFER,Cocos Cuckoo,Coccyzus ferrugineus
+251,BBCU,COCERY,Black-billed Cuckoo,Coccyzus erythropthalmus
+252,GCCU,COCLAN,Gray-capped Cuckoo,Coccyzus lansbergi
+253,CBCU,COCPLU,Chestnut-bellied Cuckoo,Coccyzus pluvialis
+254,BBRC,COCRUF,Bay-breasted Cuckoo,Coccyzus rufigularis
+255,JALC,COCVET,Jamaican Lizard-Cuckoo,Coccyzus vetula
+256,PRLC,COCVIE,Puerto Rican Lizard-Cuckoo,Coccyzus vieilloti
+257,GRLC,COCMER,Great Lizard-Cuckoo,Coccyzus merlini
+258,HILC,COCLON,Hispaniolan Lizard-Cuckoo,Coccyzus longirostris
+259,SHTN,LURSEM,Short-tailed Nighthawk,Lurocalis semitorquatus
+260,LENI,CHOACU,Lesser Nighthawk,Chordeiles acutipennis
+261,CONI,CHOMIN,Common Nighthawk,Chordeiles minor
+262,ANNI,CHOGUN,Antillean Nighthawk,Chordeiles gundlachii
+263,COPA,NYCALB,Common Pauraque,Nyctidromus albicollis
+264,COPO,PHANUT,Common Poorwill,Phalaenoptilus nuttallii
+265,JAPA,SIPAME,Jamaican Pauraque,Siphonorhis americana
+266,LEPA,SIPBRE,Least Pauraque,Siphonorhis brewsteri
+267,EAPO,NYCMCL,Eared Poorwill,Nyctiphrynus mcleodii
+268,YUPO,NYCYUC,Yucatan Poorwill,Nyctiphrynus yucatanicus
+269,OCPO,NYCOCE,Ocellated Poorwill,Nyctiphrynus ocellatus
+270,CWWI,ANTCAR,Chuck-will's-widow,Antrostomus carolinensis
+271,RUNI,ANTRUF,Rufous Nightjar,Antrostomus rufus
+272,CUNI,ANTCUB,Cuban Nightjar,Antrostomus cubanensis
+273,HINI,ANTEKM,Hispaniolan Nightjar,Antrostomus ekmani
+274,TCNI,ANTSAL,Tawny-collared Nightjar,Antrostomus salvini
+275,YUNI,ANTBAD,Yucatan Nightjar,Antrostomus badius
+276,BCNI,ANTRID,Buff-collared Nightjar,Antrostomus ridgwayi
+277,EWPW,ANTVOC,Eastern Whip-poor-will,Antrostomus vociferus
+278,DUNI,ANTSAT,Dusky Nightjar,Antrostomus saturatus
+279,MWPW,ANTARI,Mexican Whip-poor-will,Antrostomus arizonae
+280,PRNI,ANTNOC,Puerto Rican Nightjar,Antrostomus noctitherus
+281,WTNI,HYDCAY,White-tailed Nightjar,Hydropsalis cayennensis
+282,SPTN,HYDMAU,Spot-tailed Nightjar,Hydropsalis maculicaudus
+283,GRNI,CAPJOT,Gray Nightjar,Caprimulgus jotaka
+284,OILB,STECAR,Oilbird,Steatornis caripensis
+285,GRPO,NYCGRA,Great Potoo,Nyctibius grandis
+286,CPOT,NYCGRI,Common Potoo,Nyctibius griseus
+287,NORP,NYCJAM,Northern Potoo,Nyctibius jamaicensis
+288,BLSW,CYPNIG,Black Swift,Cypseloides niger
+289,WFSW,CYPSTO,White-fronted Swift,Cypseloides storeri
+290,WCHS,CYPCRY,White-chinned Swift,Cypseloides cryptus
+291,SFSW,CYPCHE,Spot-fronted Swift,Cypseloides cherriei
+292,CCSW,STRRUT,Chestnut-collared Swift,Streptoprocne rutila
+293,WCSW,STRZON,White-collared Swift,Streptoprocne zonaris
+294,WNSW,STRSEM,White-naped Swift,Streptoprocne semicollaris
+295,GRSW,CHACIN,Gray-rumped Swift,Chaetura cinereiventris
+296,BRSW,CHASPI,Band-rumped Swift,Chaetura spinicaudus
+297,CRSW,CHAFUM,Costa Rican Swift,Chaetura fumosa
+298,LASW,CHAMAR,Lesser Antillean Swift,Chaetura martinica
+299,CHSW,CHAPEL,Chimney Swift,Chaetura pelagica
+300,VASW,CHAVAU,Vaux's Swift,Chaetura vauxi
+301,CHAS,CHACHA,Chapman's Swift,Chaetura chapmani
+302,SISW,CHAMER,Sick's Swift,Chaetura meridionalis
+303,STSW,CHABRA,Short-tailed Swift,Chaetura brachyura
+304,WTNE,HIRCAU,White-throated Needletail,Hirundapus caudacutus
+305,MASW,AERBAR,Mariana Swiftlet,Aerodramus bartschi
+306,COSW,APUAPU,Common Swift,Apus apus
+307,FTSW,APUPAC,Fork-tailed Swift,Apus pacificus
+308,ALSW,APUMEL,Alpine Swift,Apus melba
+309,WTSW,AERSAX,White-throated Swift,Aeronautes saxatalis
+310,LSTS,PANCAY,Lesser Swallow-tailed Swift,Panyptila cayennensis
+311,GSTS,PANSAN,Great Swallow-tailed Swift,Panyptila sanctihieronymi
+312,ANPS,TACPHO,Antillean Palm-Swift,Tachornis phoenicobia
+313,WNJA,FLOMEL,White-necked Jacobin,Florisuga mellivora
+314,WTSI,EUTAQU,White-tipped Sicklebill,Eutoxeres aquila
+315,BRHE,GLAAEN,Bronzy Hermit,Glaucis aeneus
+316,RBHE,GLAHIR,Rufous-breasted Hermit,Glaucis hirsutus
+317,BTBA,THRRUC,Band-tailed Barbthroat,Threnetes ruckeri
+318,GREH,PHAGUY,Green Hermit,Phaethornis guy
+319,MEHE,PHAMEX,Mexican Hermit,Phaethornis mexicanus
+320,LBIH,PHALON,Long-billed Hermit,Phaethornis longirostris
+321,PBHE,PHAANT,Pale-bellied Hermit,Phaethornis anthophilus
+322,STHR,PHASTR,Stripe-throated Hermit,Phaethornis striigularis
+323,GFRL,DORLUD,Green-fronted Lancebill,Doryfera ludovicae
+324,BRVI,COLDEL,Brown Violetear,Colibri delphinae
+325,MEVI,COLTHA,Mexican Violetear,Colibri thalassinus
+326,LEVI,COLCYA,Lesser Violetear,Colibri cyanotus
+327,TBHU,ANDAEQ,Tooth-billed Hummingbird,Androdon aequatorialis
+328,PCFA,HELBAR,Purple-crowned Fairy,Heliothryx barroti
+329,RTOH,CHRMOS,Ruby-topaz Hummingbird,Chrysolampis mosquitus
+330,GNBM,ANTPRE,Green-breasted Mango,Anthracothorax prevostii
+331,BTMA,ANTNIG,Black-throated Mango,Anthracothorax nigricollis
+332,VERM,ANTVER,Veraguan Mango,Anthracothorax veraguensis
+333,HIMA,ANTDOM,Hispaniolan Mango,Anthracothorax dominicus
+334,PRMA,ANTAUR,Puerto Rican Mango,Anthracothorax aurulentus
+335,GMAG,ANTVIR,Green Mango,Anthracothorax viridis
+336,JAMA,ANTMAN,Jamaican Mango,Anthracothorax mango
+337,PTCA,EULJUG,Purple-throated Carib,Eulampis jugularis
+338,GTCA,EULHOL,Green-throated Carib,Eulampis holosericeus
+339,GRET,DISCON,Green Thorntail,Discosura conversii
+340,SCCO,LOPBRA,Short-crested Coquette,Lophornis brachylophus
+341,RCRC,LOPDEL,Rufous-crested Coquette,Lophornis delattrei
+342,BCCO,LOPHEL,Black-crested Coquette,Lophornis helenae
+343,WCCO,LOPADO,White-crested Coquette,Lophornis adorabilis
+344,GRPU,HAPAUR,Greenish Puffleg,Haplophaedia aureliae
+345,GCBR,HELJAC,Green-crowned Brilliant,Heliodoxa jacula
+346,RIHU,EUGFUL,Rivoli's Hummingbird,Eugenes fulgens
+347,TAHU,EUGSPE,Talamanca Hummingbird,Eugenes spectabilis
+348,FTHU,PANINS,Fiery-throated Hummingbird,Panterpe insignis
+349,LBST,HELLON,Long-billed Starthroat,Heliomaster longirostris
+350,PCST,HELCON,Plain-capped Starthroat,Heliomaster constantii
+351,GTMG,LAMVIR,Green-throated Mountain-gem,Lampornis viridipallens
+352,GBMG,LAMSYB,Green-breasted Mountain-gem,Lampornis sybillae
+353,ATMG,LAMAME,Amethyst-throated Mountain-gem,Lampornis amethystinus
+354,BTMG,LAMCLE,Blue-throated Mountain-gem,Lampornis clemenciae
+355,WBMG,LAMHEM,White-bellied Mountain-gem,Lampornis hemileucus
+356,PTMG,LAMCAL,Purple-throated Mountain-gem,Lampornis calolaemus
+357,WTMG,LAMCAS,White-throated Mountain-gem,Lampornis castaneoventris
+358,GATH,LAMRHA,Garnet-throated Hummingbird,Lamprolaima rhami
+359,MTWO,PHIBRY,Magenta-throated Woodstar,Philodice bryantae
+360,PTWO,PHIMIT,Purple-throated Woodstar,Philodice mitchellii
+361,SLSH,DORENI,Slender Sheartail,Doricha enicura
+362,MESH,DORELI,Mexican Sheartail,Doricha eliza
+363,SKTH,TILDUP,Sparkling-tailed Hummingbird,Tilmatura dupontii
+364,LUHU,CALLUC,Lucifer Hummingbird,Calothorax lucifer
+365,BEAH,CALPUL,Beautiful Hummingbird,Calothorax pulcher
+366,RTHU,ARCCOL,Ruby-throated Hummingbird,Archilochus colubris
+367,BCHU,ARCALE,Black-chinned Hummingbird,Archilochus alexandri
+368,VEHU,MELMIN,Vervain Hummingbird,Mellisuga minima
+369,BEEH,MELHEL,Bee Hummingbird,Mellisuga helenae
+370,BAWO,NESEVE,Bahama Woodstar,Nesophlox evelynae
+371,INWO,NESLYR,Inagua Woodstar,Nesophlox lyrura
+372,ANHU,CALANN,Anna's Hummingbird,Calypte anna
+373,ACHH,CALANC,Anna's x Costa's Hummingbird Hybrid,Calypte anna x costae
+374,COHU,CALCOS,Costa's Hummingbird,Calypte costae
+375,CAHU,SELCAL,Calliope Hummingbird,Selasphorus calliope
+376,RUHU,SELRUF,Rufous Hummingbird,Selasphorus rufus
+377,RAHH,SELRUS,Rufous x Allen's Hummingbird Hybrid,Selasphorus rufus x sasin
+378,ALHU,SELSAS,Allen's Hummingbird,Selasphorus sasin
+379,BTHU,SELPLA,Broad-tailed Hummingbird,Selasphorus platycercus
+380,BUHU,SELHEL,Bumblebee Hummingbird,Selasphorus heloisa
+381,WTHH,SELELL,Wine-throated Hummingbird,Selasphorus ellioti
+382,VOHU,SELFLA,Volcano Hummingbird,Selasphorus flammula
+383,SCHU,SELSCI,Scintillant Hummingbird,Selasphorus scintilla
+384,GLTH,SELARD,Glow-throated Hummingbird,Selasphorus ardens
+385,USHU,SELSPS,Unidentified Selasphorus Hummingbird,Selaphorus (sp)
+386,DUHU,PHASOR,Dusky Hummingbird,Phaeoptila sordida
+387,CUEM,RICRIC,Cuban Emerald,Riccordia ricordii
+388,BREM,RICBRA,Brace's Emerald,Riccordia bracei
+389,HIEM,RICSWA,Hispaniolan Emerald,Riccordia swainsonii
+390,PREM,RICMAU,Puerto Rican Emerald,Riccordia maugaeus
+391,BHHU,RICBIC,Blue-headed Hummingbird,Riccordia bicolor
+392,BBIH,CYNLAT,Broad-billed Hummingbird,Cynanthus latirostris
+393,TMHU,CYNLAW,Tres Marias Hummingbird,Cynanthus lawrencei
+394,TCHU,CYNDOU,Turquoise-crowned Hummingbird,Cynanthus doubledayi
+395,GCEM,CYNAUR,Golden-crowned Emerald,Cynanthus auriceps
+396,COEM,CYNFOR,Cozumel Emerald,Cynanthus forficatus
+397,CAEM,CYNCAN,Canivet's Emerald,Cynanthus canivetii
+398,GAEM,CHLASS,Garden Emerald,Chlorostilbon assimilis
+399,WEHU,BASLEU,White-eared Hummingbird,Basilinna leucotis
+400,XAHU,BASXAN,Xantus's Hummingbird,Basilinna xantusii
+401,WTSA,PAMCUR,Wedge-tailed Sabrewing,Pampa curvipennis
+402,RUSA,PAMRUF,Rufous Sabrewing,Pampa rufa
+403,ECHU,ABEABE,Emerald-chinned Hummingbird,Abeillia abeillei
+404,VHHU,KLAGUI,Violet-headed Hummingbird,Klais guimeti
+405,ANCH,ORTCRI,Antillean Crested Hummingbird,Orthorhyncus cristatus
+406,VISA,CAMHEM,Violet Sabrewing,Campylopterus hemileucurus
+407,BTPL,CHAURO,Bronze-tailed Plumeleteer,Chalybura urochrysia
+408,WVPL,CHABUF,White-vented Plumeleteer,Chalybura buffonii
+409,CRWO,THACOL,Crowned Woodnymph,Thalurania colombica
+410,SNOC,MICALB,Snowcap,Microchera albocoronata
+411,CHEM,MICCUP,Coppery-headed Emerald,Microchera cupreiceps
+412,WTEM,MICCHI,White-tailed Emerald,Microchera chionura
+413,VCAH,GOLVIO,Violet-capped Hummingbird,Goldmania violiceps
+414,PIHU,GOLBEL,Pirre Hummingbird,Goldmania bella
+415,MEWO,EUPRID,Mexican Woodnymph,Eupherusa ridgwayi
+416,WTAH,EUPPOL,White-tailed Hummingbird,Eupherusa poliocerca
+417,BCAH,EUPCYP,Blue-capped Hummingbird,Eupherusa cyanophrys
+418,STHM,EUPEXI,Stripe-tailed Hummingbird,Eupherusa eximia
+419,BLBH,EUPNIG,Black-bellied Hummingbird,Eupherusa nigriventris
+420,SBRH,PHACUV,Scaly-breasted Hummingbird,Phaeochroa cuvierii
+421,RBST,TROPOL,Red-billed Streamertail,Trochilus polytmus
+422,BBST,TROSCI,Black-billed Streamertail,Trochilus scitulus
+423,VCHU,RAMVIO,Violet-crowned Hummingbird,Ramosomyia violiceps
+424,GFHU,RAMVIR,Green-fronted Hummingbird,Ramosomyia viridifrons
+425,AZCH,SAUCYC,Azure-crowned Hummingbird,Saucerottia cyanocephala
+426,BVHU,SAUHOF,Blue-vented Hummingbird,Saucerottia hoffmanni
+427,BEHU,SAUBER,Berylline Hummingbird,Saucerottia beryllina
+428,BTAH,SAUCYR,Blue-tailed Hummingbird,Saucerottia cyanura
+429,SBEH,SAUEDW,Snowy-bellied Hummingbird,Saucerottia edward
+430,CIHU,AMARUT,Cinnamon Hummingbird,Amazilia rutila
+431,BBEH,AMAYUC,Buff-bellied Hummingbird,Amazilia yucatanensis
+432,RTAH,AMATZA,Rufous-tailed Hummingbird,Amazilia tzacatl
+433,HOEM,AMALUC,Honduran Emerald,Amazilia luciae
+434,AMHU,AMZAMA,Amazilia Hummingbird,Amazilis amazilia
+435,MAHU,CHRBOU,Mangrove Hummingbird,Chrysuronia boucardi
+436,SHTH,CHYCOE,Sapphire-throated Hummingbird,Chrysuronia coeruleogularis
+437,HUSA,CHRHUM,Humboldt's Sapphire,Chrysuronia humboldtii
+438,BCHH,POLAMA,Blue-chested Hummingbird,Polyerata amabilis
+439,CHHU,POLDEC,Charming Hummingbird,Polyerata decora
+440,WBEM,CHLCAD,White-bellied Emerald,Chlorestes candida
+441,BTRG,CHLELI,Blue-throated Goldentail,Chlorestes eliciae
+442,VBHU,CHLJUL,Violet-bellied Hummingbird,Chlorestes julie
+443,HYHU,TROHYB,Hybrid Hummingbird,Trochilidae hybrid
+444,UNHU,TRCGSP,Unidentified Hummingbird,"Trochilidae (gen, sp)"
+445,UNIC,AMLCON,Uniform Crake,Amaurolimnas concolor
+446,RNWR,ARAAXI,Rufous-necked Wood-Rail,Aramides axillaris
+447,RSWR,ARAALB,Russet-naped Wood-Rail,Aramides albiventris
+448,GCWR,ARACAJ,Gray-cowled Wood-Rail,Aramides cajaneus
+449,RIRA,RALOBS,Ridgway's Rail,Rallus obsoletus
+450,CRRA,RALOBO,California Ridgway's Rail,Rallus obsoletus obsoletus
+451,LFRR,RALOBL,Light-footed Ridgway's Rail,Rallus obsoletus levipes
+452,YRRA,RALOBY,Yuma Ridgway's Rail,Rallus obsoletus yumanensis
+453,AZRA,RALTEN,Aztec Rail,Rallus tenuirostris
+454,MARA,RALLON,Mangrove Rail,Rallus longirostris
+455,KIRA,RALELE,King Rail,Rallus elegans
+456,CLRA,RALCRE,Clapper Rail,Rallus crepitans
+457,VIRA,RALLIM,Virginia Rail,Rallus limicola
+458,WEWR,RALAQU,Western Water-Rail,Rallus aquaticus
+459,CORC,CRECRE,Corn Crake,Crex crex
+460,SORA,PORCAR,Sora,Porzana carolina
+461,SPCR,PORPOZ,Spotted Crake,Porzana porzana
+462,COGA,GALGAT,Common Gallinule,Gallinula galeata
+463,HAGA,GALGSA,Hawaiian Gallinule,Gallinula galeata sandvicensis
+464,COMO,GALCHL,Common Moorhen,Gallinula chloropus
+465,EUCO,FULATR,Eurasian Coot,Fulica atra
+466,HACO,FULALA,Hawaiian Coot,Fulica alai
+467,AMCO,FULAME,American Coot,Fulica americana
+468,PUGA,PORMAR,Purple Gallinule,Porphyrio martinicus
+469,AZGA,PORFLA,Azure Gallinule,Porphyrio flavirostris
+470,PUSW,PORPOP,Purple Swamphen,Porphyrio porphyrio
+471,OCCR,RUFSCH,Ocellated Crake,Rufirallus schomburgkii
+472,YERA,COTNOV,Yellow Rail,Coturnicops noveboracensis
+473,YBCR,HAPFLA,Yellow-breasted Crake,Hapalocrex flaviventer
+474,RUCR,LATRUB,Ruddy Crake,Laterallus ruber
+475,WTCR,LATALB,White-throated Crake,Laterallus albigularis
+476,GBCR,LATEXI,Gray-breasted Crake,Laterallus exilis
+477,BLRA,LATJAM,Black Rail,Laterallus jamaicensis
+478,EBRA,LATJAJ,Eastern Black Rail,Laterallus jamaicensis jamaicensis
+479,CBRA,LATJAC,California Black Rail,Laterallus jamaicensis coturniculus
+480,LARA,ZAPPAL,Laysan Rail,Zapornia palmeri
+481,HARA,ZAPSAN,Hawaiian Rail,Zapornia sandwichensis
+482,SUNG,HELFUL,Sungrebe,Heliornis fulica
+483,LIMP,ARAGUA,Limpkin,Aramus guarauna
+484,SACR,ANTCAN,Sandhill Crane,Antigone canadensis
+485,MSCR,ANTCAP,Mississippi Sandhill Crane,Antigone canadensis pulla
+486,CCRA,GRUGRU,Common Crane,Grus grus
+487,HOCR,GRUMON,Hooded Crane,Grus monacha
+488,WHCR,GRUAME,Whooping Crane,Grus americana
+489,DSTK,HESBIS,Double-striped Thick-knee,Hesperoburhinus bistriatus
+490,BWST,HIMHIM,Black-winged Stilt,Himantopus himantopus
+491,BNST,HIMMEX,Black-necked Stilt,Himantopus mexicanus
+492,HAST,HIMMKN,Hawaiian Stilt,Himantopus mexicanus knudseni
+493,AMAV,RECAME,American Avocet,Recurvirostra americana
+494,EUOY,HAEOST,Eurasian Oystercatcher,Haematopus ostralegus
+495,AMOY,HAEPAL,American Oystercatcher,Haematopus palliatus
+496,BLOY,HAEBAC,Black Oystercatcher,Haematopus bachmani
+497,BBPL,PLUSQU,Black-bellied Plover,Pluvialis squatarola
+498,EUGP,PLUAPR,European Golden-Plover,Pluvialis apricaria
+499,AMGP,PLUDOM,American Golden-Plover,Pluvialis dominica
+500,LEGP,PLUDOF,Lesser Golden-Plover,Pluvialis dominica/fulva
+501,PAGP,PLUFUL,Pacific Golden-Plover,Pluvialis fulva
+502,EUDO,EUDMOR,Eurasian Dotterel,Eudromias morinellus
+503,KILL,CHAVOC,Killdeer,Charadrius vociferus
+504,CRPL,CHAHIA,Common Ringed Plover,Charadrius hiaticula
+505,SEPL,CHASEM,Semipalmated Plover,Charadrius semipalmatus
+506,PIPL,CHAMEL,Piping Plover,Charadrius melodus
+507,LRPL,CHADUB,Little Ringed Plover,Charadrius dubius
+508,NOLA,VANVAN,Northern Lapwing,Vanellus vanellus
+509,SOLA,VANCHI,Southern Lapwing,Vanellus chilensis
+510,SISP,ANAMOG,Siberian Sand-Plover,Anarhynchus mongolus
+511,GSAP,ANALES,Greater Sand-Plover,Anarhynchus leschenaultii
+512,ORPL,ANAVER,Oriental Plover,Anarhynchus veredus
+513,WIPL,ANAWIL,Wilson's Plover,Anarhynchus wilsonia
+514,COPL,ANACOL,Collared Plover,Anarhynchus collaris
+515,MOPL,ANAMON,Mountain Plover,Anarhynchus montanus
+516,SNPL,ANANIV,Snowy Plover,Anarhynchus nivosus
+517,WSPL,ANANIN,Western Snowy Plover,Anarhynchus nivosus nivosus
+518,NOJA,JACSPI,Northern Jacana,Jacana spinosa
+519,WAJA,JACJAC,Wattled Jacana,Jacana jacana
+520,UPSA,BARLON,Upland Sandpiper,Bartramia longicauda
+521,BTCU,NUMTAH,Bristle-thighed Curlew,Numenius tahitiensis
+522,WHIM,NUMPHA,Whimbrel,Numenius phaeopus
+523,LICU,NUMMIN,Little Curlew,Numenius minutus
+524,ESCU,NUMBOR,Eskimo Curlew,Numenius borealis
+525,LBCU,NUMAME,Long-billed Curlew,Numenius americanus
+526,FECU,NUMMAD,Far Eastern Curlew,Numenius madagascariensis
+527,SBCU,NUMTEN,Slender-billed Curlew,Numenius tenuirostris
+528,EUCU,NUMARQ,Eurasian Curlew,Numenius arquata
+529,BTGO,LIMLAP,Bar-tailed Godwit,Limosa lapponica
+530,BLTG,LIMLIM,Black-tailed Godwit,Limosa limosa
+531,HUGO,LIMHAE,Hudsonian Godwit,Limosa haemastica
+532,MAGO,LIMFED,Marbled Godwit,Limosa fedoa
+533,RUTU,AREINT,Ruddy Turnstone,Arenaria interpres
+534,BLTU,AREMEL,Black Turnstone,Arenaria melanocephala
+535,GRKN,CALTEN,Great Knot,Calidris tenuirostris
+536,REKN,CALCAN,Red Knot,Calidris canutus
+537,RRKN,CALCAR,Rufa Red Knot,Calidris canutus rufa
+538,SURF,CALVIR,Surfbird,Calidris virgata
+539,RUFF,CALPUG,Ruff,Calidris pugnax
+540,BBIS,CALFAL,Broad-billed Sandpiper,Calidris falcinellus
+541,SPTS,CALACU,Sharp-tailed Sandpiper,Calidris acuminata
+542,STSA,CALHIM,Stilt Sandpiper,Calidris himantopus
+543,CUSA,CALFER,Curlew Sandpiper,Calidris ferruginea
+544,TEST,CALTEM,Temminck's Stint,Calidris temminckii
+545,LTST,CALSUM,Long-toed Stint,Calidris subminuta
+546,SBSA,CALPYG,Spoon-billed Sandpiper,Calidris pygmea
+547,RNST,CALRUF,Red-necked Stint,Calidris ruficollis
+548,SAND,CALALB,Sanderling,Calidris alba
+549,DUNL,CALALP,Dunlin,Calidris alpina
+550,ROSA,CALPTI,Rock Sandpiper,Calidris ptilocnemis
+551,PUSA,CALMAR,Purple Sandpiper,Calidris maritima
+552,BASA,CALBAI,Baird's Sandpiper,Calidris bairdii
+553,LIST,CALMIA,Little Stint,Calidris minuta
+554,LESA,CALMIL,Least Sandpiper,Calidris minutilla
+555,WRSA,CALFUS,White-rumped Sandpiper,Calidris fuscicollis
+556,BBSA,CALSUR,Buff-breasted Sandpiper,Calidris subruficollis
+557,PESA,CALMET,Pectoral Sandpiper,Calidris melanotos
+558,SESA,CALPUS,Semipalmated Sandpiper,Calidris pusilla
+559,WESA,CALMAU,Western Sandpiper,Calidris mauri
+560,SBDO,LIMGRI,Short-billed Dowitcher,Limnodromus griseus
+561,LBDO,LIMSCO,Long-billed Dowitcher,Limnodromus scolopaceus
+562,UNDO,LIMSPE,Unidentified Dowitcher,Limnodromus sp.
+563,JASN,LYMMIN,Jack Snipe,Lymnocryptes minimus
+564,EUWO,SCORUS,Eurasian Woodcock,Scolopax rusticola
+565,AMWO,SCOMIN,American Woodcock,Scolopax minor
+566,SOSN,GALSOL,Solitary Snipe,Gallinago solitaria
+567,PTSN,GALSTE,Pin-tailed Snipe,Gallinago stenura
+568,COSN,GALGAN,Common Snipe,Gallinago gallinago
+569,WISN,GALDEL,Wilson's Snipe,Gallinago delicata
+570,TESA,XENCIN,Terek Sandpiper,Xenus cinereus
+571,COSA,ACTHYP,Common Sandpiper,Actitis hypoleucos
+572,SPSA,ACTMAC,Spotted Sandpiper,Actitis macularius
+573,GRSA,TRIOCH,Green Sandpiper,Tringa ochropus
+574,SOSA,TRISOL,Solitary Sandpiper,Tringa solitaria
+575,GTTA,TRIBRE,Gray-tailed Tattler,Tringa brevipes
+576,WATA,TRIINC,Wandering Tattler,Tringa incana
+577,LEYE,TRIFLA,Lesser Yellowlegs,Tringa flavipes
+578,WILL,TRISEM,Willet,Tringa semipalmata
+579,SPRE,TRIERY,Spotted Redshank,Tringa erythropus
+580,COMG,TRINEB,Common Greenshank,Tringa nebularia
+581,GRYE,TRIMEL,Greater Yellowlegs,Tringa melanoleuca
+582,CREH,TRITOT,Common Redshank,Tringa totanus
+583,WOSA,TRIGLA,Wood Sandpiper,Tringa glareola
+584,MASA,TRISTA,Marsh Sandpiper,Tringa stagnatilis
+585,WIPH,PHATRI,Wilson's Phalarope,Phalaropus tricolor
+586,RNPH,PHALOB,Red-necked Phalarope,Phalaropus lobatus
+587,REPH,PHAFUL,Red Phalarope,Phalaropus fulicarius
+588,COPR,GLAPRA,Collared Pratincole,Glareola pratincola
+589,ORPR,GLAMAL,Oriental Pratincole,Glareola maldivarum
+590,GRSK,STESKU,Great Skua,Stercorarius skua
+591,SPSK,STEMAC,South Polar Skua,Stercorarius maccormicki
+592,POJA,STEPOM,Pomarine Jaeger,Stercorarius pomarinus
+593,PAJA,STEPAS,Parasitic Jaeger,Stercorarius parasiticus
+594,LTJA,STELON,Long-tailed Jaeger,Stercorarius longicaudus
+595,DOVE,ALLALL,Dovekie,Alle alle
+596,COMU,URIAAL,Common Murre,Uria aalge
+597,TBMU,URILOM,Thick-billed Murre,Uria lomvia
+598,RAZO,ALCTOR,Razorbill,Alca torda
+599,GRAU,PINIMP,Great Auk,Pinguinus impennis
+600,BLGU,CEPGRY,Black Guillemot,Cepphus grylle
+601,PIGU,CEPCOL,Pigeon Guillemot,Cepphus columba
+602,LBMU,BRAPER,Long-billed Murrelet,Brachyramphus perdix
+603,MAMU,BRAMAR,Marbled Murrelet,Brachyramphus marmoratus
+604,AMMU,BRAMAA,Alaska Marbled Murrelet,Brachyramphus marmoratus
+605,KIMU,BRABRE,Kittlitz's Murrelet,Brachyramphus brevirostris
+606,SCMU,SYNSCR,Scripps's Murrelet,Synthliboramphus scrippsi
+607,GUMU,SYNHYP,Guadalupe Murrelet,Synthliboramphus hypoleucus
+608,CRMU,SYNCRA,Craveri's Murrelet,Synthliboramphus craveri
+609,ANMU,SYNANT,Ancient Murrelet,Synthliboramphus antiquus
+610,CAAU,PTYALE,Cassin's Auklet,Ptychoramphus aleuticus
+611,PAAU,AETPSI,Parakeet Auklet,Aethia psittacula
+612,LEAU,AETPUS,Least Auklet,Aethia pusilla
+613,WHAU,AETPYG,Whiskered Auklet,Aethia pygmaea
+614,CRAU,AETCRI,Crested Auklet,Aethia cristatella
+615,RHAU,CERMON,Rhinoceros Auklet,Cerorhinca monocerata
+616,ATPU,FRAARC,Atlantic Puffin,Fratercula arctica
+617,HOPU,FRACOR,Horned Puffin,Fratercula corniculata
+618,TUPU,FRACIR,Tufted Puffin,Fratercula cirrhata
+619,STGU,CREFUR,Swallow-tailed Gull,Creagrus furcatus
+620,BLKI,RISTRI,Black-legged Kittiwake,Rissa tridactyla
+621,RLKI,RISBRE,Red-legged Kittiwake,Rissa brevirostris
+622,IVGU,PAGEBU,Ivory Gull,Pagophila eburnea
+623,SAGU,XEMSAB,Sabine's Gull,Xema sabini
+624,BOGU,CHRPHI,Bonaparte's Gull,Chroicocephalus philadelphia
+625,GHGU,CHRCIR,Gray-hooded Gull,Chroicocephalus cirrocephalus
+626,BHGU,CHRRID,Black-headed Gull,Chroicocephalus ridibundus
+627,LIGU,HYDMIN,Little Gull,Hydrocoloeus minutus
+628,ROGU,RHSROS,Ross's Gull,Rhodostethia rosea
+629,GRGU,LEUMOD,Gray Gull,Leucophaeus modestus
+630,LAGU,LEUATC,Laughing Gull,Leucophaeus atricilla
+631,FRGU,LEUPIP,Franklin's Gull,Leucophaeus pipixcan
+632,PAGU,ICHICH,Pallas's Gull,Ichthyaetus ichthyaetus
+633,BEGU,LARBEL,Belcher's Gull,Larus belcheri
+634,BTGU,LARCRA,Black-tailed Gull,Larus crassirostris
+635,HEEG,LARHEE,Heermann's Gull,Larus heermanni
+636,COGU,LARCAN,Common Gull,Larus canus
+637,SBIG,LARBRA,Short-billed Gull,Larus brachyrhynchus
+638,RBGU,LARDEL,Ring-billed Gull,Larus delawarensis
+639,WEGU,LAROCC,Western Gull,Larus occidentalis
+640,WGWH,LAROCG,Western X Glaucous-winged Gull Hybrid,Larus occidentalis x glaucescens
+641,YFGU,LARLIV,Yellow-footed Gull,Larus livens
+642,CAGU,LARCAL,California Gull,Larus californicus
+643,HERG,LARARG,Herring Gull,Larus argentatus
+644,YLGU,LARMIC,Yellow-legged Gull,Larus michahellis
+645,ICGU,LARGLD,Iceland Gull,Larus glaucoides
+646,THGU,LARGTH,Thayer's Gull,Larus glaucoides thayeri
+647,TKGU,LARGTK,Thayer's/Kumlien's Gull,Larus glaucoides thayeri/kumlieni
+648,KUGU,LARGKU,Kumlien's Gull,Larus glaucoides kumlieni
+649,LBBG,LARFUS,Lesser Black-backed Gull,Larus fuscus
+650,SBAG,LARSCH,Slaty-backed Gull,Larus schistisagus
+651,GWGU,LARGLS,Glaucous-winged Gull,Larus glaucescens
+652,GLGU,LARHYP,Glaucous Gull,Larus hyperboreus
+653,GBBG,LARMAR,Great Black-backed Gull,Larus marinus
+654,KEGU,LARDOM,Kelp Gull,Larus dominicanus
+655,UNLG,LARSPE,Unidentified Larus Gull,Larus (sp)
+656,BRNO,ANOSTO,Brown Noddy,Anous stolidus
+657,BLNO,ANOMIN,Black Noddy,Anous minutus
+658,BGNO,ANOCER,Blue-gray Noddy,Anous ceruleus
+659,WHTT,GYGALB,White Tern,Gygis alba
+660,SOTE,ONYFUS,Sooty Tern,Onychoprion fuscatus
+661,GBAT,ONYLUN,Gray-backed Tern,Onychoprion lunatus
+662,BRTE,ONYANA,Bridled Tern,Onychoprion anaethetus
+663,ALTE,ONYALE,Aleutian Tern,Onychoprion aleuticus
+664,LITE,STEALB,Little Tern,Sternula albifrons
+665,LETE,STEANT,Least Tern,Sternula antillarum
+666,ILTE,STEANA,Interior Least Tern,Sternula antillarum athalassos
+667,CLTE,STEANB,California Least Tern,Sternula antillarum browni
+668,YBTE,STESUP,Yellow-billed Tern,Sternula superciliaris
+669,LBTE,PHASIM,Large-billed Tern,Phaetusa simplex
+670,GBTE,GELNIL,Gull-billed Tern,Gelochelidon nilotica
+671,CATE,HYDCAP,Caspian Tern,Hydroprogne caspia
+672,INTE,LARINC,Inca Tern,Larosterna inca
+673,BLTE,CHLNIG,Black Tern,Chlidonias niger
+674,WWTE,CHLLEU,White-winged Tern,Chlidonias leucopterus
+675,WHST,CHLHYB,Whiskered Tern,Chlidonias hybrida
+676,ROST,STEDOU,Roseate Tern,Sterna dougallii
+677,COTE,STEHIR,Common Tern,Sterna hirundo
+678,ARTE,STEPAD,Arctic Tern,Sterna paradisaea
+679,FOTE,STEFOR,Forster's Tern,Sterna forsteri
+680,ROYT,THAMAX,Royal Tern,Thalasseus maximus
+681,GCTE,THABER,Great Crested Tern,Thalasseus bergii
+682,SATE,THASAN,Sandwich Tern,Thalasseus sandvicensis
+683,CAYT,THASAE,Cayenne Tern,Thalasseus sandvicensis eurygnathus
+684,ELTE,THAELE,Elegant Tern,Thalasseus elegans
+685,BLSK,RYNNIG,Black Skimmer,Rynchops niger
+686,SUNB,EURHEL,Sunbittern,Eurypyga helias
+687,WTTR,PHALEP,White-tailed Tropicbird,Phaethon lepturus
+688,RBTR,PHAAET,Red-billed Tropicbird,Phaethon aethereus
+689,RTTR,PHARUB,Red-tailed Tropicbird,Phaethon rubricauda
+690,RTLO,GAVSTE,Red-throated Loon,Gavia stellata
+691,ARLO,GAVARC,Arctic Loon,Gavia arctica
+692,PALO,GAVPAC,Pacific Loon,Gavia pacifica
+693,COLO,GAVIMM,Common Loon,Gavia immer
+694,YBLO,GAVADA,Yellow-billed Loon,Gavia adamsii
+695,YNAL,THACHL,Yellow-nosed Albatross,Thalassarche chlororhynchos
+696,WCAL,THACAU,White-capped Albatross,Thalassarche cauta
+697,CHAL,THAERE,Chatham Albatross,Thalassarche eremita
+698,SAAL,THASAL,Salvin's Albatross,Thalassarche salvini
+699,BBAL,THAMEL,Black-browed Albatross,Thalassarche melanophris
+700,LMAL,PHOPAL,Light-mantled Albatross,Phoebetria palpebrata
+701,WAAL,DIOEXU,Wandering Albatross,Diomedea exulans
+702,LAAL,PHOIMM,Laysan Albatross,Phoebastria immutabilis
+703,LBFH,PHOIMN,Laysan X Black-foot. Albatross Hybrid,Phoebastria immutabilis x nigripes
+704,BFAL,PHONIG,Black-footed Albatross,Phoebastria nigripes
+705,WAVA,PHOIRR,Waved Albatross,Phoebastria irrorata
+706,STAL,PHOALB,Short-tailed Albatross,Phoebastria albatrus
+707,WISP,OCEOCE,Wilson's Storm-Petrel,Oceanites oceanicus
+708,WFSP,PELMAR,White-faced Storm-Petrel,Pelagodroma marina
+709,BBSP,FRETRO,Black-bellied Storm-Petrel,Fregetta tropica
+710,EUSP,HYDPEL,European Storm-Petrel,Hydrobates pelagicus
+711,FTSP,HYDFUR,Fork-tailed Storm-Petrel,Hydrobates furcatus
+712,RISP,HYDHOR,Ringed Storm-Petrel,Hydrobates hornbyi
+713,SSTP,HYDMON,Swinhoe's Storm-Petrel,Hydrobates monorhis
+714,LESP,HYDLEU,Leach's Storm-Petrel,Hydrobates leucorhous
+715,TOSP,HYDSOC,Townsend's Storm-Petrel,Hydrobates socorroensis
+716,AISP,HYDCHE,Ainley's Storm-Petrel,Hydrobates cheimomnestes
+717,ASSP,HYDHOM,Ashy Storm-Petrel,Hydrobates homochroa
+718,BSTP,HYDCAT,Band-rumped Storm-Petrel,Hydrobates castro
+719,WRSP,HYDTET,Wedge-rumped Storm-Petrel,Hydrobates tethys
+720,BLSP,HYDMEL,Black Storm-Petrel,Hydrobates melania
+721,GUSP,HYDMAD,Guadalupe Storm-Petrel,Hydrobates macrodactylus
+722,MASP,HYDMAR,Markham's Storm-Petrel,Hydrobates markhami
+723,TRSP,HYDTRI,Tristram's Storm-Petrel,Hydrobates tristrami
+724,LSTP,HYDMIC,Least Storm-Petrel,Hydrobates microsoma
+725,NOGP,MACHAL,Northern Giant-Petrel,Macronectes halli
+726,NOFU,FULGLA,Northern Fulmar,Fulmarus glacialis
+727,GFPE,PTEGOU,Gray-faced Petrel,Pterodroma gouldi
+728,PRPE,PTESOL,Providence Petrel,Pterodroma solandri
+729,KEPE,PTENEG,Kermadec Petrel,Pterodroma neglecta
+730,TRPE,PTEARM,Trindade Petrel,Pterodroma arminjoniana
+731,HEPE,PTEHER,Herald Petrel,Pterodroma heraldica
+732,MUPE,PTEULT,Murphy's Petrel,Pterodroma ultima
+733,MOPE,PTEINE,Mottled Petrel,Pterodroma inexpectata
+734,BEPE,PTECAH,Bermuda Petrel,Pterodroma cahow
+735,JPET,PTECAR,Jamaican Petrel,Pterodroma caribbaea
+736,BCPE,PTEHAS,Black-capped Petrel,Pterodroma hasitata
+737,JFPE,PTEEXT,Juan Fernandez Petrel,Pterodroma externa
+738,GAPE,PTEPHA,Galapagos Petrel,Pterodroma phaeopygia
+739,HAPE,PTESAN,Hawaiian Petrel,Pterodroma sandwichensis
+740,WNPE,PTECER,White-necked Petrel,Pterodroma cervicalis
+741,BOPE,PTEHYP,Bonin Petrel,Pterodroma hypoleuca
+742,BWPE,PTENIG,Black-winged Petrel,Pterodroma nigripennis
+743,FEPE,PTEFEA,Fea's Petrel,Pterodroma feae
+744,ZIPE,PTEMAD,Zino's Petrel,Pterodroma madeira
+745,COPE,PTECOO,Cook's Petrel,Pterodroma cookii
+746,STPE,PTELON,Stejneger's Petrel,Pterodroma longirostris
+747,TAPE,PSEROS,Tahiti Petrel,Pseudobulweria rostrata
+748,BUPE,BULBUL,Bulwer's Petrel,Bulweria bulwerii
+749,JOPE,BULFAL,Jouanin's Petrel,Bulweria fallax
+750,WCPE,PROAEQ,White-chinned Petrel,Procellaria aequinoctialis
+751,PAPE,PROPAR,Parkinson's Petrel,Procellaria parkinsoni
+752,STRS,CALLEU,Streaked Shearwater,Calonectris leucomelas
+753,SCSH,CALDIO,Scopoli's Shearwater,Calonectris diomedea
+754,CORS,CALBOR,Cory's Shearwater,Calonectris borealis
+755,CVSH,CALEDW,Cape Verde Shearwater,Calonectris edwardsii
+756,WTSH,ARDPAC,Wedge-tailed Shearwater,Ardenna pacifica
+757,BULS,ARDBUL,Buller's Shearwater,Ardenna bulleri
+758,STTS,ARDTEN,Short-tailed Shearwater,Ardenna tenuirostris
+759,SOSH,ARDGRI,Sooty Shearwater,Ardenna grisea
+760,GRSH,ARDGRA,Great Shearwater,Ardenna gravis
+761,PFSH,ARDCRE,Pink-footed Shearwater,Ardenna creatopus
+762,FFSH,ARDCAR,Flesh-footed Shearwater,Ardenna carneipes
+763,CHSH,PUFNAT,Christmas Shearwater,Puffinus nativitatis
+764,GASH,PUFSUB,Galapagos Shearwater,Puffinus subalaris
+765,MASH,PUFPUF,Manx Shearwater,Puffinus puffinus
+766,TOSH,PUFAUR,Townsend's Shearwater,Puffinus auricularis
+767,NESH,PUFNEW,Newell's Shearwater,Puffinus newelli
+768,BRYS,PUFBRY,Bryan's Shearwater,Puffinus bryani
+769,BVSH,PUFOPI,Black-vented Shearwater,Puffinus opisthomelas
+770,SASH,PUFLHE,Sargasso Shearwater,Puffinus lherminieri
+771,BASH,PUFBAR,Barolo Shearwater,Puffinus baroli
+772,MAST,JCICMA,Maguari Stork,Ciconia maguari
+773,JABI,JABMYC,Jabiru,Jabiru mycteria
+774,WOST,MYCAME,Wood Stork,Mycteria americana
+775,LEFR,FREARI,Lesser Frigatebird,Fregata ariel
+776,MAFR,FREMAG,Magnificent Frigatebird,Fregata magnificens
+777,GREF,FREMIN,Great Frigatebird,Fregata minor
+778,MABO,SULDAC,Masked Booby,Sula dactylatra
+779,NABO,SULGRA,Nazca Booby,Sula granti
+780,BFBO,SULNEB,Blue-footed Booby,Sula nebouxii
+781,PEBO,SULVAR,Peruvian Booby,Sula variegata
+782,BRBO,SULLEU,Brown Booby,Sula leucogaster
+783,COBO,SULBRE,Cocos Booby,Sula brewsteri
+784,RFBO,SULSUL,Red-footed Booby,Sula sula
+785,NOGA,MORBAS,Northern Gannet,Morus bassanus
+786,ANHI,ANHANH,Anhinga,Anhinga anhinga
+787,BRAC,URIPEN,Brandt's Cormorant,Urile penicillatus
+788,RFCO,URIURI,Red-faced Cormorant,Urile urile
+789,PECO,URIPEL,Pelagic Cormorant,Urile pelagicus
+790,GRCO,PHACAR,Great Cormorant,Phalacrocorax carbo
+791,DCCO,NANAUR,Double-crested Cormorant,Nannopterum auritum
+792,NECO,NANBRA,Neotropic Cormorant,Nannopterum brasilianum
+793,AWPE,PELERY,American White Pelican,Pelecanus erythrorhynchos
+794,BRPE,PELOCC,Brown Pelican,Pelecanus occidentalis
+795,RTHE,TIGLIN,Rufescent Tiger-Heron,Tigrisoma lineatum
+796,BTTH,TIGMEX,Bare-throated Tiger-Heron,Tigrisoma mexicanum
+797,FTHE,TIGFAS,Fasciated Tiger-Heron,Tigrisoma fasciatum
+798,BBHE,COCCOL,Boat-billed Heron,Cochlearius cochlearius
+799,AGHE,AGAAGA,Agami Heron,Agamia agami
+800,LEBI,BOTEXI,Least Bittern,Botaurus exilis
+801,AMBI,BOTLEN,American Bittern,Botaurus lentiginosus
+802,PIBI,BOTPIN,Pinnated Bittern,Botaurus pinnatus
+803,LIBI,BOTMIN,Little Bittern,Botarus minutus
+804,YEBI,BOTSIN,Yellow Bittern,Botaurus sinensis
+805,CAHE,PILPIL,Capped Heron,Pilherodius pileatus
+806,WHHE,SYRSIB,Whistling Heron,Syrigma sibilatrix
+807,LBHE,EGRCAE,Little Blue Heron,Egretta caerulea
+808,TRHE,EGRTRI,Tricolored Heron,Egretta tricolor
+809,REEG,EGRRUF,Reddish Egret,Egretta rufescens
+810,CHEG,EGREUL,Chinese Egret,Egretta eulophotes
+811,SNEG,EGRTHU,Snowy Egret,Egretta thula
+812,LIEG,EGRGAR,Little Egret,Egretta garzetta
+813,WERH,EGRGUL,Western Reef-Heron,Egretta gularis
+814,YCNH,NYCVIO,Yellow-crowned Night Heron,Nyctanassa violacea
+815,BCNH,NYCNYC,Black-crowned Night Heron,Nycticorax nycticorax
+816,STRH,BUTSTR,Striated Heron,Butorides striata
+817,GRHE,BUTVIR,Green Heron,Butorides virescens
+818,CHPH,ARDBAC,Chinese Pond-Heron,Ardeola bacchus
+819,GREG,ARDALB,Great Egret,Ardea alba
+820,MEEG,ARDINT,Medium Egret,Ardea intermedia
+821,WECE,ARDIBI,Western Cattle-Egret,Ardea ibis
+822,EACE,ARDCOR,Eastern Cattle-Egret,Ardea coromanda
+823,GRAH,ARDCIN,Gray Heron,Ardea cinerea
+824,GBHE,ARDHER,Great Blue Heron,Ardea herodias
+825,GWHE,ARDHOC,Great White Heron,Ardea herodias occidentalis
+826,COHE,ARDCOC,Cocoi Heron,Ardea cocoi
+827,PUHE,ARDPUR,Purple Heron,Ardea purpurea
+828,WHIB,EUDALB,White Ibis,Eudocimus albus
+829,SCIB,EUDRUB,Scarlet Ibis,Eudocimus ruber
+830,GLIB,PLEFAL,Glossy Ibis,Plegadis falcinellus
+831,WFIB,PLECHI,White-faced Ibis,Plegadis chihi
+832,GRIB,MESCAY,Green Ibis,Mesembrinibis cayennensis
+833,BNIB,THECAU,Buff-necked Ibis,Theristicus caudatus
+834,EURS,PLALEU,Eurasian Spoonbill,Platalea leucorodia
+835,ROSP,PLAAJA,Roseate Spoonbill,Platalea ajaja
+836,CACO,GYMCAL,California Condor,Gymnogyps californianus
+837,KIVU,SARPAP,King Vulture,Sarcoramphus papa
+838,BLVU,CORATR,Black Vulture,Coragyps atratus
+839,TUVU,CAEAUR,Turkey Vulture,Cathartes aura
+840,LYHV,CATBUR,Lesser Yellow-headed Vulture,Cathartes burrovianus
+841,OSPR,PANHAL,Osprey,Pandion haliaetus
+842,PEKI,GAMSWA,Pearl Kite,Gampsonyx swainsonii
+843,WTKI,ELALEU,White-tailed Kite,Elanus leucurus
+844,HBKI,CHOUNC,Hook-billed Kite,Chondrohierax uncinatus
+845,CUKI,CHOWIL,Cuban Kite,Chondrohierax wilsonii
+846,GHKI,LEPCAY,Gray-headed Kite,Leptodon cayanensis
+847,STKI,ELAFOR,Swallow-tailed Kite,Elanoides forficatus
+848,CREA,MORGUI,Crested Eagle,Morphnus guianensis
+849,HAEA,HARHAR,Harpy Eagle,Harpia harpyja
+850,GOEA,AQUCHR,Golden Eagle,Aquila chrysaetos
+851,BLHE,SPITYR,Black Hawk-Eagle,Spizaetus tyrannus
+852,BAWH,SPIMEL,Black-and-white Hawk-Eagle,Spizaetus melanoleucus
+853,ORHE,SPIORN,Ornate Hawk-Eagle,Spizaetus ornatus
+854,DTKI,HARBID,Double-toothed Kite,Harpagus bidentatus
+855,TIHA,MICSUP,Tiny Hawk,Microspizias superciliosus
+856,NOHA,CIRHUD,Northern Harrier,Circus hudsonius
+857,LWHA,CIRBUF,Long-winged Harrier,Circus buffoni
+858,WMHA,CIRAER,Western Marsh Harrier,Circus aeruginosus
+859,GBEH,ACCPOL,Gray-bellied Hawk,Accipiter poliogaster
+860,CHIS,ACCSOL,Chinese Sparrowhawk,Accipiter soloensis
+861,SSHA,ACCSTR,Sharp-shinned Hawk,Accipiter striatus
+862,PSSH,ACCSTV,Puerto Rican Sharp-shinned Hawk,Accipiter striatus venator
+863,COHA,ACCCOO,Cooper's Hawk,Accipiter cooperii
+864,GUHA,ACCGUN,Gundlach's Hawk,Accipiter gundlachi
+865,BIHA,ACCBIC,Bicolored Hawk,Accipiter bicolor
+866,EGOS,ACCGEN,Eurasian Goshawk,Accipiter gentilis
+867,AGOS,ACCATR,American Goshawk,Accipiter atricapillus
+868,UAHA,ACCSPE,Unidentified Accipiter Hawk,Accipiter (sp)
+869,BLAK,MILMIG,Black Kite,Milvus migrans
+870,BAEA,HALLEU,Bald Eagle,Haliaeetus leucocephalus
+871,WTEA,HALALB,White-tailed Eagle,Haliaeetus albicilla
+872,STSE,HALPEL,Steller's Sea-Eagle,Haliaeetus pelagicus
+873,MIKI,ICTMIS,Mississippi Kite,Ictinia mississippiensis
+874,PLKI,ICTPLU,Plumbeous Kite,Ictinia plumbea
+875,BCHA,BUSNIG,Black-collared Hawk,Busarellus nigricollis
+876,CRHA,GERCAE,Crane Hawk,Geranospiza caerulescens
+877,SNKI,ROSSOC,Snail Kite,Rostrhamus sociabilis
+878,SBKI,HELHAM,Slender-billed Kite,Helicolestes hamatus
+879,PLHA,CRYPLU,Plumbeous Hawk,Cryptoleucopteryx plumbea
+880,COBH,BUTANT,Common Black Hawk,Buteogallus anthracinus
+881,CUBH,BUTGUN,Cuban Black Hawk,Buteogallus gundlachii
+882,SAHA,BUTMER,Savanna Hawk,Buteogallus meridionalis
+883,GBHA,BUTURU,Great Black Hawk,Buteogallus urubitinga
+884,SOEA,BUGSOL,Solitary Eagle,Buteogallus solitarius
+885,BAHA,MORPRI,Barred Hawk,Morphnarchus princeps
+886,ROHA,RUPMAG,Roadside Hawk,Rupornis magnirostris
+887,HAHA,PARUNI,Harris's Hawk,Parabuteo unicinctus
+888,WTHA,GERALB,White-tailed Hawk,Geranoaetus albicaudatus
+889,WHHA,PSEALB,White Hawk,Pseudastur albicollis
+890,SEHA,LEUSEL,Semiplumbeous Hawk,Leucopternis semiplumbeus
+891,GRHA,BUTPLG,Gray Hawk,Buteo plagiatus
+892,GLHA,BUTNIT,Gray-lined Hawk,Buteo nitidus
+893,RSHA,BUTLIN,Red-shouldered Hawk,Buteo lineatus
+894,RIHA,BUTRID,Ridgway's Hawk,Buteo ridgwayi
+895,BWHA,BUTPLT,Broad-winged Hawk,Buteo platypterus
+896,PBWH,BUTPLB,Puerto Rican Broad-winged Hawk,Buteo platypterus brunnescens
+897,HAWH,BUESOL,Hawaiian Hawk,Buteo solitarius
+898,STHA,BUTBRA,Short-tailed Hawk,Buteo brachyurus
+899,SWHA,BUTSWA,Swainson's Hawk,Buteo swainsoni
+900,ZTHA,BUTALB,Zone-tailed Hawk,Buteo albonotatus
+901,RTHA,BUTJAM,Red-tailed Hawk,Buteo jamaicensis
+902,HRLH,BUTJHA,Harlan's Hawk,Buteo jamaicensis harlani
+903,RLHA,BUTLAG,Rough-legged Hawk,Buteo lagopus
+904,FEHA,BUTREG,Ferruginous Hawk,Buteo regalis
+905,LLBU,BUTRUF,Long-legged Buzzard,Buteo rufinus
+906,UNHA,ACCGSP,Unidentified Hawk,"Accipitridae (gen, sp)"
+907,ABOW,TYTFUR,American Barn Owl,Tyto furcata
+908,AFOW,TYTGLA,Ashy-faced Owl,Tyto glaucops
+909,ORSO,OTUSUN,Oriental Scops-Owl,Otus sunia
+910,FLOW,PSIFLA,Flammulated Owl,Psiloscops flammeolus
+911,PRIO,GYSNUD,Puerto Rican Owl,Gymnasio nudipes
+912,WHSO,MEGTRI,Whiskered Screech-Owl,Megascops trichopsis
+913,BSSO,MEGCLA,Bare-shanked Screech-Owl,Megascops clarkii
+914,TRSO,MEGCHO,Tropical Screech-Owl,Megascops choliba
+915,BESO,MEGBAR,Bearded Screech-Owl,Megascops barbarus
+916,PASO,MEGCOO,Pacific Screech-Owl,Megascops cooperi
+917,WESO,MEGKEN,Western Screech-Owl,Megascops kennicottii
+918,EASO,MEGASI,Eastern Screech-Owl,Megascops asio
+919,BASO,MEGSED,Balsas Screech-Owl,Megascops seductus
+920,MASO,MEGGUA,Middle American Screech-Owl,Megascops guatemalae
+921,CHSO,MEGCEN,Choco Screech-Owl,Megascops centralis
+922,BLOW,MARLAW,Bare-legged Owl,Margarobyas lawrencii
+923,CROW,LOPCRI,Crested Owl,Lophostrix cristata
+924,SPEO,PULPER,Spectacled Owl,Pulsatrix perspicillata
+925,GHOW,BUBVIR,Great Horned Owl,Bubo virginianus
+926,SNOW,BUBSCA,Snowy Owl,Bubo scandiacus
+927,NHOW,SURULU,Northern Hawk Owl,Surnia ulula
+928,NOPO,GLAGNO,Northern Pygmy-Owl,Glaucidium gnoma
+929,CRPO,GLACOS,Costa Rican Pygmy-Owl,Glaucidium costaricanum
+930,CAPO,GLAGRI,Central American Pygmy-Owl,Glaucidium griseiceps
+931,TAPO,GLASAN,Tamaulipas Pygmy-Owl,Glaucidium sanchezi
+932,CPYO,GLAPAL,Colima Pygmy-Owl,Glaucidium palmarum
+933,FEPO,GLABRA,Ferruginous Pygmy-Owl,Glaucidium brasilianum
+934,CUPO,GLASIJ,Cuban Pygmy-Owl,Glaucidium siju
+935,ELOW,MICWHI,Elf Owl,Micrathene whitneyi
+936,BUOW,ATHCUN,Burrowing Owl,Athene cunicularia
+937,SPOW,STROCC,Spotted Owl,Strix occidentalis
+938,CSOW,STROCO,California Spotted Owl,Strix occidentalis occidentalis
+939,NSOW,STROCA,Northern Spotted Owl,Strix occidentalis caurina
+940,MSOW,STROCL,Mexican Spotted Owl,Strix occidentalis lucida
+941,SBOH,STROCV,Spotted x Barred Owl Hybrid,Strix occidentalis x varia
+942,BAOW,STRVAR,Barred Owl,Strix varia
+943,CIOW,STRSAR,Cinereous Owl,Strix sartorii
+944,FUOW,STRFUL,Fulvous Owl,Strix fulvescens
+945,MOOW,STRVIR,Mottled Owl,Strix virgata
+946,BLWO,STRNIG,Black-and-white Owl,Strix nigrolineata
+947,GGOW,STRNEB,Great Gray Owl,Strix nebulosa
+948,LEOW,ASIOTU,Long-eared Owl,Asio otus
+949,STOW,ASISTY,Stygian Owl,Asio stygius
+950,SEOW,ASIFLA,Short-eared Owl,Asio flammeus
+951,STRO,ASICLA,Striped Owl,Asio clamator
+952,JAOW,ASIGRA,Jamaican Owl,Asio grammicus
+953,BOOW,AEGFUN,Boreal Owl,Aegolius funereus
+954,NSWO,AEGACA,Northern Saw-whet Owl,Aegolius acadicus
+955,USWO,AEGRID,Unspotted Saw-whet Owl,Aegolius ridgwayi
+956,NOBB,NINJAP,Northern Boobook,Ninox japonica
+957,UNOW,STRGSP,Unidentified Owl,"Strigidae (gen, sp)"
+958,CUTR,PRITEM,Cuban Trogon,Priotelus temnurus
+959,HITR,PRIROS,Hispaniolan Trogon,Priotelus roseigaster
+960,LTTR,TROCLA,Lattice-tailed Trogon,Trogon clathratus
+961,STTR,TROMAS,Slaty-tailed Trogon,Trogon massena
+962,BTAT,TROMER,Black-tailed Trogon,Trogon melanurus
+963,BHTR,TROMEC,Black-headed Trogon,Trogon melanocephalus
+964,CITR,TROCIT,Citreoline Trogon,Trogon citreolus
+965,WTAT,TROCHI,White-tailed Trogon,Trogon chionurus
+966,BATR,TROBAI,Baird's Trogon,Trogon bairdii
+967,GATR,TROCAL,Gartered Trogon,Trogon caligatus
+968,BTHT,TRORUS,Black-throated Trogon,Trogon rufus
+969,ELTR,TROELE,Elegant Trogon,Trogon elegans
+970,MOTR,TROMEX,Mountain Trogon,Trogon mexicanus
+971,COTR,TROCOL,Collared Trogon,Trogon collaris
+972,OBTR,TROCAU,Orange-bellied Trogon,Trogon collaris aurantiiventris
+973,EAQU,EUPNEO,Eared Quetzal,Euptilotis neoxenus
+974,GHQU,PHAAUR,Golden-headed Quetzal,Pharomachrus auriceps
+975,REQU,PHAMOC,Resplendent Quetzal,Pharomachrus mocinno
+976,EHOO,UPUEPO,Eurasian Hoopoe,Upupa epops
+977,CUTO,TODMUL,Cuban Tody,Todus multicolor
+978,BBTO,TODSUB,Broad-billed Tody,Todus subulatus
+979,NBTO,TODANG,Narrow-billed Tody,Todus angustirostris
+980,JATO,TODTOD,Jamaican Tody,Todus todus
+981,PRTO,TODMEX,Puerto Rican Tody,Todus mexicanus
+982,TOMO,HYLMOM,Tody Motmot,Hylomanes momotula
+983,BTMO,ASPGUL,Blue-throated Motmot,Aspatha gularis
+984,RCMO,MOMMEX,Russet-crowned Motmot,Momotus mexicanus
+985,BCMO,MOMCOE,Blue-capped Motmot,Momotus coeruliceps
+986,LEMO,MOMLES,Lesson's Motmot,Momotus lessonii
+987,WHMO,MOMSUB,Whooping Motmot,Momotus subrufescens
+988,RMOT,BARMAR,Rufous Motmot,Baryphthengus martii
+989,KBMO,ELECAR,Keel-billed Motmot,Electron carinatum
+990,BBMO,ELEPLA,Broad-billed Motmot,Electron platyrhynchum
+991,TBMO,EUMSUP,Turquoise-browed Motmot,Eumomota superciliosa
+992,RIKI,MEGTOR,Ringed Kingfisher,Megaceryle torquata
+993,BEKI,MEGALC,Belted Kingfisher,Megaceryle alcyon
+994,AMKI,CHLAMA,Amazon Kingfisher,Chloroceryle amazona
+995,APKI,CHLAEN,American Pygmy Kingfisher,Chloroceryle aenea
+996,GKIN,CHLAME,Green Kingfisher,Chloroceryle americana
+997,GARK,CHLIND,Green-and-rufous Kingfisher,Chloroceryle inda
+998,BAPU,NYSRAD,Barred Puffbird,Nystalus radiatus
+999,WNPU,NOTHYP,White-necked Puffbird,Notharchus hyperrhynchus
+1000,BBPU,NOTPEC,Black-breasted Puffbird,Notharchus pectoralis
+1001,PIPU,NOTTEC,Pied Puffbird,Notharchus tectus
+1002,WWPU,MALPAN,White-whiskered Puffbird,Malacoptila panamensis
+1003,LAMO,MICLAN,Lanceolated Monklet,Micromonacha lanceolata
+1004,GCNU,NONFRO,Gray-cheeked Nunlet,Nonnula frontalis
+1005,WFNU,MONMOR,White-fronted Nunbird,Monasa morphoeus
+1006,DBJA,BRASAL,Dusky-backed Jacamar,Brachygalba salmoni
+1007,RTJA,GALRUF,Rufous-tailed Jacamar,Galbula ruficauda
+1008,GREJ,JACAUR,Great Jacamar,Jacamerops aureus
+1009,SCBA,CAPMAC,Spot-crowned Barbet,Capito maculicoronatus
+1010,RHBA,EUBBOU,Red-headed Barbet,Eubucco bourcierii
+1011,PBBA,SEMFRA,Prong-billed Barbet,Semnornis frantzii
+1012,NOET,AULPRA,Northern Emerald-Toucanet,Aulacorhynchus prasinus
+1013,COAR,PTETOR,Collared Aracari,Pteroglossus torquatus
+1014,FBAR,PTEFRA,Fiery-billed Aracari,Pteroglossus frantzii
+1015,YETO,SELSPT,Yellow-eared Toucanet,Selenidera spectabilis
+1016,KBTO,RAMSUL,Keel-billed Toucan,Ramphastos sulfuratus
+1017,YTTO,RAMAMB,Yellow-throated Toucan,Ramphastos ambiguus
+1018,EUWR,JYNTOR,Eurasian Wryneck,Jynx torquilla
+1019,OLPI,PICOLI,Olivaceous Piculet,Picumnus olivaceus
+1020,ANPI,NESMIC,Antillean Piculet,Nesoctites micromegas
+1021,LEWO,MELLEW,Lewis's Woodpecker,Melanerpes lewis
+1022,GUWO,MELHER,Guadeloupe Woodpecker,Melanerpes herminieri
+1023,PRWO,MENPOR,Puerto Rican Woodpecker,Melanerpes portoricensis
+1024,RHWO,MELERY,Red-headed Woodpecker,Melanerpes erythrocephalus
+1025,ACWO,MELFOR,Acorn Woodpecker,Melanerpes formicivorus
+1026,GNWO,MELCHC,Golden-naped Woodpecker,Melanerpes chrysauchen
+1027,BCWO,MELPUC,Black-cheeked Woodpecker,Melanerpes pucherani
+1028,HIWO,MELSTR,Hispaniolan Woodpecker,Melanerpes striatus
+1029,JAWO,MELRAD,Jamaican Woodpecker,Melanerpes radiolatus
+1030,GCHW,MELCHG,Golden-cheeked Woodpecker,Melanerpes chrysogenys
+1031,GBWO,MELHYI,Gray-breasted Woodpecker,Melanerpes hypopolius
+1032,YUWO,MELPYG,Yucatan Woodpecker,Melanerpes pygmaeus
+1033,RCRW,MELRUB,Red-crowned Woodpecker,Melanerpes rubricapillus
+1034,GIWO,MELURO,Gila Woodpecker,Melanerpes uropygialis
+1035,HOWO,MELHOF,Hoffmann's Woodpecker,Melanerpes hoffmannii
+1036,GFWO,MELAUR,Golden-fronted Woodpecker,Melanerpes aurifrons
+1037,RBWO,MELCAR,Red-bellied Woodpecker,Melanerpes carolinus
+1038,WIWO,MELSUP,West Indian Woodpecker,Melanerpes superciliaris
+1039,WISA,SPHTHY,Williamson's Sapsucker,Sphyrapicus thyroideus
+1040,YBSA,SPHVAR,Yellow-bellied Sapsucker,Sphyrapicus varius
+1041,RNSA,SPHNUC,Red-naped Sapsucker,Sphyrapicus nuchalis
+1042,RBSA,SPHRUB,Red-breasted Sapsucker,Sphyrapicus ruber
+1043,HYSA,SPHHYB,Hybrid Sapsucker,Sphyrapicus hybrid
+1044,UNSA,SPHSPE,Unidentified Sapsucker,Sphyrapicus (sp)
+1045,CGWO,XIPPER,Cuban Green Woodpecker,Xiphidiopicus percussus
+1046,ATTW,PICDOR,American Three-toed Woodpecker,Picoides dorsalis
+1047,BBWO,PICARC,Black-backed Woodpecker,Picoides arcticus
+1048,GSWO,DENMAJ,Great Spotted Woodpecker,Dendrocopos major
+1049,DOWO,DRYPUB,Downy Woodpecker,Dryobates pubescens
+1050,NUWO,DRYNUT,Nuttall's Woodpecker,Dryobates nuttallii
+1051,LBWO,DRYSCA,Ladder-backed Woodpecker,Dryobates scalaris
+1052,RCWO,DRYBOR,Red-cockaded Woodpecker,Dryobates borealis
+1053,HAWO,DRYVIL,Hairy Woodpecker,Dryobates villosus
+1054,WHWO,DRYALB,White-headed Woodpecker,Dryobates albolarvatus
+1055,SMBW,DRYFUM,Smoky-brown Woodpecker,Dryobates fumigatus
+1056,ARWO,DRYARI,Arizona Woodpecker,Dryobates arizonae
+1057,STCW,DRYSTR,Strickland's Woodpecker,Dryobates stricklandi
+1058,RRWO,DRYKIR,Red-rumped Woodpecker,Dryobates kirkii
+1059,RWWO,PICSIM,Rufous-winged Woodpecker,Piculus simplex
+1060,SCHW,PICCAL,Stripe-cheeked Woodpecker,Piculus callopterus
+1061,GGWO,PICCHR,Golden-green Woodpecker,Piculus chrysochloros
+1062,GOWO,COLRUB,Golden-olive Woodpecker,Colaptes rubiginosus
+1063,GRCW,COLAUC,Gray-crowned Woodpecker,Colaptes auricularis
+1064,SBWP,COLPUN,Spot-breasted Woodpecker,Colaptes punctigula
+1065,NOFL,COLAUT,Northern Flicker,Colaptes auratus
+1066,GUFL,COLMEX,Guatemalan Flicker,Colaptes mexicanoides
+1067,YSFL,COLAAU,Yellow-shafted Flicker,Colaptes auratus auratus
+1068,FLIN,COLAAC,Flicker Intergrade,Colaptes auratus auratus x cafer
+1069,RSFL,COLACA,Red-shafted Flicker,Colaptes auratus cafer
+1070,GIFL,COLCHR,Gilded Flicker,Colaptes chrysoides
+1071,FEFL,COLFER,Fernandina's Flicker,Colaptes fernandinae
+1072,CIWO,CELLOR,Cinnamon Woodpecker,Celeus loricatus
+1073,CCOW,CELCAS,Chestnut-colored Woodpecker,Celeus castaneus
+1074,LIWO,DRYLIN,Lineated Woodpecker,Dryocopus lineatus
+1075,PIWO,DRYPIL,Pileated Woodpecker,Dryocopus pileatus
+1076,CBWO,CAMHAE,Crimson-bellied Woodpecker,Campephilus haematogaster
+1077,CCRW,CAMMEL,Crimson-crested Woodpecker,Campephilus melanoleucos
+1078,PBIW,CAMGUA,Pale-billed Woodpecker,Campephilus guatemalensis
+1079,IBWO,CAMPRI,Ivory-billed Woodpecker,Campephilus principalis
+1080,IMWO,CAMIMP,Imperial Woodpecker,Campephilus imperialis
+1081,UNWO,PICGSP,Unidentified Woodpecker,"Picinae (gen, sp)"
+1082,LAFA,HERCAC,Laughing Falcon,Herpetotheres cachinnans
+1083,BAFF,MICRUF,Barred Forest-Falcon,Micrastur ruficollis
+1084,SBFF,MICMIR,Slaty-backed Forest-Falcon,Micrastur mirandollei
+1085,COFF,MICSEM,Collared Forest-Falcon,Micrastur semitorquatus
+1086,RTCA,IBYAME,Red-throated Caracara,Ibycter americanus
+1087,CRCA,CARPLA,Crested Caracara,Caracara plancus
+1088,ACCA,CARPLU,Audubon's Crested Caracara,Caracara plancus audubonii
+1089,GUCA,CARLUT,Guadalupe Caracara,Caracara lutosa
+1090,YHCA,MILCHI,Yellow-headed Caracara,Milvago chimachima
+1091,EUKE,FALTIN,Eurasian Kestrel,Falco tinnunculus
+1092,AMKE,FALSPA,American Kestrel,Falco sparverius
+1093,RFFA,FALVES,Red-footed Falcon,Falco vespertinus
+1094,MERL,FALCOL,Merlin,Falco columbarius
+1095,EHOB,FALSUB,Eurasian Hobby,Falco subbuteo
+1096,APFA,FALFEM,Aplomado Falcon,Falco femoralis
+1097,BAFA,FALRUF,Bat Falcon,Falco rufigularis
+1098,OBFA,FALDEI,Orange-breasted Falcon,Falco deiroleucus
+1099,GYRF,FALRUS,Gyrfalcon,Falco rusticolus
+1100,PEFA,FALPER,Peregrine Falcon,Falco peregrinus
+1101,PRFA,FALMEX,Prairie Falcon,Falco mexicanus
+1102,PAIP,PYRPIC,Painted Parakeet,Pyrrhura picta
+1103,SWPA,PYRHOF,Sulphur-winged Parakeet,Pyrrhura hoffmanni
+1104,MOPA,MYIMON,Monk Parakeet,Myiopsitta monachus
+1105,CAPA,CONCAL,Carolina Parakeet,Conuropsis carolinensis
+1106,OTPA,EUPNAN,Olive-throated Parakeet,Eupsittula nana
+1107,OFPA,EUPCAN,Orange-fronted Parakeet,Eupsittula canicularis
+1108,BTPA,EUPPER,Brown-throated Parakeet,Eupsittula pertinax
+1109,NAPA,ARANEN,Nanday Parakeet,Aratinga nenday
+1110,BAYM,ARAARA,Blue-and-yellow Macaw,Ara ararauna
+1111,CFMA,ARASEV,Chestnut-fronted Macaw,Ara severus
+1112,CUBM,ARATRI,Cuban Macaw,Ara tricolor
+1113,SCMA,ARAMAC,Scarlet Macaw,Ara macao
+1114,RAGM,ARACHL,Red-and-green Macaw,Ara chloropterus
+1115,MIMA,ARAMIL,Military Macaw,Ara militaris
+1116,GGMA,ARAAMB,Great Green Macaw,Ara ambiguus
+1117,GREP,PSIHOL,Green Parakeet,Psittacara holochlorus
+1118,SOPA,PSIBRE,Socorro Parakeet,Psittacara brevipes
+1119,PACP,PSISTR,Pacific Parakeet,Psittacara strenuus
+1120,MIPA,PSIMIT,Mitred Parakeet,Psittacara mitratus
+1121,RMPA,PSIERY,Red-masked Parakeet,Psittacara erythrogenys
+1122,CFPA,PSIFIN,Crimson-fronted Parakeet,Psittacara finschi
+1123,CPAK,PSIEUO,Cuban Parakeet,Psittacara euops
+1124,PRPK,PSIMAU,Puerto Rican Parakeet,Psittacara maugei
+1125,HPAK,PSICHL,Hispaniolan Parakeet,Psittacara chloropterus
+1126,TBPA,RHYPAC,Thick-billed Parrot,Rhynchopsitta pachyrhyncha
+1127,MFPA,RHYTER,Maroon-fronted Parrot,Rhynchopsitta terrisi
+1128,BAPA,BOLLIN,Barred Parakeet,Bolborhynchus lineola
+1129,MEXP,FORCYA,Mexican Parrotlet,Forpus cyanopygius
+1130,GRUP,FORPAS,Green-rumped Parrotlet,Forpus passerinus
+1131,SPPA,FORCON,Spectacled Parrotlet,Forpus conspicillatus
+1132,OCPA,BROJUG,Orange-chinned Parakeet,Brotogeris jugularis
+1133,WWPA,BROVER,White-winged Parakeet,Brotogeris versicolurus
+1134,YCPA,BROCHI,Yellow-chevroned Parakeet,Brotogeris chiriri
+1135,RFPA,TOUCOS,Red-fronted Parrotlet,Touit costaricensis
+1136,BFPA,TOUDIL,Blue-fronted Parrotlet,Touit dilectissimus
+1137,BHOP,PYRHAE,Brown-hooded Parrot,Pyrilia haematotis
+1138,SHPA,PYRPYI,Saffron-headed Parrot,Pyrilia pyrilia
+1139,BHEP,PIOMEN,Blue-headed Parrot,Pionus menstruus
+1140,WCPA,PIOSEN,White-crowned Parrot,Pionus senilis
+1141,WFPA,AMAALB,White-fronted Parrot,Amazona albifrons
+1142,YLPA,AMAXAN,Yellow-lored Parrot,Amazona xantholora
+1143,CPAT,AMALEU,Cuban Parrot,Amazona leucocephala
+1144,YBPA,AMACOL,Yellow-billed Parrot,Amazona collaria
+1145,HPAT,AMAVEN,Hispaniolan Parrot,Amazona ventralis
+1146,PRPO,AMAVIT,Puerto Rican Parrot,Amazona vittata
+1147,BBPA,AMAAGI,Black-billed Parrot,Amazona agilis
+1148,RCPA,AMAVIR,Red-crowned Parrot,Amazona viridigenalis
+1149,LCPA,AMAFIN,Lilac-crowned Parrot,Amazona finschi
+1150,RLPA,AMAAUT,Red-lored Parrot,Amazona autumnalis
+1151,MEAP,AMAFAR,Mealy Parrot,Amazona farinosa
+1152,YHPA,AMAORA,Yellow-headed Parrot,Amazona oratrix
+1153,YNPA,AMAAUR,Yellow-naped Parrot,Amazona auropalliata
+1154,YCRP,AMAOCH,Yellow-crowned Parrot,Amazona ochrocephala
+1155,RNPA,AMAARA,Red-necked Parrot,Amazona arausiaca
+1156,SLPA,AMAVER,St. Lucia Parrot,Amazona versicolor
+1157,SVPA,AMAGUI,St. Vincent Parrot,Amazona guildingii
+1158,IMPA,AMAIMP,Imperial Parrot,Amazona imperialis
+1159,RRPA,PSIKRA,Rose-ringed Parakeet,Psittacula krameri
+1160,RFLO,AGAROS,Rosy-faced Lovebird,Agapornis roseicollis
+1161,SAPA,SAPAEN,Sapayoa,Sapayoa aenigma
+1162,LATM,CHILAN,Lance-tailed Manakin,Chiroxiphia lanceolata
+1163,LOTM,CHILIN,Long-tailed Manakin,Chiroxiphia linearis
+1164,WRMA,CORALT,White-ruffed Manakin,Corapipo altera
+1165,GMAK,CRYHOL,Green Manakin,Cryptopipo holochlora
+1166,VELM,LEPVEL,Velvety Manakin,Lepidothrix velutina
+1167,WCOM,MANCAN,White-collared Manakin,Manacus candei
+1168,OCMA,MANAUR,Orange-collared Manakin,Manacus aurantiacus
+1169,GCMA,MANVIT,Golden-collared Manakin,Manacus vitellinus
+1170,WCRM,PSEPIP,White-crowned Manakin,Pseudopipra pipra
+1171,RCMA,CERMEN,Red-capped Manakin,Ceratopipra mentalis
+1172,GHMA,CERERY,Golden-headed Manakin,Ceratopipra erythrocephala
+1173,PTFR,QUEPUR,Purple-throated Fruitcrow,Querula purpurata
+1174,BNUM,CEPGLA,Bare-necked Umbrellabird,Cephalopterus glabricollis
+1175,LOCO,COTAMA,Lovely Cotinga,Cotinga amabilis
+1176,TUCO,COTRID,Turquoise Cotinga,Cotinga ridgwayi
+1177,BLCO,COTNAT,Blue Cotinga,Cotinga nattererii
+1178,RUFP,LIPUNI,Rufous Piha,Lipaugus unirufus
+1179,TWBE,PROTRI,Three-wattled Bellbird,Procnias tricarunculatus
+1180,BTCO,CARHOP,Black-tipped Cotinga,Carpodectes hopkei
+1181,YBCO,CARANT,Yellow-billed Cotinga,Carpodectes antoniae
+1182,SNCO,CARNIT,Snowy Cotinga,Carpodectes nitidus
+1183,NOSC,SCHVER,Northern Schiffornis,Schiffornis veraepacis
+1184,RWSC,SCHSTE,Russet-winged Schiffornis,Schiffornis stenorhyncha
+1185,SPMO,LANRUF,Speckled Mourner,Laniocera rufescens
+1186,MATI,TITSEM,Masked Tityra,Tityra semifasciata
+1187,BCRT,TITINQ,Black-crowned Tityra,Tityra inquisitor
+1188,BABE,PACVER,Barred Becard,Pachyramphus versicolor
+1189,CIRB,PACRUF,Cinereous Becard,Pachyramphus rufus
+1190,CIMB,PACCIN,Cinnamon Becard,Pachyramphus cinnamomeus
+1191,WWBE,PACPOL,White-winged Becard,Pachyramphus polychopterus
+1192,BAWB,PACALB,Black-and-white Becard,Pachyramphus albogriseus
+1193,GCBE,PACMAJ,Gray-collared Becard,Pachyramphus major
+1194,RTBE,PACAGL,Rose-throated Becard,Pachyramphus aglaiae
+1195,OCBE,PACHOM,One-colored Becard,Pachyramphus homochrous
+1196,JABE,PACNIG,Jamaican Becard,Pachyramphus niger
+1197,SHAR,OXYCRI,Sharpbill,Oxyruncus cristatus
+1198,ROFL,ONYCOR,Royal Flycatcher,Onychorhynchus coronatus
+1199,RDTF,TERERY,Ruddy-tailed Flycatcher,Terenotriccus erythrurus
+1200,TBFL,MYIVIL,Tawny-breasted Flycatcher,Myiobius villosus
+1201,SRFL,MYISUL,Sulphur-rumped Flycatcher,Myiobius sulphureipygius
+1202,BTFL,MYIATD,Black-tailed Flycatcher,Myiobius atricaudus
+1203,GHPI,PIPGRI,Gray-headed Piprites,Piprites griseiceps
+1204,SBTS,PLACAN,Stub-tailed Spadebill,Platyrinchus cancrominus
+1205,WTRS,PLAMYS,White-throated Spadebill,Platyrinchus mystaceus
+1206,GCRS,PLACOR,Golden-crowned Spadebill,Platyrinchus coronatus
+1207,OSTF,MIOOLI,Olive-striped Flycatcher,Mionectes olivaceus
+1208,OBFL,MIOOLE,Ochre-bellied Flycatcher,Mionectes oleagineus
+1209,SECF,LEPAMA,Sepia-capped Flycatcher,Leptopogon amaurocephalus
+1210,SLCF,LEPSUP,Slaty-capped Flycatcher,Leptopogon superciliaris
+1211,YGTY,PHYFLA,Yellow-green Tyrannulet,Phylloscartes flavovirens
+1212,RBTY,PHYSUP,Rufous-browed Tyrannulet,Phylloscartes superciliaris
+1213,BOPT,PSEPEL,Bronze-olive Pygmy-Tyrant,Pseudotriccus pelzelni
+1214,BPYT,MYIATP,Black-capped Pygmy-Tyrant,Myiornis atricapillus
+1215,SCPT,LOPPIT,Scale-crested Pygmy-Tyrant,Lophotriccus pileatus
+1216,PEPT,LOPPIR,Pale-eyed Pygmy-Tyrant,Lophotriccus pilaris
+1217,NOBE,ONCCIN,Northern Bentbill,Oncostoma cinereigulare
+1218,SOBE,ONCOLI,Southern Bentbill,Oncostoma olivaceum
+1219,SHTF,POESYL,Slate-headed Tody-Flycatcher,Poecilotriccus sylvia
+1220,COTF,TODCIN,Common Tody-Flycatcher,Todirostrum cinereum
+1221,BHTF,TODNIG,Black-headed Tody-Flycatcher,Todirostrum nigriceps
+1222,BRTW,CNISUB,Brownish Twistwing,Cnipodectes subbrunneus
+1223,ERFL,RHYBRE,Eye-ringed Flatbill,Rhynchocyclus brevirostris
+1224,OLIF,RHYOLI,Olivaceous Flatbill,Rhynchocyclus olivaceus
+1225,YWFL,TOLFLC,Yellow-winged Flatbill,Tolmomyias flavotectus
+1226,YOFL,TOLSUL,Yellow-olive Flatbill,Tolmomyias sulphurescens
+1227,OLOF,TOLFLN,Ochre-lored Flatbill,Tolmomyias flaviventris
+1228,YBTY,ORNSEM,Yellow-bellied Tyrannulet,Ornithion semiflavum
+1229,BCTY,ORNBRU,Brown-capped Tyrannulet,Ornithion brunneicapillus
+1230,NOBT,CAMIMB,Northern Beardless-Tyrannulet,Camptostoma imberbe
+1231,SOBT,CAMOBS,Southern Beardless-Tyrannulet,Camptostoma obsoletum
+1232,COFL,NESRID,Cocos Flycatcher,Nesotriccus ridgwayi
+1233,MCTY,NESMUR,Mouse-colored Tyrannulet,Nesotriccus murinus
+1234,YETY,CAPFLA,Yellow Tyrannulet,Capsiempis flaveola
+1235,YCTY,TYRELA,Yellow-crowned Tyrannulet,Tyrannulus elatus
+1236,FOEL,MYIGAI,Forest Elaenia,Myiopagis gaimardii
+1237,GRAE,MYICAN,Gray Elaenia,Myiopagis caniceps
+1238,JAEL,MYICOT,Jamaican Elaenia,Myiopagis cotta
+1239,GREL,MYIVIR,Greenish Elaenia,Myiopagis viridicata
+1240,CAEL,ELAMAR,Caribbean Elaenia,Elaenia martinica
+1241,YBEL,ELAFLA,Yellow-bellied Elaenia,Elaenia flavogaster
+1242,WCEL,ELAALB,White-crested Elaenia,Elaenia albiceps
+1243,SBEL,ELAPAR,Small-billed Elaenia,Elaenia parvirostris
+1244,LEEL,ELACHI,Lesser Elaenia,Elaenia chiriquensis
+1245,MOEL,ELAFRA,Mountain Elaenia,Elaenia frantzii
+1246,GAEL,ELAFAL,Greater Antillean Elaenia,Elaenia fallax
+1247,TOTY,SERCIN,Torrent Tyrannulet,Serpophaga cinerea
+1248,WFTY,ACRZEL,White-fronted Tyrannulet,Acrochordopus zeledoni
+1249,SHTY,PHYGRI,Sooty-headed Tyrannulet,Phyllomyias griseiceps
+1250,GUTY,ZIMVIL,Guatemalan Tyrannulet,Zimmerius vilissimus
+1251,MITY,ZIMPAR,Mistletoe Tyrannulet,Zimmerius parvus
+1252,BRAT,ATTSPA,Bright-rumped Attila,Attila spadiceus
+1253,CHSI,SIRALB,Choco Sirystes,Sirystes albogriseus
+1254,RMOU,RHYHOL,Rufous Mourner,Rhytipterna holerythra
+1255,YUFL,MYIYUC,Yucatan Flycatcher,Myiarchus yucatanensis
+1256,SAFL,MYIBAR,Sad Flycatcher,Myiarchus barbirostris
+1257,DCFL,MYITUB,Dusky-capped Flycatcher,Myiarchus tuberculifer
+1258,PAFL,MYIPAN,Panama Flycatcher,Myiarchus panamensis
+1259,ATFL,MYICIN,Ash-throated Flycatcher,Myiarchus cinerascens
+1260,NUFL,MYINUT,Nutting's Flycatcher,Myiarchus nuttingi
+1261,GCFL,MYICRI,Great Crested Flycatcher,Myiarchus crinitus
+1262,BCFL,MYITYR,Brown-crested Flycatcher,Myiarchus tyrannulus
+1263,GFLY,MYINUG,Grenada Flycatcher,Myiarchus nugator
+1264,RFTF,MYIVAL,Rufous-tailed Flycatcher,Myiarchus validus
+1265,LSFL,MYISAG,La Sagra's Flycatcher,Myiarchus sagrae
+1266,STOF,MYISTO,Stolid Flycatcher,Myiarchus stolidus
+1267,PRFL,MYIANT,Puerto Rican Flycatcher,Myiarchus antillarum
+1268,LAFL,MYIOBE,Lesser Antillean Flycatcher,Myiarchus oberi
+1269,FLFL,RAMFLL,Flammulated Flycatcher,Ramphotrigon flammulatum
+1270,LEKI,PHYLIC,Lesser Kiskadee,Philohydor lictor
+1271,GKIS,PITSUL,Great Kiskadee,Pitangus sulphuratus
+1272,CATY,MACRIX,Cattle Tyrant,Machetornis rixosa
+1273,BOBF,MEGPIT,Boat-billed Flycatcher,Megarynchus pitangua
+1274,RMFL,MYICAY,Rusty-margined Flycatcher,Myiozetetes cayanensis
+1275,SOFL,MYISIM,Social Flycatcher,Myiozetetes similis
+1276,GCAF,MYIGRA,Gray-capped Flycatcher,Myiozetetes granadensis
+1277,WRFL,CONALB,White-ringed Flycatcher,Conopias albovittatus
+1278,GBFL,MYIHEM,Golden-bellied Flycatcher,Myiodynastes hemichrysus
+1279,STRF,MYIMAC,Streaked Flycatcher,Myiodynastes maculatus
+1280,SBFL,MYILUT,Sulphur-bellied Flycatcher,Myiodynastes luteiventris
+1281,PIRF,LEGLEU,Piratic Flycatcher,Legatus leucophaius
+1282,VAFL,EMPVAR,Variegated Flycatcher,Empidonomus varius
+1283,CSFL,EMPAUR,Crowned Slaty Flycatcher,Empidonomus aurantioatrocristatus
+1284,TRKI,TYRMEL,Tropical Kingbird,Tyrannus melancholicus
+1285,COKI,TYRCOU,Couch's Kingbird,Tyrannus couchii
+1286,CAKI,TYRVOC,Cassin's Kingbird,Tyrannus vociferans
+1287,TBKI,TYRCRA,Thick-billed Kingbird,Tyrannus crassirostris
+1288,WEKI,TYRVER,Western Kingbird,Tyrannus verticalis
+1289,EAKI,TYRTYR,Eastern Kingbird,Tyrannus tyrannus
+1290,GRAK,TYRDOM,Gray Kingbird,Tyrannus dominicensis
+1291,LOKI,TYRCAU,Loggerhead Kingbird,Tyrannus caudifasciatus
+1292,GIKI,TYRCUB,Giant Kingbird,Tyrannus cubensis
+1293,STFL,TYRFOR,Scissor-tailed Flycatcher,Tyrannus forficatus
+1294,FTFL,TYRSAV,Fork-tailed Flycatcher,Tyrannus savana
+1295,BCOF,MYIFAS,Bran-colored Flycatcher,Myiophobus fasciatus
+1296,EUFL,LATEUL,Euler's Flycatcher,Lathrotriccus euleri
+1297,TCFL,APHCAP,Tawny-chested Flycatcher,Aphanotriccus capitalis
+1298,BLBF,APHAUD,Black-billed Flycatcher,Aphanotriccus audax
+1299,BEFL,XENCAL,Belted Flycatcher,Xenotriccus callizonus
+1300,PILF,XENMEX,Pileated Flycatcher,Xenotriccus mexicanus
+1301,TUFL,MITPHA,Tufted Flycatcher,Mitrephanes phaeocercus
+1302,OSFL,CONCOO,Olive-sided Flycatcher,Contopus cooperi
+1303,GRPE,CONPER,Greater Pewee,Contopus pertinax
+1304,DAPE,CONLUG,Dark Pewee,Contopus lugubris
+1305,OCPE,CONOCH,Ochraceous Pewee,Contopus ochraceus
+1306,WEWP,CONSOR,Western Wood-Pewee,Contopus sordidulus
+1307,EAWP,CONVIR,Eastern Wood-Pewee,Contopus virens
+1308,TROP,CONCIN,Tropical Pewee,Contopus cinereus
+1309,CUPE,CONCAB,Cuban Pewee,Contopus caribaeus
+1310,JPEW,CONPAL,Jamaican Pewee,Contopus pallidus
+1311,HIPE,CONHIS,Hispaniolan Pewee,Contopus hispaniolensis
+1312,LAPE,CONLAT,Lesser Antillean Pewee,Contopus latirostris
+1313,UNPE,CONSPE,Unidentified Pewee,Contopus (sp.)
+1314,YBFL,EMPFLT,Yellow-bellied Flycatcher,Empidonax flaviventris
+1315,ACFL,EMPVIR,Acadian Flycatcher,Empidonax virescens
+1316,ALFL,EMPALN,Alder Flycatcher,Empidonax alnorum
+1317,TRFL,EMPALT,Traill's Flycatcher,Empidonax alnorum/traillii
+1318,WIFL,EMPTRA,Willow Flycatcher,Empidonax traillii
+1319,SWFL,EMPTEX,Southwestern Willow Flycatcher,Empidonax traillii extimus
+1320,WTFL,EMPALB,White-throated Flycatcher,Empidonax albigularis
+1321,LEFL,EMPMIN,Least Flycatcher,Empidonax minimus
+1322,HAFL,EMPHAM,Hammond's Flycatcher,Empidonax hammondii
+1323,HDFL,EMPHAO,Hammond's/Dusky Flycatcher,Empidonax hammondii/oberholseri
+1324,GRFL,EMPWRI,Gray Flycatcher,Empidonax wrightii
+1325,DUFL,EMPOBE,Dusky Flycatcher,Empidonax oberholseri
+1326,PINF,EMPAFF,Pine Flycatcher,Empidonax affinis
+1327,WEFL,EMPDIF,Western Flycatcher,Empidonax difficilis
+1328,YEFL,EMPFLC,Yellowish Flycatcher,Empidonax flavescens
+1329,BBFL,EMPFUL,Buff-breasted Flycatcher,Empidonax fulvifrons
+1330,BCAF,EMPATR,Black-capped Flycatcher,Empidonax atriceps
+1331,UNEM,EMPSPE,Unidentified Empidonax,Empidonax (sp)
+1332,BLPH,SAYNIG,Black Phoebe,Sayornis nigricans
+1333,EAPH,SAYPHO,Eastern Phoebe,Sayornis phoebe
+1334,SAPH,SAYSAY,Say's Phoebe,Sayornis saya
+1335,VEFL,PYRRUB,Vermilion Flycatcher,Pyrocephalus rubinus
+1336,PIWT,FLUPIC,Pied Water-Tyrant,Fluvicola pica
+1337,NOSF,SUBARE,Northern Scrub-Flycatcher,Sublegatus arenarum
+1338,LTTY,COLCOL,Long-tailed Tyrant,Colonia colonus
+1339,UNFL,TYRGEN,Unidentified Flycatcher,"Tyrannidae (gen, sp)"
+1340,BCAP,PITMIC,Black-crowned Antpitta,Pittasoma michleri
+1341,FAAN,CYMLIN,Fasciated Antshrike,Cymbilaimus lineatus
+1342,GANT,TARMAJ,Great Antshrike,Taraba major
+1343,BAAN,THADOL,Barred Antshrike,Thamnophilus doliatus
+1344,BLAN,THANIG,Black Antshrike,Thamnophilus nigriceps
+1345,BHOA,THABRI,Black-hooded Antshrike,Thamnophilus bridgesi
+1346,BCAS,THAATR,Black-crowned Antshrike,Thamnophilus atrinucha
+1347,SFAN,XENSET,Spiny-faced Antshrike,Xenornis setifrons
+1348,RUAN,THAANA,Russet Antshrike,Thamnistes anabatinus
+1349,PLAN,DYSMEN,Plain Antvireo,Dysithamnus mentalis
+1350,STCA,DYSSTR,Streak-crowned Antvireo,Dysithamnus striaticeps
+1351,SPCA,DYSPUN,Spot-crowned Antvireo,Dysithamnus puncticeps
+1352,MOAN,MYRIGN,Moustached Antwren,Myrmotherula ignota
+1353,PAAN,MYRPAC,Pacific Antwren,Myrmotherula pacifica
+1354,WFLA,MYRAXI,White-flanked Antwren,Myrmotherula axillaris
+1355,SLAN,MYRSCH,Slaty Antwren,Myrmotherula schisticolor
+1356,CTST,EPIFUL,Checker-throated Stipplethroat,Epinecrophylla fulviventris
+1357,RWAN,HERFRA,Rusty-winged Antwren,Herpsilochmus frater
+1358,DWAN,MICQUI,Dot-winged Antwren,Microrhopias quixensis
+1359,WFRA,FORGRI,White-fringed Antwren,Formicivora grisea
+1360,RRAN,EUCCAL,Rufous-rumped Antwren,Euchrepomis callinota
+1361,DUAN,CERTYR,Dusky Antbird,Cercomacroides tyrannina
+1362,JEAN,CERNIG,Jet Antbird,Cercomacra nigricans
+1363,BACA,GYCNUD,Bare-crowned Antbird,Gymnocichla nudiceps
+1364,ZEAN,HAFZEL,Zeledon's Antbird,Hafferia zeledoni
+1365,WBEA,MYRLON,White-bellied Antbird,Myrmeciza longipes
+1366,CBAN,POLEXS,Chestnut-backed Antbird,Poliocrania exsul
+1367,DMAN,SIPLAE,Dull-mantled Antbird,Sipia laemosticta
+1368,SPAN,HYLNAE,Spotted Antbird,Hylophylax naevioides
+1369,WBAA,MYRTOR,Wing-banded Antbird,Myrmornis torquata
+1370,BIAN,GYMBIC,Bicolored Antbird,Gymnopithys bicolor
+1371,OCAN,PHAMCL,Ocellated Antbird,Phaenostictus mcleannani
+1372,OBAN,GRAFLA,Ochre-breasted Antpitta,Grallaricula flavirostris
+1373,THAN,MYRDIV,Thicket Antpitta,Myrmothera dives
+1374,SCHA,HYLPER,Streak-chested Antpitta,Hylopezus perspicillatus
+1375,SCAA,GRAGUA,Scaled Antpitta,Grallaria guatimalensis
+1376,TATA,SCYPAN,Tacarcuna Tapaculo,Scytalopus panamensis
+1377,CHTA,SCYCHO,Choco Tapaculo,Scytalopus chocoensis
+1378,SFTA,SCYARG,Silvery-fronted Tapaculo,Scytalopus argentifrons
+1379,MAAN,FORMON,Mayan Antthrush,Formicarius moniliger
+1380,BFAN,FORANA,Black-faced Antthrush,Formicarius analis
+1381,BHEA,FORNIG,Black-headed Antthrush,Formicarius nigricapillus
+1382,RBAN,FORRUF,Rufous-breasted Antthrush,Formicarius rufipectus
+1383,TTLE,SCLMEX,Tawny-throated Leaftosser,Sclerurus mexicanus
+1384,GTLE,SCLALB,Gray-throated Leaftosser,Sclerurus albigularis
+1385,STLE,SCLGUA,Scaly-throated Leaftosser,Sclerurus guatemalensis
+1386,OLWO,SITGRI,Olivaceous Woodcreeper,Sittasomus griseicapillus
+1387,LTWO,DECLON,Long-tailed Woodcreeper,Deconychura longicauda
+1388,RUWO,DENHOM,Ruddy Woodcreeper,Dendrocincla homochroa
+1389,TWWO,DENANA,Tawny-winged Woodcreeper,Dendrocincla anabatina
+1390,PBRW,DENFUA,Plain-brown Woodcreeper,Dendrocincla fuliginosa
+1391,WBWO,GLYSPI,Wedge-billed Woodcreeper,Glyphorynchus spirurus
+1392,NOBW,DENSAN,Northern Barred-Woodcreeper,Dendrocolaptes sanctithomae
+1393,BBNW,DENPIM,Black-banded Woodcreeper,Dendrocolaptes picumnus
+1394,SNBW,XIPPRO,Strong-billed Woodcreeper,Xiphocolaptes promeropirhynchus
+1395,COWO,XIPSUS,Cocoa Woodcreeper,Xiphorhynchus susurrans
+1396,IBIW,XIPFLA,Ivory-billed Woodcreeper,Xiphorhynchus flavigaster
+1397,BSWO,XIPLAC,Black-striped Woodcreeper,Xiphorhynchus lachrymosus
+1398,SPWO,XIPERY,Spotted Woodcreeper,Xiphorhynchus erythropygius
+1399,SGBW,DENPIS,Straight-billed Woodcreeper,Dendroplex picus
+1400,RBSC,CAMTRO,Red-billed Scythebill,Campylorhamphus trochilirostris
+1401,BBSC,CAMPUS,Brown-billed Scythebill,Campylorhamphus pusillus
+1402,WSWO,LEPLEU,White-striped Woodcreeper,Lepidocolaptes leucogaster
+1403,SHWO,LEPSOU,Streak-headed Woodcreeper,Lepidocolaptes souleyetii
+1404,SCRW,LEPAFF,Spot-crowned Woodcreeper,Lepidocolaptes affinis
+1405,PLXE,XENMIT,Plain Xenops,Xenops minutus
+1406,STXE,XENRUT,Streaked Xenops,Xenops rutilans
+1407,BUTU,PSELAW,Buffy Tuftedcheek,Pseudocolaptes lawrencii
+1408,STST,LOCNEM,Sharp-tailed Streamcreeper,Lochmias nematura
+1409,SWFG,PHIFUS,Slaty-winged Foliage-gleaner,Philydor fuscipenne
+1410,BFFG,DENRUF,Buff-fronted Foliage-gleaner,Dendroma rufa
+1411,STFG,ANAVAR,Scaly-throated Foliage-gleaner,Anabacerthia variegaticeps
+1412,LIFG,SYNSUB,Lineated Foliage-gleaner,Syndactyla subalaris
+1413,RUFG,CLIRUB,Ruddy Foliage-gleaner,Clibanornis rubiginosus
+1414,SBTR,THRRUB,Streak-breasted Treehunter,Thripadectes rufobrunneus
+1415,OTFG,AUTOCH,Ochre-throated Foliage-gleaner,Automolus ochrolaemus
+1416,FTFG,AUTCER,Fawn-throated Foliage-gleaner,Automolus cervinigularis
+1417,CHFG,AUTEXS,Chiriqui Foliage-gleaner,Automolus exsertus
+1418,STPW,AUTSUB,Striped Woodhaunter,Automolus subulatus
+1419,SPBA,PREBRU,Spotted Barbtail,Premnoplex brunnescens
+1420,BETR,MARBEL,Beautiful Treerunner,Margarornis bellulus
+1421,RUTR,MARRUB,Ruddy Treerunner,Margarornis rubiginosus
+1422,DBGR,XENMIL,Double-banded Graytail,Xenerpestes minlosi
+1423,RFSP,CRAERY,Red-faced Spinetail,Cranioleuca erythrops
+1424,COSP,CRADIS,Coiba Spinetail,Cranioleuca dissita
+1425,PBSP,SYNALB,Pale-breasted Spinetail,Synallaxis albescens
+1426,SLSP,SYNBRA,Slaty Spinetail,Synallaxis brachyura
+1427,RBSP,SYNERY,Rufous-breasted Spinetail,Synallaxis erythrothorax
+1428,RBPE,CYCGUJ,Rufous-browed Peppershrike,Cyclarhis gujanensis
+1429,SCRG,HYLFLA,Scrub Greenlet,Hylophilus flavipes
+1430,CSSV,VIRMEL,Chestnut-sided Shrike-Vireo,Vireolanius melitophrys
+1431,GRSV,VIRPUL,Green Shrike-Vireo,Vireolanius pulchellus
+1432,YBSV,VIREXI,Yellow-browed Shrike-Vireo,Vireolanius eximius
+1433,TCGR,TUNOCH,Tawny-crowned Greenlet,Tunchiornis ochraceiceps
+1434,LESG,PACDEC,Lesser Greenlet,Pachysylvia decurtata
+1435,GFGR,PACAUR,Golden-fronted Greenlet,Pachysylvia aurantiifrons
+1436,GOVI,VIRHYP,Golden Vireo,Vireo hypochryseus
+1437,BMVI,VIROSB,Blue Mountain Vireo,Vireo osburni
+1438,SLVI,VIRBRE,Slaty Vireo,Vireo brevipennis
+1439,BCVI,VIRATR,Black-capped Vireo,Vireo atricapilla
+1440,DWVI,VIRNEL,Dwarf Vireo,Vireo nelsoni
+1441,WEVI,VIRGRI,White-eyed Vireo,Vireo griseus
+1442,TBVI,VIRCRA,Thick-billed Vireo,Vireo crassirostris
+1443,MAVI,VIRPAL,Mangrove Vireo,Vireo pallens
+1444,COVI,VIRBAI,Cozumel Vireo,Vireo bairdi
+1445,SAVI,VIRCAB,San Andres Vireo,Vireo caribaeus
+1446,JAVI,VIRMOD,Jamaican Vireo,Vireo modestus
+1447,CUVI,VIRGUN,Cuban Vireo,Vireo gundlachii
+1448,PRVI,VIRLAT,Puerto Rican Vireo,Vireo latimeri
+1449,FBVI,VIRNAN,Flat-billed Vireo,Vireo nanus
+1450,BEVI,VIRBEL,Bell's Vireo,Vireo bellii
+1451,LBVI,VIRBPU,Least Bell's Vireo,Vireo bellii pusillus
+1452,GRVI,VIRVIC,Gray Vireo,Vireo vicinior
+1453,HUVI,VIRHUT,Hutton's Vireo,Vireo huttoni
+1454,YTVI,VIRFLF,Yellow-throated Vireo,Vireo flavifrons
+1455,YWVI,VIRCAM,Yellow-winged Vireo,Vireo carmioli
+1456,CAVI,VIRCAS,Cassin's Vireo,Vireo cassinii
+1457,BHVI,VIRSOL,Blue-headed Vireo,Vireo solitarius
+1458,SOVI,VIRSPE,Solitary Vireo,Vireo (sp)
+1459,PLVI,VIRPLU,Plumbeous Vireo,Vireo plumbeus
+1460,PHVI,VIRPHI,Philadelphia Vireo,Vireo philadelphicus
+1461,WAVI,VIRGIL,Warbling Vireo,Vireo gilvus
+1462,BCAV,VIRLEU,Brown-capped Vireo,Vireo leucophrys
+1463,REVI,VIROLI,Red-eyed Vireo,Vireo olivaceus
+1464,YGVI,VIRFLD,Yellow-green Vireo,Vireo flavoviridis
+1465,BWVI,VIRALT,Black-whiskered Vireo,Vireo altiloquus
+1466,YUVI,VIRMAG,Yucatan Vireo,Vireo magister
+1467,KAEL,CHASCL,Kauai Elepaio,Chasiempis sclateri
+1468,OAEL,CHAIBI,Oahu Elepaio,Chasiempis ibidis
+1469,HAEL,CHASAN,Hawaii Elepaio,Chasiempis sandwichensis
+1470,BROS,LANCRI,Brown Shrike,Lanius cristatus
+1471,RBSH,LANCOL,Red-backed Shrike,Lanius collurio
+1472,LOSH,LANLUD,Loggerhead Shrike,Lanius ludovicianus
+1473,SCLS,LANLUM,San Clemente Loggerhead Shrike,Lanius ludovicianus mearnsi
+1474,NSHR,LANBOR,Northern Shrike,Lanius borealis
+1475,CAJA,PERCAN,Canada Jay,Perisoreus canadensis
+1476,WTJA,CYAMIR,White-throated Jay,Cyanolyca mirabilis
+1477,DWJA,CYANAN,Dwarf Jay,Cyanolyca nanus
+1478,BTJA,CYAPUM,Black-throated Jay,Cyanolyca pumilo
+1479,STHJ,CYAARG,Silvery-throated Jay,Cyanolyca argentigula
+1480,AHJA,CYACUC,Azure-hooded Jay,Cyanolyca cucullata
+1481,BTMJ,CYACOL,Black-throated Magpie-Jay,Cyanocorax colliei
+1482,WTMJ,CYAFOR,White-throated Magpie-Jay,Cyanocorax formosus
+1483,BRJA,CYAMOR,Brown Jay,Cyanocorax morio
+1484,GRJA,CYAYNC,Green Jay,Cyanocorax yncas
+1485,BCRJ,CYAMEL,Bushy-crested Jay,Cyanocorax melanocyaneus
+1486,YUJA,CYAYUC,Yucatan Jay,Cyanocorax yucatanicus
+1487,PBJA,CYABEE,Purplish-backed Jay,Cyanocorax beecheii
+1488,SBJA,CYASAN,San Blas Jay,Cyanocorax sanblasianus
+1489,TUJA,CYADIC,Tufted Jay,Cyanocorax dickeyi
+1490,BCHJ,CYAAFF,Black-chested Jay,Cyanocorax affinis
+1491,PIJA,GYMCYA,Pinyon Jay,Gymnorhinus cyanocephalus
+1492,STJA,CYASTE,Steller's Jay,Cyanocitta stelleri
+1493,BLJA,CYACRI,Blue Jay,Cyanocitta cristata
+1494,FLSJ,APHCOE,Florida Scrub-Jay,Aphelocoma coerulescens
+1495,ISSJ,APHINS,Island Scrub-Jay,Aphelocoma insularis
+1496,CASJ,APHCAL,California Scrub-Jay,Aphelocoma californica
+1497,WOSJ,APHWOO,Woodhouse's Scrub-Jay,Aphelocoma woodhouseii
+1498,TRJA,APHULT,Transvolcanic Jay,Aphelocoma ultramarina
+1499,MEJA,APHWOL,Mexican Jay,Aphelocoma wollweberi
+1500,UNJA,APHUNI,Unicolored Jay,Aphelocoma unicolor
+1501,CLNU,NUCCOL,Clark's Nutcracker,Nucifraga columbiana
+1502,BBMA,PICHUD,Black-billed Magpie,Pica hudsonia
+1503,YBMA,PICNUT,Yellow-billed Magpie,Pica nuttalli
+1504,EUJA,CORMON,Eurasian Jackdaw,Corvus monedula
+1505,ROOK,CORFRU,Rook,Corvus frugilegus
+1506,AMCR,CORBRA,American Crow,Corvus brachyrhynchos
+1507,CUPC,CORMIN,Cuban Palm-Crow,Corvus minutus
+1508,HIPC,CORPAL,Hispaniolan Palm-Crow,Corvus palmarum
+1509,CUCR,CORNAS,Cuban Crow,Corvus nasicus
+1510,WNCR,CORLEU,White-necked Crow,Corvus leucognaphalus
+1511,HCRW,CORCOR,Hooded Crow,Corvus cornix
+1512,JACR,CORJAM,Jamaican Crow,Corvus jamaicensis
+1513,TACR,CORIMP,Tamaulipas Crow,Corvus imparatus
+1514,SICR,CORSIN,Sinaloa Crow,Corvus sinaloae
+1515,FICR,COROSS,Fish Crow,Corvus ossifragus
+1516,HCRO,CORHAW,Hawaiian Crow,Corvus hawaiiensis
+1517,UNCR,CORSPE,Unidentified Crow,Corvus (sp)
+1518,CHRA,CORCRY,Chihuahuan Raven,Corvus cryptoleucus
+1519,CORA,CORCOX,Common Raven,Corvus corax
+1520,VERD,AURFLA,Verdin,Auriparus flaviceps
+1521,CACH,POECAR,Carolina Chickadee,Poecile carolinensis
+1522,BCCH,POEATR,Black-capped Chickadee,Poecile atricapillus
+1523,MOCH,POEGAM,Mountain Chickadee,Poecile gambeli
+1524,MECH,POESCL,Mexican Chickadee,Poecile sclateri
+1525,CBCH,POERUF,Chestnut-backed Chickadee,Poecile rufescens
+1526,BOCH,POEHUD,Boreal Chickadee,Poecile hudsonicus
+1527,GHCH,POECIN,Gray-headed Chickadee,Poecile cinctus
+1528,HYCH,POEHYB,Hybrid Chickadee,Poecile hybrid
+1529,UNCH,POESPE,Unidentified Chickadee,Poecile (sp)
+1530,BRTI,BAEWOL,Bridled Titmouse,Baeolophus wollweberi
+1531,OATI,BAEINO,Oak Titmouse,Baeolophus inornatus
+1532,JUTI,BAERID,Juniper Titmouse,Baeolophus ridgwayi
+1533,TUTI,BAEBIC,Tufted Titmouse,Baeolophus bicolor
+1534,BCTI,BAEATR,Black-crested Titmouse,Baeolophus atricristatus
+1535,EUSK,ALAARV,Eurasian Skylark,Alauda arvensis
+1536,HOLA,EREALP,Horned Lark,Eremophila alpestris
+1537,SHLA,EREALS,Streaked Horned Lark,Eremophila alpestris strigata
+1538,TBWA,ARUAED,Thick-billed Warbler,Arundinax aedon
+1539,ICWA,HIPICT,Icterine Warbler,Hippolais icterina
+1540,MILL,ACRFAM,Millerbird,Acrocephalus familiaris
+1541,SEWA,ACRSCH,Sedge Warbler,Acrocephalus schoenobaenus
+1542,BREW,ACRDUM,Blyth's Reed Warbler,Acrocephalus dumetorum
+1543,BCDO,DONATR,Black-capped Donacobius,Donacobius atricapilla
+1544,PGWA,HELCER,Pallas's Grasshopper Warbler,Helopsaltes certhiola
+1545,MGRW,HELOCH,Middendorff's Grasshopper Warbler,Helopsaltes ochotensis
+1546,LANW,LOCLAN,Lanceolated Warbler,Locustella lanceolata
+1547,RIWA,LOCFLU,River Warbler,Locustella fluviatilis
+1548,BANS,RIPRIP,Bank Swallow,Riparia riparia
+1549,TRES,TACBIC,Tree Swallow,Tachycineta bicolor
+1550,BAHS,TACCYA,Bahama Swallow,Tachycineta cyaneoviridis
+1551,VGSW,TACTHA,Violet-green Swallow,Tachycineta thalassina
+1552,GOSW,TACEUC,Golden Swallow,Tachycineta euchrysea
+1553,MANS,TACALB,Mangrove Swallow,Tachycineta albilinea
+1554,BCSW,ATTPIL,Black-capped Swallow,Atticora pileata
+1555,WTGS,ATTTIB,White-thighed Swallow,Atticora tibialis
+1556,BAWS,PYGCYA,Blue-and-white Swallow,Pygochelidon cyanoleuca
+1557,NRWS,STESER,Northern Rough-winged Swallow,Stelgidopteryx serripennis
+1558,SRWS,STERUF,Southern Rough-winged Swallow,Stelgidopteryx ruficollis
+1559,BCMA,PROTAP,Brown-chested Martin,Progne tapera
+1560,PUMA,PROSUB,Purple Martin,Progne subis
+1561,SOMA,PROELE,Southern Martin,Progne elegans
+1562,GYBM,PROCHA,Gray-breasted Martin,Progne chalybea
+1563,SIMA,PROSIN,Sinaloa Martin,Progne sinaloae
+1564,CUMA,PROCRY,Cuban Martin,Progne cryptoleuca
+1565,CAMA,PRODOM,Caribbean Martin,Progne dominicensis
+1566,BARS,HIRRUS,Barn Swallow,Hirundo rustica
+1567,WEHM,DELURB,Western House-Martin,Delichon urbicum
+1568,SIHM,DELLAG,Siberian House-Martin,Delichon lagopodum
+1569,CLSW,PETPYR,Cliff Swallow,Petrochelidon pyrrhonota
+1570,CASW,PETFUL,Cave Swallow,Petrochelidon fulva
+1571,UNSW,HIRGSP,Unidentified Swallow,"Hirundinidae (gen, sp)"
+1572,BUSH,PSAMIN,Bushtit,Psaltriparus minimus
+1573,JBWA,HORDIP,Japanese Bush Warbler,Horornis diphone
+1574,WILW,PHYTRO,Willow Warbler,Phylloscopus trochilus
+1575,CCHI,PHYCOL,Common Chiffchaff,Phylloscopus collybita
+1576,WOWA,PHYSIB,Wood Warbler,Phylloscopus sibilatrix
+1577,DUWA,PHYFUS,Dusky Warbler,Phylloscopus fuscatus
+1578,PLEW,PHYPRO,Pallas's Leaf Warbler,Phylloscopus proregulus
+1579,YBWA,PHYINO,Yellow-browed Warbler,Phylloscopus inornatus
+1580,ARWA,PHYBOR,Arctic Warbler,Phylloscopus borealis
+1581,AKLW,PHYBOE,Arctic/Kamchatka Leaf Warbler,Phylloscopus borealis/examinandus
+1582,KLWA,PHYEXA,Kamchatka Leaf Warbler,Phylloscopus examinandus
+1583,RVBU,PYCCAF,Red-vented Bulbul,Pycnonotus cafer
+1584,RWBU,PYCJOC,Red-whiskered Bulbul,Pycnonotus jocosus
+1585,EUBC,SYLATR,Eurasian Blackcap,Sylvia atricapilla
+1586,LEWH,SYLCUR,Lesser Whitethroat,Sylvia curruca
+1587,WREN,CHAFAS,Wrentit,Chamaea fasciata
+1588,WAWE,ZOSJAP,Warbling White-eye,Zosterops japonicus
+1589,GNLA,GARPEC,Greater Necklaced Laughingthrush,Garrulax pectoralis
+1590,HWAM,GARCAN,Hwamei,Garrulax canorus
+1591,RBLE,LEILUT,Red-billed Leiothrix,Leiothrix lutea
+1592,RCKI,CORCAL,Ruby-crowned Kinglet,Corthylio calendula
+1593,GCKI,REGSAT,Golden-crowned Kinglet,Regulus satrapa
+1594,PALM,DULDOM,Palmchat,Dulus dominicus
+1595,BOWA,BOMGAR,Bohemian Waxwing,Bombycilla garrulus
+1596,CEDW,BOMCED,Cedar Waxwing,Bombycilla cedrorum
+1597,BAYS,PHAMEL,Black-and-yellow Silky-flycatcher,Phainoptila melanoxantha
+1598,GRSF,PTICIN,Gray Silky-flycatcher,Ptiliogonys cinereus
+1599,LTSF,PTICAU,Long-tailed Silky-flycatcher,Ptiliogonys caudatus
+1600,PHAI,PHANIT,Phainopepla,Phainopepla nitens
+1601,KAOO,MOHBRA,Kauai Oo,Moho braccatus
+1602,OAOO,MOHAPI,Oahu Oo,Moho apicalis
+1603,BIOO,MOHBIS,Bishop's Oo,Moho bishopi
+1604,HAOO,MOHNOB,Hawaii Oo,Moho nobilis
+1605,KIOE,CHAANG,Kioea,Chaetoptila angustipluma
+1606,RBNU,SITCAN,Red-breasted Nuthatch,Sitta canadensis
+1607,WBNU,SITCAR,White-breasted Nuthatch,Sitta carolinensis
+1608,PYNU,SITPYG,Pygmy Nuthatch,Sitta pygmaea
+1609,BHNU,SITPUS,Brown-headed Nuthatch,Sitta pusilla
+1610,BANU,SITINS,Bahama Nuthatch,Sitta insularis
+1611,BRCR,CERAME,Brown Creeper,Certhia americana
+1612,LBGN,RAMMEL,Long-billed Gnatwren,Ramphocaenus melanurus
+1613,TFGN,MICCIN,Tawny-faced Gnatwren,Microbates cinereiventris
+1614,STGN,POLSCH,Slate-throated Gnatcatcher,Polioptila schistaceigula
+1615,CUGN,POLLEM,Cuban Gnatcatcher,Polioptila lembeyei
+1616,YUGN,POLALV,Yucatan Gnatcatcher,Polioptila albiventris
+1617,WBGN,POLBIL,White-browed Gnatcatcher,Polioptila bilineata
+1618,BGGN,POLCAE,Blue-gray Gnatcatcher,Polioptila caerulea
+1619,BTGN,POLMEL,Black-tailed Gnatcatcher,Polioptila melanura
+1620,CAGN,POLCAL,California Gnatcatcher,Polioptila californica
+1621,BCGN,POLNIG,Black-capped Gnatcatcher,Polioptila nigriceps
+1622,WLGN,POLALL,White-lored Gnatcatcher,Polioptila albiloris
+1623,ROWR,SALOBS,Rock Wren,Salpinctes obsoletus
+1624,NIWR,MICPHI,Nightingale Wren,Microcerculus philomela
+1625,SCBW,MICMAR,Scaly-breasted Wren,Microcerculus marginatus
+1626,CANW,CAPMEX,Canyon Wren,Catherpes mexicanus
+1627,SUWR,HYLSUM,Sumichrast's Wren,Hylorchilus sumichrasti
+1628,NAWR,HYLNAV,Nava's Wren,Hylorchilus navai
+1629,SHEW,PHESPA,Sooty-headed Wren,Pheugopedius spadix
+1630,BTWR,PHEATR,Black-throated Wren,Pheugopedius atrogularis
+1631,RBSW,PHERUT,Rufous-breasted Wren,Pheugopedius rutilus
+1632,SOBW,PHEMAC,Spot-breasted Wren,Pheugopedius maculipectus
+1633,HAWR,PHEFEL,Happy Wren,Pheugopedius felix
+1634,BBEW,PHEFAS,Black-bellied Wren,Pheugopedius fasciatoventris
+1635,STWR,CANLEP,Stripe-throated Wren,Cantorchilus leucopogon
+1636,SIBW,CANTHO,Stripe-breasted Wren,Cantorchilus thoracicus
+1637,CABW,CANMOD,Cabanis's Wren,Cantorchilus modestus
+1638,CAKW,CANZEL,Canebrake Wren,Cantorchilus zeledoni
+1639,ISWR,CANELU,Isthmian Wren,Cantorchilus elutus
+1640,BAYW,CANNIG,Bay Wren,Cantorchilus nigricapillus
+1641,RIWR,CANSEM,Riverside Wren,Cantorchilus semibadius
+1642,BBRW,CANLET,Buff-breasted Wren,Cantorchilus leucotis
+1643,WBWW,HENLES,White-breasted Wood-Wren,Henicorhina leucosticta
+1644,GBWW,HENLEP,Gray-breasted Wood-Wren,Henicorhina leucophrys
+1645,SONW,CYPPHA,Song Wren,Cyphorhinus phaeocephalus
+1646,WBWR,UROLEU,White-bellied Wren,Uropsila leucogastra
+1647,RAWW,THRRUL,Rufous-and-white Wren,Thryophilus rufalbus
+1648,SIWR,THRSIN,Sinaloa Wren,Thryophilus sinaloa
+1649,BANW,THRPLE,Banded Wren,Thryophilus pleurostictus
+1650,WHWR,CAMALB,White-headed Wren,Campylorhynchus albobrunneus
+1651,BABW,CAMZON,Band-backed Wren,Campylorhynchus zonatus
+1652,GBWR,CAMMEG,Gray-barred Wren,Campylorhynchus megalopterus
+1653,GIWR,CAMCHI,Giant Wren,Campylorhynchus chiapensis
+1654,BIWR,CAMGRI,Bicolored Wren,Campylorhynchus griseus
+1655,RNAW,CAMHUM,Russet-naped Wren,Campylorhynchus humilis
+1656,VEWR,CAMRUF,Veracruz Wren,Campylorhynchus rufinucha
+1657,RBAW,CAMCAP,Rufous-backed Wren,Campylorhynchus capistratus
+1658,SPWR,CAMGUL,Spotted Wren,Campylorhynchus gularis
+1659,BOWR,CAMJOC,Boucard's Wren,Campylorhynchus jocosus
+1660,YUWR,CAMYUC,Yucatan Wren,Campylorhynchus yucatanicus
+1661,CACW,CAMBRU,Cactus Wren,Campylorhynchus brunneicapillus
+1662,BEWR,THRBEW,Bewick's Wren,Thryomanes bewickii
+1663,CARW,THRLUD,Carolina Wren,Thryothorus ludovicianus
+1664,NHWR,TROAED,Northern House Wren,Troglodytes aedon
+1665,SHOW,TROMUL,Southern House Wren,Troglodytes musculus
+1666,COWR,TROBEA,Cozumel Wren,Troglodytes beani
+1667,KAWR,TROMAR,Kalinago Wren,Troglodytes martinicensis
+1668,SLWR,TROMES,St. Lucia Wren,Troglodytes mesoleucus
+1669,SVWR,TROMUC,St. Vincent Wren,Troglodytes musicus
+1670,GREW,TROGRE,Grenada Wren,Troglodytes grenadensis
+1671,SOHW,TROAMU,Southern House-Wren,Troglodytes aedon musculus
+1672,SOCW,TROSIS,Socorro Wren,Troglodytes sissonii
+1673,CLWR,TROTAN,Clarion Wren,Troglodytes tanneri
+1674,RBWW,TRORUC,Rufous-browed Wren,Troglodytes rufociliatus
+1675,OCWR,TROOCH,Ochraceous Wren,Troglodytes ochraceus
+1676,PAWR,TROPAC,Pacific Wren,Troglodytes pacificus
+1677,PWWR,TROPAH,Pacific/Winter Wren,Troglodytes pacificus/hiemalis
+1678,WIWR,TROHIE,Winter Wren,Troglodytes hiemalis
+1679,ZAWR,FERCER,Zapata Wren,Ferminia cerverai
+1680,SEWR,CISSTE,Sedge Wren,Cistothorus stellaris
+1681,GWRE,CISPLA,Grass Wren,Cistothorus platensis
+1682,MAWR,CISPAL,Marsh Wren,Cistothorus palustris
+1683,TIWR,THRBRO,Timberline Wren,Thryorchilus browni
+1684,UNWR,TRGGSP,Unidentified Wren,"Troglodytidae (gen, sp)"
+1685,BLMO,MELCAE,Blue Mockingbird,Melanotis caerulescens
+1686,BAWM,MELHYC,Blue-and-white Mockingbird,Melanotis hypoleucus
+1687,BLCA,MELGLA,Black Catbird,Melanoptila glabrirostris
+1688,GRCA,DUMCAR,Gray Catbird,Dumetella carolinensis
+1689,MATH,RAMBRA,Martinique Thrasher,Ramphocinclus brachyurus
+1690,SLTH,RAMSAC,St. Lucia Thrasher,Ramphocinclus sanctaeluciae
+1691,SBTH,ALLFUC,Scaly-breasted Thrasher,Allenia fusca
+1692,PETH,MARFUS,Pearly-eyed Thrasher,Margarops fuscatus
+1693,BRTR,CINRUF,Brown Trembler,Cinclocerthia ruficauda
+1694,GRTR,CINGUT,Gray Trembler,Cinclocerthia gutturalis
+1695,CBTH,TOXCUR,Curve-billed Thrasher,Toxostoma curvirostre
+1696,OCTH,TOXOCE,Ocellated Thrasher,Toxostoma ocellatum
+1697,BRTH,TOXRUF,Brown Thrasher,Toxostoma rufum
+1698,LBTH,TOXLON,Long-billed Thrasher,Toxostoma longirostre
+1699,COZT,TOXGUT,Cozumel Thrasher,Toxostoma guttatum
+1700,BETH,TOXBEN,Bendire's Thrasher,Toxostoma bendirei
+1701,GRAT,TOXCIN,Gray Thrasher,Toxostoma cinereum
+1702,CATH,TOXRED,California Thrasher,Toxostoma redivivum
+1703,LCTH,TOXLEC,LeConte's Thrasher,Toxostoma lecontei
+1704,CRTH,TOXCRI,Crissal Thrasher,Toxostoma crissale
+1705,SATH,OREMON,Sage Thrasher,Oreoscoptes montanus
+1706,BAMO,MIMGUN,Bahama Mockingbird,Mimus gundlachii
+1707,SOMO,MIMGRA,Socorro Mockingbird,Mimus graysoni
+1708,TRMO,MIMGIL,Tropical Mockingbird,Mimus gilvus
+1709,NOMO,MIMPOL,Northern Mockingbird,Mimus polyglottos
+1710,EUST,STUVUL,European Starling,Sturnus vulgaris
+1711,COMY,ACRTRI,Common Myna,Acridotheres tristis
+1712,AMDI,CINMEX,American Dipper,Cinclus mexicanus
+1713,EABL,SIASIA,Eastern Bluebird,Sialia sialis
+1714,WEBL,SIAMEX,Western Bluebird,Sialia mexicana
+1715,MOBL,SIACUR,Mountain Bluebird,Sialia currucoides
+1716,HYBL,SIAHYB,Hybrid Bluebird,Sialia hybrid
+1717,TOSO,MYATOW,Townsend's Solitaire,Myadestes townsendi
+1718,BBSO,MYAOCC,Brown-backed Solitaire,Myadestes occidentalis
+1719,CUSO,MYAELI,Cuban Solitaire,Myadestes elisabeth
+1720,RTSO,MYAGEN,Rufous-throated Solitaire,Myadestes genibarbis
+1721,BFSO,MYAMEL,Black-faced Solitaire,Myadestes melanops
+1722,VASO,MYACOL,Varied Solitaire,Myadestes coloratus
+1723,SCSO,MYAUNI,Slate-colored Solitaire,Myadestes unicolor
+1724,KAMA,MYAMYA,Kamao,Myadestes myadestinus
+1725,AMAU,MYAWOA,Amaui,Myadestes woahensis
+1726,OLOM,MYALAN,Olomao,Myadestes lanaiensis
+1727,OMAO,MYAOBS,Omao,Myadestes obscurus
+1728,PUAI,MYAPAL,Puaiohi,Myadestes palmeri
+1729,WHTH,ZOOAUR,White's Thrush,Zoothera aurea
+1730,BBNT,CATGRA,Black-billed Nightingale-Thrush,Catharus gracilirostris
+1731,OBNT,CATAUN,Orange-billed Nightingale-Thrush,Catharus aurantiirostris
+1732,SBNT,CATFUT,Slaty-backed Nightingale-Thrush,Catharus fuscater
+1733,RUNT,CATOCC,Russet Nightingale-Thrush,Catharus occidentalis
+1734,RCNT,CATFRA,Ruddy-capped Nightingale-Thrush,Catharus frantzii
+1735,BHNT,CASMEX,Black-headed Nightingale-Thrush,Catharus mexicanus
+1736,YTNT,CATDRY,Yellow-throated Nightingale-Thrush,Catharus dryas
+1737,VEER,CATFUN,Veery,Catharus fuscescens
+1738,GCTH,CATMIN,Gray-cheeked Thrush,Catharus minimus
+1739,GCBT,CATMIB,Gray-cheeked/Bicknell's Thrush,Catharus minimus/bicknelli
+1740,BITH,CATBIC,Bicknell's Thrush,Catharus bicknelli
+1741,SWTH,CATUST,Swainson's Thrush,Catharus ustulatus
+1742,HETH,CATGUT,Hermit Thrush,Catharus guttatus
+1743,WOTH,HYLMUS,Wood Thrush,Hylocichla mustelina
+1744,MITH,TURVIS,Mistle Thrush,Turdus viscivorus
+1745,EUBB,TURMER,Eurasian Blackbird,Turdus merula
+1746,EYTH,TUROBC,Eyebrowed Thrush,Turdus obscurus
+1747,DUTH,TUREUN,Dusky Thrush,Turdus eunomus
+1748,NATH,TURNAU,Naumann's Thrush,Turdus naumanni
+1749,FIEL,TURPIL,Fieldfare,Turdus pilaris
+1750,REDW,TURILI,Redwing,Turdus iliacus
+1751,SOTH,TURPHI,Song Thrush,Turdus philomelos
+1752,SOOT,TURNIG,Sooty Thrush,Turdus nigrescens
+1753,BLTH,TURINF,Black Thrush,Turdus infuscatus
+1754,MOTH,TURPLE,Mountain Thrush,Turdus plebejus
+1755,COCT,TURFUM,Cocoa Thrush,Turdus fumigatus
+1756,PVTH,TUROBL,Pale-vented Thrush,Turdus obsoletus
+1757,CCTH,TURGRA,Clay-colored Thrush,Turdus grayi
+1758,SPTH,TURNUD,Spectacled Thrush,Turdus nudigenis
+1759,WETH,TURJAM,White-eyed Thrush,Turdus jamaicensis
+1760,WTTH,TURASS,White-throated Thrush,Turdus assimilis
+1761,RBRO,TURRUP,Rufous-backed Robin,Turdus rufopalliatus
+1762,RCRO,TURRUT,Rufous-collared Robin,Turdus rufitorques
+1763,AMRO,TURMIG,American Robin,Turdus migratorius
+1764,LSTH,TURSWA,La Selle Thrush,Turdus swalesi
+1765,WCTH,TURAUR,White-chinned Thrush,Turdus aurantius
+1766,GCAT,TURRAV,Grand Cayman Thrush,Turdus ravidus
+1767,RLTH,TURPLU,Red-legged Thrush,Turdus plumbeus
+1768,FOTH,TURLHE,Forest Thrush,Turdus lherminieri
+1769,VATH,IXONAE,Varied Thrush,Ixoreus naevius
+1770,UNTH,TURGSP,Unidentified Thrush,"Turdidae (gen, sp)"
+1771,AZTH,RIDPIN,Aztec Thrush,Ridgwayia pinicola
+1772,GSFL,MUSGRI,Gray-streaked Flycatcher,Muscicapa griseisticta
+1773,ABFL,MUSDAU,Asian Brown Flycatcher,Muscicapa dauurica
+1774,SPFL,MUSSTR,Spotted Flycatcher,Muscicapa striata
+1775,DSFL,MUSSIB,Dark-sided Flycatcher,Muscicapa sibirica
+1776,WRSH,COPMAL,White-rumped Shama,Copsychus malabaricus
+1777,EURO,ERIRUB,European Robin,Erithacus rubecula
+1778,SBRO,LARCYA,Siberian Blue Robin,Larvivora cyane
+1779,RTRO,LARSIB,Rufous-tailed Robin,Larvivora sibilans
+1780,BLUE,CYASVE,Bluethroat,Cyanecula svecica
+1781,SIRU,CALCAP,Siberian Rubythroat,Calliope calliope
+1782,RFBL,TARCYA,Red-flanked Bluetail,Tarsiger cyanurus
+1783,NAFL,FICNAR,Narcissus Flycatcher,Ficedula narcissina
+1784,MUFL,FICMUG,Mugimaki Flycatcher,Ficedula mugimaki
+1785,TAFL,FICALB,Taiga Flycatcher,Ficedula albicilla
+1786,CRET,PHOPHO,Common Redstart,Phoenicurus phoenicurus
+1787,RTRT,MONSAX,Rufous-tailed Rock-thrush,Monticola saxatilis
+1788,ASST,SAXMAU,Asian Stonechat,Saxicola maurus
+1789,NOWH,OENOEN,Northern Wheatear,Oenanthe oenanthe
+1790,PIWH,OENPLE,Pied Wheatear,Oenanthe pleschanka
+1791,OLWA,PEUTAE,Olive Warbler,Peucedramus taeniatus
+1792,VIWE,PLOCUC,Village Weaver,Ploceus cucullatus
+1793,NRBI,EUPFRA,Northern Red Bishop,Euplectes franciscanus
+1794,YCBI,EUPAFE,Yellow-crowned Bishop,Euplectes afer
+1795,PTWH,VIDMAC,Pin-tailed Whydah,Vidua macroura
+1796,BRMA,SPECUC,Bronze Mannikin,Spermestes cucullata
+1797,AFSI,EUOCAN,African Silverbill,Euodice cantans
+1798,INSI,EUOMAB,Indian Silverbill,Euodice malabarica
+1799,JASP,PADORY,Java Sparrow,Padda oryzivora
+1800,SBMU,LONPUN,Scaly-breasted Munia,Lonchura punctulata
+1801,TRMU,LONMAL,Tricolored Munia,Lonchura malacca
+1802,CHMU,LONATR,Chestnut Munia,Lonchura atricapilla
+1803,REAV,AMDAMA,Red Avadavat,Amandava amandava
+1804,LAVW,GLACAE,Lavender Waxbill,Glaucestrilda caerulescens
+1805,OCHW,ESTMEL,Orange-cheeked Waxbill,Estrilda melpoda
+1806,COMW,ESTAST,Common Waxbill,Estrilda astrild
+1807,BLRW,ESTTRO,Black-rumped Waxbill,Estrilda troglodytes
+1808,SIAC,PRUMON,Siberian Accentor,Prunella montanella
+1809,HOSP,PASDOM,House Sparrow,Passer domesticus
+1810,ETSP,PASMON,Eurasian Tree Sparrow,Passer montanus
+1811,EYWA,MOTTSC,Eastern Yellow Wagtail,Motacilla tschutschensis
+1812,CIWA,MOTCIT,Citrine Wagtail,Motacilla citreola
+1813,GRAW,MOTCIN,Gray Wagtail,Motacilla cinerea
+1814,WHWA,MOTALB,White Wagtail,Motacilla alba
+1815,TRPI,ANTTRI,Tree Pipit,Anthus trivialis
+1816,OBPI,ANTHOD,Olive-backed Pipit,Anthus hodgsoni
+1817,PEPI,ANTGUS,Pechora Pipit,Anthus gustavi
+1818,RTPI,ANTCER,Red-throated Pipit,Anthus cervinus
+1819,SIPI,ANTJAP,Siberian Pipit,Anthus japonicus
+1820,AMPI,ANTRUB,American Pipit,Anthus rubescens
+1821,MEPI,ANTPRA,Meadow Pipit,Anthus pratensis
+1822,SPPI,ANTSPR,Sprague's Pipit,Anthus spragueii
+1823,YEPI,ANTCHI,Yellowish Pipit,Anthus chii
+1824,CCHA,FRICOE,Common Chaffinch,Fringilla coelebs
+1825,BRAM,FRIMON,Brambling,Fringilla montifringilla
+1826,ELEU,CHLELE,Elegant Euphonia,Chlorophonia elegantissima
+1827,HIEU,CHLMUS,Hispaniolan Euphonia,Chlorophonia musica
+1828,PREU,CHLSCL,Puerto Rican Euphonia,Chlorophonia sclateri
+1829,LAEU,CHLFLF,Lesser Antillean Euphonia,Chlorophonia flavifrons
+1830,YCCH,CHPFLA,Yellow-collared Chlorophonia,Chlorophonia flavirostris
+1831,BCRC,CHLOCC,Blue-crowned Chlorophonia,Chlorophonia occipitalis
+1832,GBCH,CHLCAL,Golden-browed Chlorophonia,Chlorophonia callophrys
+1833,JAEU,EUPJAM,Jamaican Euphonia,Euphonia jamaica
+1834,WMEU,EUPGOD,West Mexican Euphonia,Euphonia godmani
+1835,SEUP,EUPAFF,Scrub Euphonia,Euphonia affinis
+1836,YCEU,EUPLUT,Yellow-crowned Euphonia,Euphonia luteicapilla
+1837,WVEU,EUPMIN,White-vented Euphonia,Euphonia minuta
+1838,YTEU,EUPHIR,Yellow-throated Euphonia,Euphonia hirundinacea
+1839,TBEU,EUPLAN,Thick-billed Euphonia,Euphonia laniirostris
+1840,SPCE,EUPIMI,Spot-crowned Euphonia,Euphonia imitans
+1841,OBAE,EUPGOU,Olive-backed Euphonia,Euphonia gouldi
+1842,FVEU,EUPFUL,Fulvous-vented Euphonia,Euphonia fulvicrissa
+1843,TCEU,EUPANN,Tawny-capped Euphonia,Euphonia anneae
+1844,OBEE,EUPXAN,Orange-bellied Euphonia,Euphonia xanthogaster
+1845,HOOG,COCABE,Hooded Grosbeak,Coccothraustes abeillei
+1846,EVGR,COCVES,Evening Grosbeak,Coccothraustes vespertinus
+1847,HAWF,COCCOT,Hawfinch,Coccothraustes coccothraustes
+1848,CORO,CARERY,Common Rosefinch,Carpodacus erythrinus
+1849,PARO,CARROS,Pallas's Rosefinch,Carpodacus roseus
+1850,POUL,MELPHA,Poo-uli,Melamprosops phaeosoma
+1851,AKIK,OREBAI,Akikiki,Oreomystis bairdi
+1852,OAAL,PAMMAC,Oahu Alauahio,Paroreomyza maculata
+1853,KAKA,PARFLA,Kakawahie,Paroreomyza flammea
+1854,MAAL,PAMMON,Maui Alauahio,Paroreomyza montana
+1855,PALI,LOXBAI,Palila,Loxioides bailleui
+1856,LAFI,TELCAN,Laysan Finch,Telespiza cantans
+1857,NIFI,TELULT,Nihoa Finch,Telespiza ultima
+1858,KOGR,CHLKON,Kona Grosbeak,Chloridops kona
+1859,LEKF,RHOFLA,Lesser Koa-Finch,Rhodacanthis flaviceps
+1860,GRKF,RHOPAL,Greater Koa-Finch,Rhodacanthis palmeri
+1861,UAIH,CIRANN,Ula-ai-hawane,Ciridops anna
+1862,AKOH,PALDOL,Akohekohe,Palmeria dolei
+1863,LAYH,HIMFRA,Laysan Honeycreeper,Himatione fraithii
+1864,APAP,HIMSAN,Apapane,Himatione sanguinea
+1865,IIWI,DRECOC,Iiwi,Drepanis coccinea
+1866,HAMA,DREPAC,Hawaii Mamo,Drepanis pacifica
+1867,BLMA,DREFUN,Black Mamo,Drepanis funerea
+1868,OU,PSIPSI,Ou,Psittirostra psittacea
+1869,LANH,DYSMUN,Lanai Hookbill,Dysmorodrepanis munroi
+1870,MAPA,PSEXAN,Maui Parrotbill,Pseudonestor xanthophrys
+1871,KANU,HEMHAN,Kauai Nukupuu,Hemignathus hanapepe
+1872,OANU,HEMLUC,Oahu Nukupuu,Hemignathus lucidus
+1873,MANU,HEMAFF,Maui Nukupuu,Hemignathus affinis
+1874,AKIA,HEMWIL,Akiapolaau,Hemignathus wilsoni
+1875,LEAK,AKIOBS,Lesser Akialoa,Akialoa obscura
+1876,KAAK,AKISTE,Kauai Akialoa,Akialoa stejnegeri
+1877,OAKI,AKIELL,Oahu Akialoa,Akialoa ellisiana
+1878,MNAK,AKILAN,Maui-nui Akialoa,Akialoa lanaiensis
+1879,ANIA,MAGPAR,Anianiau,Magumma parva
+1880,HAAM,CHLVIR,Hawaii Amakihi,Chlorodrepanis virens
+1881,OAAM,CHDFLA,Oahu Amakihi,Chlorodrepanis flava
+1882,KAAM,CHLSTE,Kauai Amakihi,Chlorodrepanis stejnegeri
+1883,GRAM,VIRSAG,Greater Amakihi,Viridonia sagittirostris
+1884,HCRE,LOXMAN,Hawaii Creeper,Loxops mana
+1885,AKEK,LOXCAE,Akekee,Loxops caeruleirostris
+1886,OAKE,LOXWOL,Oahu Akepa,Loxops wolstenholmei
+1887,MAAK,LOXOCH,Maui Akepa,Loxops ochraceus
+1888,HAAK,LOXCOC,Hawaii Akepa,Loxops coccineus
+1889,PIGR,PINENU,Pine Grosbeak,Pinicola enucleator
+1890,EUBU,PYRPYH,Eurasian Bullfinch,Pyrrhula pyrrhula
+1891,ASRF,LEUARC,Asian Rosy-Finch,Leucosticte arctoa
+1892,GCRF,LEUTEP,Gray-crowned Rosy-Finch,Leucosticte tephrocotis
+1893,BLRF,LEUATT,Black Rosy-Finch,Leucosticte atrata
+1894,BCRF,LEUAUS,Brown-capped Rosy-Finch,Leucosticte australis
+1895,HOFI,HAEMEX,House Finch,Haemorhous mexicanus
+1896,PUFI,HAEPUR,Purple Finch,Haemorhous purpureus
+1897,CAFI,HAECAS,Cassin's Finch,Haemorhous cassinii
+1898,UHFI,HAESPE,Unidentified Haemorhous Finch,Haemorhous (sp)
+1899,ORGR,CHLSIN,Oriental Greenfinch,Chloris sinica
+1900,YFCA,CRIMOZ,Yellow-fronted Canary,Crithagra mozambica
+1901,REDP,ACAFLA,Redpoll,Acanthis flammea
+1902,RECR,LOXCUR,Red Crossbill,Loxia curvirostra
+1903,CACR,LOXSIN,Cassia Crossbill,Loxia sinesciuris
+1904,HICR,LOXMEG,Hispaniolan Crossbill,Loxia megaplaga
+1905,WWCR,LOXLEU,White-winged Crossbill,Loxia leucoptera
+1906,EGOL,CARCAU,European Goldfinch,Carduelis carduelis
+1907,EUSI,SPISPI,Eurasian Siskin,Spinus spinus
+1908,PISI,SPIPIN,Pine Siskin,Spinus pinus
+1909,BCSI,SPIATC,Black-capped Siskin,Spinus atriceps
+1910,BHSI,SPINOT,Black-headed Siskin,Spinus notatus
+1911,YBSI,SPIXAN,Yellow-bellied Siskin,Spinus xanthogastrus
+1912,RESI,SPICUC,Red Siskin,Spinus cucullatus
+1913,ANSI,SPUDOM,Antillean Siskin,Spinus dominicensis
+1914,LEGO,SPIPSA,Lesser Goldfinch,Spinus psaltria
+1915,LAGO,SPILAW,Lawrence's Goldfinch,Spinus lawrencei
+1916,AGOL,SPITRI,American Goldfinch,Spinus tristis
+1917,ISCA,SERCAN,Island Canary,Serinus canaria
+1918,ROTT,RHNROS,Rosy Thrush-Tanager,Rhodinocichla rosea
+1919,LALO,CALLAP,Lapland Longspur,Calcarius lapponicus
+1920,CCLO,CALORN,Chestnut-collared Longspur,Calcarius ornatus
+1921,SMLO,CALPIC,Smith's Longspur,Calcarius pictus
+1922,TBLO,RHYMCC,Thick-billed Longspur,Rhynchophanes mccownii
+1923,SNBU,PLENIV,Snow Bunting,Plectrophenax nivalis
+1924,MKBU,PLEHYP,McKay's Bunting,Plectrophenax hyperboreus
+1925,PIBU,EMBLEU,Pine Bunting,Emberiza leucocephalos
+1926,YBWB,EMBCHR,Yellow-browed Bunting,Emberiza chrysophrys
+1927,LIBU,EMBPUS,Little Bunting,Emberiza pusilla
+1928,RUBU,EMBRUS,Rustic Bunting,Emberiza rustica
+1929,YTBU,EMBELE,Yellow-throated Bunting,Emberiza elegans
+1930,YBSB,EMBAUR,Yellow-breasted Bunting,Emberiza aureola
+1931,GRBU,EMBVAR,Gray Bunting,Emberiza variabilis
+1932,PALB,EMBPAL,Pallas's Bunting,Emberiza pallasi
+1933,REBU,EMBSCH,Reed Bunting,Emberiza schoeniclus
+1934,YTCH,CHLFLG,Yellow-throated Chlorospingus,Chlorospingus flavigularis
+1935,ATCH,CHLCAG,Ashy-throated Chlorospingus,Chlorospingus canigularis
+1936,SCCH,CHLPIL,Sooty-capped Chlorospingus,Chlorospingus pileatus
+1937,COCL,CHLFLP,Common Chlorospingus,Chlorospingus flavopectus
+1938,TACH,CHLTAC,Tacarcuna Chlorospingus,Chlorospingus tacarcunae
+1939,PICH,CHLINO,Pirre Chlorospingus,Chlorospingus inornatus
+1940,RWSP,PEUCAR,Rufous-winged Sparrow,Peucaea carpalis
+1941,CTSP,PEUSUM,Cinnamon-tailed Sparrow,Peucaea sumichrasti
+1942,SHSP,PEURUF,Stripe-headed Sparrow,Peucaea ruficauda
+1943,BCHS,PEUHUM,Black-chested Sparrow,Peucaea humeralis
+1944,BRIS,PEUMYS,Bridled Sparrow,Peucaea mystacalis
+1945,BOSP,PEUBOT,Botteri's Sparrow,Peucaea botterii
+1946,CASP,PEUCAS,Cassin's Sparrow,Peucaea cassinii
+1947,BACS,PEUAES,Bachman's Sparrow,Peucaea aestivalis
+1948,GRSP,AMMSAV,Grasshopper Sparrow,Ammodramus savannarum
+1949,FGSP,AMMSFL,Florida Grasshopper Sparrow,Ammodramus savannarum floridanus
+1950,OLSP,ARRRUF,Olive Sparrow,Arremonops rufivirgatus
+1951,GBSP,ARRCHL,Green-backed Sparrow,Arremonops chloronotus
+1952,BSTS,ARRCON,Black-striped Sparrow,Arremonops conirostris
+1953,FSSP,AMPQUI,Five-striped Sparrow,Amphispizopsis quinquestriata
+1954,BTSP,AMPBIL,Black-throated Sparrow,Amphispiza bilineata
+1955,LASP,CHOGRA,Lark Sparrow,Chondestes grammacus
+1956,LARB,CALMEC,Lark Bunting,Calamospiza melanocorys
+1957,CHSP,SPIPAS,Chipping Sparrow,Spizella passerina
+1958,CCSP,SPIPAL,Clay-colored Sparrow,Spizella pallida
+1959,BCSP,SPIATG,Black-chinned Sparrow,Spizella atrogularis
+1960,FISP,SPIPUS,Field Sparrow,Spizella pusilla
+1961,BRSP,SPIBRE,Brewer's Sparrow,Spizella breweri
+1962,WOSP,SPIWOR,Worthen's Sparrow,Spizella wortheni
+1963,CRBR,ARRCOS,Costa Rican Brushfinch,Arremon costaricensis
+1964,BHBR,ARRATR,Black-headed Brushfinch,Arremon atricapillus
+1965,OBSP,ARRAUR,Orange-billed Sparrow,Arremon aurantiirostris
+1966,GSBR,ARRVIR,Green-striped Brushfinch,Arremon virenticeps
+1967,CCBR,ARRBRU,Chestnut-capped Brushfinch,Arremon brunneinucha
+1968,SFFI,ARRCRA,Sooty-faced Finch,Arremon crassirostris
+1969,FOSP,PASILI,Fox Sparrow,Passerella iliaca
+1970,ATSP,SPIARB,American Tree Sparrow,Spizelloides arborea
+1971,VOJU,JUNVUL,Volcano Junco,Junco vulcani
+1972,GUJU,JUNINS,Guadalupe Junco,Junco insularis
+1973,DEJU,JUNHYE,Dark-eyed Junco,Junco hyemalis
+1974,SCJU,JUNHHY,Slate-colored Junco,Junco hyemalis hyemalis
+1975,WWJU,JUNHAI,White-winged Junco,Junco hyemalis aikeni
+1976,ORJU,JUNHOR,Oregon Junco,Junco hyemalis oreganus
+1977,PSJU,JUNHME,Pink-sided Junco,Junco hyemalis mearnsi
+1978,GHJU,JUNHCA,Gray-headed Junco,Junco hyemalis caniceps
+1979,RBJU,JUNHDO,Red-backed Junco,Junco hyemalis dorsalis
+1980,YEJU,JUNPHA,Yellow-eyed Junco,Junco phaeonotus
+1981,BAJU,JUNBAI,Baird's Junco,Junco bairdi
+1982,RCOS,ZONCAP,Rufous-collared Sparrow,Zonotrichia capensis
+1983,WCSP,ZONLEU,White-crowned Sparrow,Zonotrichia leucophrys
+1984,EWCS,ZONLLE,Eastern White-crowned Sparrow,Zonotrichia leucophrys leucophrys
+1985,MWCS,ZONLOR,Mountain White-crowned Sparrow,Zonotrichia leucophrys oriantha
+1986,GWCS,ZONLGA,Gambel's White-crowned Sparrow,Zonotrichia leucophrys gambelii
+1987,PSWS,ZONLPU,Puget Sound White-crowned Sparrow,Zonotrichia leucophrys pugetensis
+1988,NWCS,ZONLNU,Nuttall's White-crowned Sparrow,Zonotrichia leucophrys nuttalli
+1989,GCSP,ZONATR,Golden-crowned Sparrow,Zonotrichia atricapilla
+1990,HASP,ZONQUE,Harris's Sparrow,Zonotrichia querula
+1991,WTSP,ZONALB,White-throated Sparrow,Zonotrichia albicollis
+1992,ZSHY,ZONHYB,Zonotrichia Sparrow Hybrid,Zonotrichia hybrid
+1993,BESP,ARTBEL,Bell's Sparrow,Artemisiospiza belli
+1994,USSP,ARTNEB,Unidentified Sage Sparrow,Artemisiospiza nevadensis/belli
+1995,SABS,ARTNEV,Sagebrush Sparrow,Artemisiospiza nevadensis
+1996,SCBS,ARTBEC,San Clemente Bell's Sparrow,Artemisiospiza belli clementeae
+1997,SSPA,ORISUP,Striped Sparrow,Oriturus superciliosus
+1998,VESP,POOGRA,Vesper Sparrow,Pooecetes gramineus
+1999,LCSP,AMMLEC,LeConte's Sparrow,Ammospiza leconteii
+2000,SESP,AMMMAR,Seaside Sparrow,Ammospiza maritima
+2001,DSSP,AMMMNI,Dusky Seaside-Sparrow,Ammospiza maritima nigrescens
+2002,CSSS,AMMMMI,Cape Sable Seaside-Sparrow,Ammospiza maritima mirabilis
+2003,NESP,AMMNEL,Nelson's Sparrow,Ammospiza nelsoni
+2004,SALS,AMMCAU,Saltmarsh Sparrow,Ammospiza caudacuta
+2005,STSP,AMMNEC,Sharp-tailed Sparrow,Ammospiza nelsoni/caudacuta
+2006,BAIS,CENBAI,Baird's Sparrow,Centronyx bairdii
+2007,HESP,CENHEN,Henslow's Sparrow,Centronyx henslowii
+2008,SAVS,PASSAN,Savannah Sparrow,Passerculus sandwichensis
+2009,IPSP,PASSPR,Ipswich Sparrow,Passerculus sandwichensis princeps
+2010,BSSP,PASSBE,Belding's Savannah Sparrow,Passerculus sandwichensis beldingi
+2011,LBSP,PASSRO,Large-billed Sparrow,Passerculus sandwichensis rostratus
+2012,SMSP,XENBAI,Sierra Madre Sparrow,Xenospiza baileyi
+2013,SOSP,MELMEL,Song Sparrow,Melospiza melodia
+2014,LISP,MELLIN,Lincoln's Sparrow,Melospiza lincolnii
+2015,SWSP,MELGEO,Swamp Sparrow,Melospiza georgiana
+2016,LFFI,PEZCAP,Large-footed Finch,Pezopetes capitalis
+2017,ZASP,TORINE,Zapata Sparrow,Torreornis inexpectata
+2018,RCGS,MELKIE,Rusty-crowned Ground-Sparrow,Melozone kieneri
+2019,CANT,MEZFUS,Canyon Towhee,Melozone fusca
+2020,WTTO,MELALB,White-throated Towhee,Melozone albicollis
+2021,ABTO,MELABE,Abert's Towhee,Melozone aberti
+2022,CALT,MELCRI,California Towhee,Melozone crissalis
+2023,ICTO,MELCRE,Inyo California Towhee,Melozone crissalis eremophilus
+2024,WEGS,MELLEU,White-eared Ground-Sparrow,Melozone leucotis
+2025,WFGS,MELBIA,White-faced Ground-Sparrow,Melozone biarcuata
+2026,CAGS,MELCAB,Cabanis's Ground-Sparrow,Melozone cabanisi
+2027,RUSP,AIMRUS,Rusty Sparrow,Aimophila rufescens
+2028,RCSP,AIMRUP,Rufous-crowned Sparrow,Aimophila ruficeps
+2029,OASP,AIMNOT,Oaxaca Sparrow,Aimophila notosticta
+2030,GTTO,PIPCHL,Green-tailed Towhee,Pipilo chlorurus
+2031,SPTO,PIPMAC,Spotted Towhee,Pipilo maculatus
+2032,URST,PIPMAE,Unidentified Rufous-sided Towhee,Pipilo maculatus/erythrophthalmus
+2033,EATO,PIPERY,Eastern Towhee,Pipilo erythrophthalmus
+2034,COTO,PIPOCA,Collared Towhee,Pipilo ocai
+2035,HYTO,PIPHYB,Hybrid Towhee,Pipilo hybrid
+2036,RCBR,ATLPIL,Rufous-capped Brushfinch,Atlapetes pileatus
+2037,WNBR,ATLALB,White-naped Brushfinch,Atlapetes albinucha
+2038,YTBR,ALTTIB,Yellow-thighed Brushfinch,Atlapetes tibialis
+2039,YGBR,ALTLUT,Yellow-green Brushfinch,Atlapetes luteoviridis
+2040,UNSP,PASGSP,Unidentified Sparrow,"Passerellidae (gen, sp)"
+2041,WECT,CALTER,Western Chat-Tanager,Calyptophilus tertius
+2042,EACT,CALFRU,Eastern Chat-Tanager,Calyptophilus frugivorus
+2043,WRET,ZELCOR,Wrenthrush,Zeledonia coronata
+2044,BPLT,PHAPAL,Black-crowned Palm-Tanager,Phaenicophilus palmarum
+2045,GCPT,PHAPOL,Gray-crowned Palm-Tanager,Phaenicophilus poliocephalus
+2046,WWWA,XENMON,White-winged Warbler,Xenoligea montana
+2047,GTWA,MICPAL,Green-tailed Warbler,Microligea palustris
+2048,PRTA,NESSPE,Puerto Rican Tanager,Nesospingus speculiferus
+2049,WESP,SPIZEN,Western Spindalis,Spindalis zena
+2050,JAMS,SPINIG,Jamaican Spindalis,Spindalis nigricephala
+2051,HISP,SPDDOM,Hispaniolan Spindalis,Spindalis dominicensis
+2052,PRSP,SPIPOR,Puerto Rican Spindalis,Spindalis portoricensis
+2053,YHWA,TERFER,Yellow-headed Warbler,Teretistris fernandinae
+2054,ORWA,TERFOR,Oriente Warbler,Teretistris fornsi
+2055,YBCH,ICTVIR,Yellow-breasted Chat,Icteria virens
+2056,YHBL,XANXAN,Yellow-headed Blackbird,Xanthocephalus xanthocephalus
+2057,BOBO,DOLORY,Bobolink,Dolichonyx oryzivorus
+2058,CHME,STULIL,Chihuahuan Meadowlark,Sturnella lilianae
+2059,EAME,STUMAG,Eastern Meadowlark,Sturnella magna
+2060,EWME,STUMAN,Eastern/Western Meadowlark,Sturnella magna/neglecta
+2061,WEME,STUNEG,Western Meadowlark,Sturnella neglecta
+2062,RBRM,LEIMIL,Red-breasted Meadowlark,Leistes militaris
+2063,YBIC,AMBHOL,Yellow-billed Cacique,Amblycercus holosericeus
+2064,YWCA,CASMEL,Yellow-winged Cacique,Cassiculus melanicterus
+2065,CROR,PSADEC,Crested Oropendola,Psarocolius decumanus
+2066,CHOR,PSAWAG,Chestnut-headed Oropendola,Psarocolius wagleri
+2067,MORO,PSAMON,Montezuma Oropendola,Psarocolius montezuma
+2068,BLOR,PSAGUA,Black Oropendola,Psarocolius guatimozinus
+2069,SRCA,CACURO,Scarlet-rumped Cacique,Cacicus uropygialis
+2070,YRCA,CACCEL,Yellow-rumped Cacique,Cacicus cela
+2071,BAHO,ICTNOR,Bahama Oriole,Icterus northropi
+2072,CUOR,ICTMEL,Cuban Oriole,Icterus melanopsis
+2073,HIOR,ICTDOM,Hispaniolan Oriole,Icterus dominicensis
+2074,PROR,ICTPOR,Puerto Rican Oriole,Icterus portoricensis
+2075,SLOR,ICTLAU,St. Lucia Oriole,Icterus laudabilis
+2076,MORI,ICTOBE,Montserrat Oriole,Icterus oberi
+2077,MAOR,ICTBON,Martinique Oriole,Icterus bonana
+2078,BVOR,ICTWAG,Black-vented Oriole,Icterus wagleri
+2079,BWOR,ICTMAC,Bar-winged Oriole,Icterus maculialatus
+2080,BCOR,ICTPRO,Black-cowled Oriole,Icterus prosthemelas
+2081,OROR,ICTSPU,Orchard Oriole,Icterus spurius
+2082,HOOR,ICTCUC,Hooded Oriole,Icterus cucullatus
+2083,YBOR,ICTCHR,Yellow-backed Oriole,Icterus chrysater
+2084,OCOR,ICTAUC,Orange-crowned Oriole,Icterus auricapillus
+2085,YTOR,ICTMES,Yellow-tailed Oriole,Icterus mesomelas
+2086,VETR,ICTICT,Venezuelan Troupial,Icterus icterus
+2087,SBAO,ICTPUS,Streak-backed Oriole,Icterus pustulatus
+2088,BUOR,ICTBUL,Bullock's Oriole,Icterus bullockii
+2089,BBOH,ICTBUG,Bullock's x Baltimore Oriole Hybrid,Icterus bullockii x galbula
+2090,ORAO,ICTAUT,Orange Oriole,Icterus auratus
+2091,JAOR,ICTLEU,Jamaican Oriole,Icterus leucopteryx
+2092,SBOR,ICTPEC,Spot-breasted Oriole,Icterus pectoralis
+2093,ALOR,ICTGUL,Altamira Oriole,Icterus gularis
+2094,AUOR,ICTGRA,Audubon's Oriole,Icterus graduacauda
+2095,BAOR,ICTGAL,Baltimore Oriole,Icterus galbula
+2096,BBOR,ICTABE,Black-backed Oriole,Icterus abeillei
+2097,SCOR,ICTPAR,Scott's Oriole,Icterus parisorum
+2098,JABL,NESNIG,Jamaican Blackbird,Nesopsar nigerrimus
+2099,RWBL,AGEPHO,Red-winged Blackbird,Agelaius phoeniceus
+2100,RSBL,AGEASS,Red-shouldered Blackbird,Agelaius assimilis
+2101,TRBL,AGETRI,Tricolored Blackbird,Agelaius tricolor
+2102,TSBL,AGEHUM,Tawny-shouldered Blackbird,Agelaius humeralis
+2103,YSBL,AGEXAN,Yellow-shouldered Blackbird,Agelaius xanthomus
+2104,SHCO,MOLBON,Shiny Cowbird,Molothrus bonariensis
+2105,BROC,MOLAEN,Bronzed Cowbird,Molothrus aeneus
+2106,BHCO,MOLATE,Brown-headed Cowbird,Molothrus ater
+2107,GICO,MOLORY,Giant Cowbird,Molothrus oryzivorus
+2108,MEBL,DIVDIV,Melodious Blackbird,Dives dives
+2109,CUBL,PTIATR,Cuban Blackbird,Ptiloxena atroviolacea
+2110,RUBL,EUPCAR,Rusty Blackbird,Euphagus carolinus
+2111,BRBL,EUPCYC,Brewer's Blackbird,Euphagus cyanocephalus
+2112,COGR,QUIQUI,Common Grackle,Quiscalus quiscula
+2113,BTGR,QUIMAJ,Boat-tailed Grackle,Quiscalus major
+2114,GTGR,QUIMEX,Great-tailed Grackle,Quiscalus mexicanus
+2115,SBGR,QUIPAL,Slender-billed Grackle,Quiscalus palustris
+2116,NIGR,QUINIC,Nicaraguan Grackle,Quiscalus nicaraguensis
+2117,GAGR,QUINIG,Greater Antillean Grackle,Quiscalus niger
+2118,CAGR,QUILUG,Carib Grackle,Quiscalus lugubris
+2119,YHOB,CHRICT,Yellow-hooded Blackbird,Chrysomus icterocephalus
+2120,UNBL,ICTGSP,Unidentified Blackbird,"Icteridae (gen, sp)"
+2121,OVEN,SEIAUR,Ovenbird,Seiurus aurocapilla
+2122,WEWA,HELVER,Worm-eating Warbler,Helmitheros vermivorum
+2123,LOWA,PARMOT,Louisiana Waterthrush,Parkesia motacilla
+2124,NOWA,PARNOV,Northern Waterthrush,Parkesia noveboracensis
+2125,BAWA,VERBAC,Bachman's Warbler,Vermivora bachmanii
+2126,GWWA,VERCHR,Golden-winged Warbler,Vermivora chrysoptera
+2127,BWWA,VERCYA,Blue-winged Warbler,Vermivora cyanoptera
+2128,BRWA,VERCCY,Brewster's Warbler,Vermivora chrysoptera x cyanoptera
+2129,LAWA,VERCCH,Lawrence's Warbler,Vermivora cyanoptera x chrysoptera
+2130,GBWH,VERHYB,Blue-wg. x Golden-wg. Warbler Hybrid,Vermivora hybrid
+2131,BAWW,MNIVAR,Black-and-white Warbler,Mniotilta varia
+2132,PROW,PROCIT,Prothonotary Warbler,Protonotaria citrea
+2133,SWWA,LIMSWA,Swainson's Warbler,Limnothlypis swainsonii
+2134,CCWA,ORESUP,Crescent-chested Warbler,Oreothlypis superciliosa
+2135,FTHW,OREGUT,Flame-throated Warbler,Oreothlypis gutturalis
+2136,TEWA,LEIPER,Tennessee Warbler,Leiothlypis peregrina
+2137,OCWA,LEICEL,Orange-crowned Warbler,Leiothlypis celata
+2138,COLW,LEICRI,Colima Warbler,Leiothlypis crissalis
+2139,LUWA,LEILUC,Lucy's Warbler,Leiothlypis luciae
+2140,NAWA,LEIRUF,Nashville Warbler,Leiothlypis ruficapilla
+2141,VIWA,LEIVIR,Virginia's Warbler,Leiothlypis virginiae
+2142,SEMW,LEUSER,Semper's Warbler,Leucopeza semperi
+2143,CONW,OPOAGI,Connecticut Warbler,Oporornis agilis
+2144,GCYE,GEOPOL,Gray-crowned Yellowthroat,Geothlypis poliocephala
+2145,MGWA,GEOTOL,MacGillivray's Warbler,Geothlypis tolmiei
+2146,MOWA,GEOPHI,Mourning Warbler,Geothlypis philadelphia
+2147,KEWA,GEOFOR,Kentucky Warbler,Geothlypis formosa
+2148,OCYE,GEOSEM,Olive-crowned Yellowthroat,Geothlypis semiflava
+2149,BPYE,GEOSPE,Black-polled Yellowthroat,Geothlypis speciosa
+2150,BEYE,GEOBEL,Belding's Yellowthroat,Geothlypis beldingi
+2151,BAYE,GEOROS,Bahama Yellowthroat,Geothlypis rostrata
+2152,ALYE,GEOFLA,Altamira Yellowthroat,Geothlypis flavovelata
+2153,COYE,GEOTRI,Common Yellowthroat,Geothlypis trichas
+2154,HOYE,GEONEL,Hooded Yellowthroat,Geothlypis nelsoni
+2155,WHIW,CATBIS,Whistling Warbler,Catharopeza bishopi
+2156,PLUW,SETPLU,Plumbeous Warbler,Setophaga plumbea
+2157,EWWA,SETANG,Elfin-woods Warbler,Setophaga angelae
+2158,ARRW,SETPHA,Arrowhead Warbler,Setophaga pharetra
+2159,HOWA,SETCIT,Hooded Warbler,Setophaga citrina
+2160,AMRE,SETRUT,American Redstart,Setophaga ruticilla
+2161,KIWA,SETKIR,Kirtland's Warbler,Setophaga kirtlandii
+2162,CMWA,SETTIG,Cape May Warbler,Setophaga tigrina
+2163,CERW,SETCER,Cerulean Warbler,Setophaga cerulea
+2164,NOPA,SETAME,Northern Parula,Setophaga americana
+2165,SUWA,SETAMD,Sutton's Warbler,Setophaga americana x dominica
+2166,TRPA,SETPIM,Tropical Parula,Setophaga pitiayumi
+2167,MAWA,SETMAG,Magnolia Warbler,Setophaga magnolia
+2168,BBWA,SETCAS,Bay-breasted Warbler,Setophaga castanea
+2169,BLBW,SETFUS,Blackburnian Warbler,Setophaga fusca
+2170,YEWA,SETPET,Yellow Warbler,Setophaga petechia
+2171,MANW,SETPER,Mangrove Warbler,Setophaga petechia erithachorides
+2172,CSWA,SETPEN,Chestnut-sided Warbler,Setophaga pensylvanica
+2173,BLPW,SETSTR,Blackpoll Warbler,Setophaga striata
+2174,BTBW,SETCAE,Black-throated Blue Warbler,Setophaga caerulescens
+2175,PAWA,SETPAL,Palm Warbler,Setophaga palmarum
+2176,WPWA,SETPPA,Western Palm Warbler,Setophaga palmarum palmarum
+2177,YPWA,SETPHY,Yellow Palm Warbler,Setophaga palmarum hypochrysea
+2178,OCAW,SETPIP,Olive-capped Warbler,Setophaga pityophila
+2179,PIWA,SETPIN,Pine Warbler,Setophaga pinus
+2180,YRWA,SETCOR,Yellow-rumped Warbler,Setophaga coronata
+2181,MYWA,SETCCO,Myrtle Warbler,Setophaga coronata coronata
+2182,AUWA,SETCAU,Audubon's Warbler,Setophaga coronata auduboni
+2183,YTWA,SETDOM,Yellow-throated Warbler,Setophaga dominica
+2184,BAHW,SETFLA,Bahama Warbler,Setophaga flavescens
+2185,VITW,SETVIT,Vitelline Warbler,Setophaga vitellina
+2186,PRAW,SETDIS,Prairie Warbler,Setophaga discolor
+2187,ADWA,SETADE,Adelaide's Warbler,Setophaga adelaidae
+2188,BARW,SETSUB,Barbuda Warbler,Setophaga subita
+2189,SLWA,SETDEL,St. Lucia Warbler,Setophaga delicata
+2190,GRWA,SETGRA,Grace's Warbler,Setophaga graciae
+2191,BTYW,SETNIG,Black-throated Gray Warbler,Setophaga nigrescens
+2192,TOWA,SETTOW,Townsend's Warbler,Setophaga townsendi
+2193,THWH,SETTOO,Townsend's x Hermit Warbler Hybrid,Setophaga townsendi x occidentalis
+2194,HEWA,SETOCC,Hermit Warbler,Setophaga occidentalis
+2195,GCWA,SETCHR,Golden-cheeked Warbler,Setophaga chrysoparia
+2196,BTNW,SETVIR,Black-throated Green Warbler,Setophaga virens
+2197,BURW,MYIFUL,Buff-rumped Warbler,Myiothlypis fulvicauda
+2198,FTWA,BASLAC,Fan-tailed Warbler,Basileuterus lachrymosus
+2199,RCWA,BASRUF,Rufous-capped Warbler,Basileuterus rufifrons
+2200,CCAW,BASDEL,Chestnut-capped Warbler,Basileuterus delattrii
+2201,BCWA,BASMEG,Black-cheeked Warbler,Basileuterus melanogenys
+2202,PIRW,BASIGN,Pirre Warbler,Basileuterus ignotus
+2203,GBWA,BASBEL,Golden-browed Warbler,Basileuterus belli
+2204,GCRW,BASCUL,Golden-crowned Warbler,Basileuterus culicivorus
+2205,CRWA,BASMET,Costa Rican Warbler,Basileuterus melanotis
+2206,TAWA,BASTAC,Tacarcuna Warbler,Basileuterus tacarcunae
+2207,CAWA,CADCAN,Canada Warbler,Cardellina canadensis
+2208,WIWA,CARPUS,Wilson's Warbler,Cardellina pusilla
+2209,RFWA,CARRUF,Red-faced Warbler,Cardellina rubrifrons
+2210,REWA,CARRUA,Red Warbler,Cardellina rubra
+2211,PHWA,CARVER,Pink-headed Warbler,Cardellina versicolor
+2212,PARE,MYIPIC,Painted Redstart,Myioborus pictus
+2213,STRE,MYIMIN,Slate-throated Redstart,Myioborus miniatus
+2214,COLR,MYITOR,Collared Redstart,Myioborus torquatus
+2215,HYWA,PARHYB,Hybrid Warbler,Parulidae hybrid
+2216,UNWA,PARGSP,Unidentified Warbler,"Parulidae (gen, sp)"
+2217,RTTA,PIRROS,Rose-throated Tanager,Piranga roseogularis
+2218,HETA,PIRFLA,Hepatic Tanager,Piranga flava
+2219,SUTA,PIRRUB,Summer Tanager,Piranga rubra
+2220,SCTA,PIROLI,Scarlet Tanager,Piranga olivacea
+2221,WETA,PIRLUD,Western Tanager,Piranga ludoviciana
+2222,FCTA,PIRBID,Flame-colored Tanager,Piranga bidentata
+2223,WWTA,PIRLEU,White-winged Tanager,Piranga leucoptera
+2224,RHTA,PIRERY,Red-headed Tanager,Piranga erythrocephala
+2225,UPTA,PIRSPE,Unidentified Piranga Tanager,Piranga (sp)
+2226,RTAT,DRIFUS,Red-throated Ant-Tanager,Driophlox fuscicauda
+2227,BCAT,DRIATR,Black-cheeked Ant-Tanager,Driophlox atrimaxillaris
+2228,RCAT,HABRUB,Red-crowned Ant-Tanager,Habia rubica
+2229,CATA,CHLCAR,Carmiol's Tanager,Chlorothraupis carmioli
+2230,LSTA,CHLOLI,Lemon-spectacled Tanager,Chlorothraupis olivacea
+2231,CCGR,PERCEL,Crimson-collared Grosbeak,Periporphyrus celaeno
+2232,BFAG,CARPOL,Black-faced Grosbeak,Caryothraustes poliogaster
+2233,YGGR,CATCAN,Yellow-green Grosbeak,Caryothraustes canadensis
+2234,NOCA,CARCAI,Northern Cardinal,Cardinalis cardinalis
+2235,PYRR,CARSIN,Pyrrhuloxia,Cardinalis sinuatus
+2236,YEGR,PHECHR,Yellow Grosbeak,Pheucticus chrysopeplus
+2237,BTGG,PHETIB,Black-thighed Grosbeak,Pheucticus tibialis
+2238,RBGR,PHELUD,Rose-breasted Grosbeak,Pheucticus ludovicianus
+2239,BHGR,PHEMEL,Black-headed Grosbeak,Pheucticus melanocephalus
+2240,RBRC,GRAVEN,Red-breasted Chat,Granatellus venustus
+2241,GTCH,GRASAL,Gray-throated Chat,Granatellus sallaei
+2242,BLSE,AMSCON,Blue Seedeater,Amaurospiza concolor
+2243,BGRO,CYACYD,Blue-black Grosbeak,Cyanoloxia cyanoides
+2244,BLBU,CYAPAR,Blue Bunting,Cyanocompsa parellina
+2245,BLGR,PASCAE,Blue Grosbeak,Passerina caerulea
+2246,LAZB,PASAMO,Lazuli Bunting,Passerina amoena
+2247,ILBH,PASCYM,Indigo X Lazuli Bunting Hybrid,Passerina cyanea x amoena
+2248,INBU,PASCYA,Indigo Bunting,Passerina cyanea
+2249,RBBU,PASROS,Rose-bellied Bunting,Passerina rositae
+2250,OBBU,PASLEC,Orange-breasted Bunting,Passerina leclancherii
+2251,VABU,PASVER,Varied Bunting,Passerina versicolor
+2252,PABU,PASCIR,Painted Bunting,Passerina ciris
+2253,DICK,SPIAME,Dickcissel,Spiza americana
+2254,DFTA,MITCAS,Dusky-faced Tanager,Mitrospingus cassinii
+2255,BAGT,BANARC,Blue-and-gold Tanager,Bangsia arcaei
+2256,RCCA,PARCOR,Red-crested Cardinal,Paroaria coronata
+2257,YBCA,PARCAP,Yellow-billed Cardinal,Paroaria capitata
+2258,SPTA,IXOGUT,Speckled Tanager,Ixothraupis guttata
+2259,GAGT,POEPAL,Gray-and-gold Tanager,Poecilostreptus palmeri
+2260,ARTA,POECAB,Azure-rumped Tanager,Poecilostreptus cabanisi
+2261,BGTA,THREPI,Blue-gray Tanager,Thraupis episcopus
+2262,YWTA,THRABB,Yellow-winged Tanager,Thraupis abbas
+2263,PATA,THRPAL,Palm Tanager,Thraupis palmarum
+2264,GHOT,STILAR,Golden-hooded Tanager,Stilpnia larvata
+2265,LATA,STICUC,Lesser Antillean Tanager,Stilpnia cucullata
+2266,GNTA,TANFUC,Green-naped Tanager,Tangara fucosa
+2267,SCHT,TANDOW,Spangle-cheeked Tanager,Tangara dowii
+2268,PCTA,TANINO,Plain-colored Tanager,Tangara inornata
+2269,RWTA,TANLAV,Rufous-winged Tanager,Tangara lavinia
+2270,BHTA,TANGYR,Bay-headed Tanager,Tangara gyrola
+2271,EMTA,TANFLO,Emerald Tanager,Tangara florida
+2272,STTA,TANICT,Silver-throated Tanager,Tangara icterocephala
+2273,WECO,CONLEU,White-eared Conebill,Conirostrum leucogenys
+2274,SAFI,SICFLA,Saffron Finch,Sicalis flaveola
+2275,GRYF,SICLUT,Grassland Yellow-Finch,Sicalis luteola
+2276,SLFI,HAPRUS,Slaty Finch,Haplospiza rustica
+2277,PBFI,ACABAI,Peg-billed Finch,Acanthidops bairdi
+2278,CBFL,DIGBAR,Cinnamon-bellied Flowerpiercer,Diglossa baritula
+2279,SLFL,DIGPLU,Slaty Flowerpiercer,Diglossa plumbea
+2280,GRHO,CHLSPI,Green Honeycreeper,Chlorophanes spiza
+2281,BAYT,CHRCHR,Black-and-yellow Tanager,Chrysothlypis chrysomelas
+2282,SURT,HETRUB,Sulphur-rumped Tanager,Heterospingus rubrifrons
+2283,SBTA,HETXAN,Scarlet-browed Tanager,Heterospingus xanthopygius
+2284,YBTA,HEMFLA,Yellow-backed Tanager,Hemithraupis flavicollis
+2285,BGRA,VOLJAC,Blue-black Grassquit,Volatinia jacarina
+2286,GHET,EUCPEN,Gray-headed Tanager,Eucometis penicillata
+2287,WSTA,LORLUC,White-shouldered Tanager,Loriotus luctuosus
+2288,TCTA,TACDEL,Tawny-crested Tanager,Tachyphonus delatrii
+2289,WLTA,TACRUF,White-lined Tanager,Tachyphonus rufus
+2290,BTST,LANAUR,Black-throated Shrike-Tanager,Lanio aurantius
+2291,WTST,LANLEU,White-throated Shrike-Tanager,Lanio leucothorax
+2292,CCTA,RAMSAG,Crimson-collared Tanager,Ramphocelus sanguinolentus
+2293,FRTA,RAMFLG,Flame-rumped Tanager,Ramphocelus flammigerus
+2294,SCRT,RAMPAS,Scarlet-rumped Tanager,Ramphocelus passerinii
+2295,CBTA,RAMDIM,Crimson-backed Tanager,Ramphocelus dimidiatus
+2296,SWTA,TERVIR,Swallow Tanager,Tersina viridis
+2297,SHHO,CYALUC,Shining Honeycreeper,Cyanerpes lucidus
+2298,PUHO,CYACAE,Purple Honeycreeper,Cyanerpes caeruleus
+2299,RLHO,CYACYU,Red-legged Honeycreeper,Cyanerpes cyaneus
+2300,STDA,DACVEN,Scarlet-thighed Dacnis,Dacnis venusta
+2301,BLDA,DACCAY,Blue Dacnis,Dacnis cayana
+2302,VIDA,DACVIG,Viridian Dacnis,Dacnis viguieri
+2303,BANA,COEFLA,Bananaquit,Coereba flaveola
+2304,YFGR,TIAOLI,Yellow-faced Grassquit,Tiaris olivaceus
+2305,ORAN,EUNCAM,Orangequit,Euneornis campestris
+2306,PRBU,MEPPOR,Puerto Rican Bullfinch,Melopyrrha portoricensis
+2307,SKBU,MELGRA,St. Kitts Bullfinch,Melopyrrha grandis
+2308,CUBU,MEPNIG,Cuban Bullfinch,Melopyrrha nigra
+2309,GCBU,MELTAY,Grand Cayman Bullfinch,Melopyrrha taylori
+2310,GABU,MELVIO,Greater Antillean Bullfinch,Melopyrrha violacea
+2311,YSGR,LOXANO,Yellow-shouldered Grassquit,Loxipasser anoxanthus
+2312,CUGR,PHOCAN,Cuban Grassquit,Phonipara canora
+2313,LANB,LOXNOC,Lesser Antillean Bullfinch,Loxigilla noctis
+2314,BABU,LOXBAD,Barbados Bullfinch,Loxigilla barbadensis
+2315,BFGR,MELBIC,Black-faced Grassquit,Melanospiza bicolor
+2316,SLBF,MELRIC,St. Lucia Black Finch,Melanospiza richardsoni
+2317,COFI,PININO,Cocos Finch,Pinaroloxias inornata
+2318,LESE,SPOBOU,Lesson's Seedeater,Sporophila bouvronides
+2319,LISE,SPOLIN,Lined Seedeater,Sporophila lineola
+2320,TBSF,SPOFUN,Thick-billed Seed-Finch,Sporophila funerea
+2321,LBSF,SPOCRA,Large-billed Seed-Finch,Sporophila crassirostris
+2322,NISF,SPONUT,Nicaraguan Seed-Finch,Sporophila nuttingi
+2323,VASE,SPOCOR,Variable Seedeater,Sporophila corvina
+2324,SCSE,SPOSCH,Slate-colored Seedeater,Sporophila schistacea
+2325,CRSE,SPOTOR,Cinnamon-rumped Seedeater,Sporophila torqueola
+2326,MOSE,SPOMOR,Morelet's Seedeater,Sporophila morelleti
+2327,YBSE,SPONIG,Yellow-bellied Seedeater,Sporophila nigricollis
+2328,RBSE,SPOMIN,Ruddy-breasted Seedeater,Sporophila minuta
+2329,WTGF,EMBHER,Wedge-tailed Grass-Finch,Emberizoides herbicola
+2330,BHSA,SALATR,Black-headed Saltator,Saltator atriceps
+2331,BTSA,SALMAX,Buff-throated Saltator,Saltator maximus
+2332,SCOG,SALGRO,Slate-colored Grosbeak,Saltator grossus
+2333,LASA,SALALB,Lesser Antillean Saltator,Saltator albicollis
+2334,CIBS,SALGRA,Cinnamon-bellied Saltator,Saltator grandis
+2335,SSAL,SALSTR,Streaked Saltator,Saltator striatipectus
+2336,UNBI,AVEGSP,Unidentified Bird,"Aves (gen, sp)"
+2337,SPRA,PARMAS,Spotted Rail,Pardirallus maculatus
+2338,ZARA,MUSCER,Zapata Rail,Mustelirallus cerverai
+2339,COLC,MUSCOL,Colombian Crake,Mustelirallus colombianus
+2340,PBCR,MUSERY,Paint-billed Crake,Mustelirallus erythrops
