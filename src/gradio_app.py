@@ -19,12 +19,18 @@ ocr_status = gr.State("")
 APP_HOME = "/Users/jon/Projects/ebird-format"
 OUTPUT_PATH = f"{APP_HOME}/survey"
 REFERENCE_PATH = f"{APP_HOME}/data-reference"
-OCR_MODELS = ["mlx-community--olmOCR-2-7B-1025-bf16",
+OCR_MODELS = [
+    "mlx-community--olmOCR-2-7B-1025-bf16",
     "olmOCR-2-7B-1025-mlx-8bit",
     "mlx-community--GLM-OCR-bf16",
     "LightOnOCR-2-1B-bf16",  
-    "chandra-ocr-2-mxfp8-mlx"]
-
+    "chandra-ocr-2-mxfp8-mlx"
+    ]
+SURVEY_SITES = [
+    "Arboretum", "Carkeek", "Cheasty", "Discovery",
+     "Genesee", "Golden Gardens", "Lake Forest Park", 
+     "Lincoln Park", "Magnuson", "Seward"
+     ]
 
 # Create Gradio app using Blocks for more control
 with gr.Blocks() as demo:
@@ -46,6 +52,11 @@ with gr.Blocks() as demo:
 
         with gr.Sidebar():
             angle_slider = gr.Slider(0, 360, value=270, step=0.5, label="Rotation angle")
+            site_selector = gr.Dropdown(
+                choices=SURVEY_SITES, 
+                value=SURVEY_SITES[-1], 
+                label="Survey Site", 
+                interactive=True)
             page_indicator = gr.Radio(choices=('page1', 'page2'), value='page1', label="Page")
             date_picker = gr.DateTime(include_time=False, label="Survey Date", type="string")
             out_text = gr.Text(label="Saved absolute path:")
@@ -87,8 +98,12 @@ with gr.Blocks() as demo:
                 interactive=True, wrap=True)
 
         with gr.Sidebar():
-            model_selector = gr.Dropdown(choices=ocr.OCR_MODELS, value=ocr.OCR_MODELS[0], label="OCR Model", interactive=True)
-            run_ocr_btn = gr.Button("Run OCR Extraction", variant="secondary", interactive=True)
+            model_selector = gr.Dropdown(
+                choices=ocr.OCR_MODELS, 
+                value=ocr.OCR_MODELS[0], 
+                label="OCR Model", 
+                interactive=True)
+            run_ocr_btn = gr.Button("Run OCR Extraction", variant="primary", interactive=True)
             stop_btn = gr.Button("Stop OCR", variant="stop")
             progress_bar = gr.Slider(0, 100, value=0, label="Progress (%)")
             status_text = gr.Text(label="Status")
