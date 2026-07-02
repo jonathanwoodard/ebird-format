@@ -9,8 +9,14 @@ import pandas as pd
 import numpy as np
 from openai import OpenAI
 import ocr_model as ocr
+import src.logger_config as logger_config
+import logging
+
+# Initialize logger
+logger = logger_config.logger
 
 load_dotenv()
+
 
 # State variables for OCR progress tracking
 ocr_progress = gr.State(0)
