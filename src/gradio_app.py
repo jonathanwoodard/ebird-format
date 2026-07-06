@@ -56,8 +56,8 @@ with gr.Blocks() as demo:
                 process_btn = gr.Button("Rotate Image", variant="primary")
             with gr.Column():
                 output_img = gr.Image(height='80vh', label="Corrected image", type="pil")
-                zoom_preview = gr.Image(height='40vh', label="Zoom Preview", type="pil")
-                generate_preview_btn = gr.Button("Generate Zoom Preview", variant="secondary")
+                # zoom_preview = gr.Image(height='40vh', label="Zoom Preview", type="pil")
+                # generate_preview_btn = gr.Button("Generate Zoom Preview", variant="secondary")
 
         with gr.Sidebar():
             angle_slider = gr.Slider(0, 360, value=270, step=0.5, label="Rotation angle")
@@ -77,11 +77,11 @@ with gr.Blocks() as demo:
             outputs=[output_img, input_img]
         )
         
-        generate_preview_btn.click(
-            fn=lambda img_path: Image.open(img_path).convert("L") if img_path else None,
-            inputs=[input_img],
-            outputs=[zoom_preview]
-        )
+        # generate_preview_btn.click(
+        #     fn=lambda img_path: Image.open(img_path).convert("L") if img_path else None,
+        #     inputs=[input_img],
+        #     outputs=[zoom_preview]
+        # )
 
         save_btn.click(
             fn=ocr.save_rotated_image,
